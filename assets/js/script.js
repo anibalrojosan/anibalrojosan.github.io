@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastScrollY = window.scrollY;
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > lastScrollY && window.scrollY > 50) { // Scrolling down and past a certain threshold
+        if (window.scrollY > lastScrollY && window.scrollY > 1) { // Scrolling down and past a certain threshold
             headerControls.classList.add('header-hidden');
         } else if (window.scrollY < lastScrollY || window.scrollY < 50) { // Scrolling up or near the top
             headerControls.classList.remove('header-hidden');
