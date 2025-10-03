@@ -73,6 +73,7 @@ button#theme-toggle {
     padding: 8px 15px;
     cursor: pointer;
     margin-top: 0; 
+    margin-right: 10px; /* Added margin to separate from icons */
 }
 
 button#theme-toggle:hover {
@@ -81,7 +82,7 @@ button#theme-toggle:hover {
 
 .social-icons a {
     display: inline-block;
-    margin-left: 0; /* Added margin-left for spacing */
+    margin-left: 0px; /* Re-added margin-left for spacing between icons */
     margin-right: 0; /* Removed margin-right */
     color: var(--text-color); /* Inherit text color for icons */
 }
@@ -90,4 +91,12 @@ button#theme-toggle:hover {
     width: 20px; /* Adjust icon size */
     height: 20px;
     vertical-align: middle; /* Align icons nicely */
+}
+
+@media (max-width: 768px) {
+    .header-controls {
+        flex-direction: row-reverse; /* Ensure row-reverse on smaller screens */
+        right: 10px;
+        top: 10px;
+    }
 }
