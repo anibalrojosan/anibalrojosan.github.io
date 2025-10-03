@@ -51,14 +51,13 @@ nav a:hover {
 }
 
 header {
-    position: relative;
     margin-bottom: 40px;
 }
 
 button#theme-toggle {
-    position: absolute;
-    top: 20px; 
-    right: 0px; 
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
     background: none;
     border: 1px solid var(--text-color);
     color: var(--text-color);
