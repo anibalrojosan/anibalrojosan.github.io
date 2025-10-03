@@ -8,7 +8,7 @@ body {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
     max-width: 850px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     text-align: left;
     background-color: var(--background-color);
     color: var(--text-color);
@@ -59,8 +59,8 @@ header {
     top: 10px;
     right: 10px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    flex-direction: row-reverse; /* Changed from row to row-reverse */
+    align-items: center;
     gap: 10px; /* Space between button and icons */
     z-index: 1000; /* Ensure it stays on top */
 }
@@ -81,7 +81,8 @@ button#theme-toggle:hover {
 
 .social-icons a {
     display: inline-block;
-    margin-left: 10px; /* Space between icons */
+    margin-left: 0; /* Added margin-left for spacing */
+    margin-right: 0; /* Removed margin-right */
     color: var(--text-color); /* Inherit text color for icons */
 }
 
