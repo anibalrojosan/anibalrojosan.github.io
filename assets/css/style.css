@@ -55,9 +55,7 @@ header {
 }
 
 .header-controls {
-    position: fixed;
-    top: 10px;
-    right: 10px;
+    position: static; /* Changed from fixed to static */
     display: flex;
     flex-direction: row-reverse; /* Changed from row to row-reverse */
     align-items: center;
