@@ -54,10 +54,19 @@ header {
     margin-bottom: 40px;
 }
 
+.header-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px; /* Space between button and icons */
+    z-index: 1000; /* Ensure it stays on top */
+}
+
 button#theme-toggle {
-    position: fixed; 
-    top: 10px; 
-    right: 10px; 
+    position: static; /* Reset positioning as parent handles it */
     background: none;
     border: 1px solid var(--text-color);
     color: var(--text-color);
@@ -68,4 +77,16 @@ button#theme-toggle {
 
 button#theme-toggle:hover {
     opacity: 0.8;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px; /* Space between icons */
+    color: var(--text-color); /* Inherit text color for icons */
+}
+
+.social-icons svg {
+    width: 20px; /* Adjust icon size */
+    height: 20px;
+    vertical-align: middle; /* Align icons nicely */
 }
