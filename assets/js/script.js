@@ -30,4 +30,17 @@ document.addEventListener('DOMContentLoaded', () => {
             enableDarkMode();
         }
     });
+
+    // Scroll-based header visibility
+    const headerControls = document.querySelector('.header-controls');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > lastScrollY && window.scrollY > 50) { // Scrolling down and past a certain threshold
+            headerControls.classList.add('header-hidden');
+        } else if (window.scrollY < lastScrollY || window.scrollY < 50) { // Scrolling up or near the top
+            headerControls.classList.remove('header-hidden');
+        }
+        lastScrollY = window.scrollY;
+    });
 });
