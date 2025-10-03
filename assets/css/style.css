@@ -1,0 +1,72 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #0000ee;
+}
+
+body {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    --background-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --link-color: #8888ff;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+nav {
+    text-align: center; 
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 5px 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+header {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+button#theme-toggle {
+    position: absolute;
+    top: 20px; 
+    right: 0px; 
+    background: none;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-top: 0; 
+}
+
+button#theme-toggle:hover {
+    opacity: 0.8;
+}
