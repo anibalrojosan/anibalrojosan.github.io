@@ -43,4 +43,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         lastScrollY = window.scrollY;
     });
+
+    // Markdown loader for blog posts
+    const blogContent = document.getElementById('blog-content');
+    if (blogContent) {
+        const converter = new showdown.Converter();
+        const markdownFilePath = './my-first-post.md'; // Assuming your markdown file is in the same directory as blog/index.html
+
+        fetch(markdownFilePath)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(markdownText => {
+                blogContent.innerHTML = converter.makeHtml(markdownText);
+            })
+            .catch(error => {
+                console.error('Error fetching or parsing markdown:', error);
+                blogContent.innerHTML = '<p>Error loading blog post.</p>';
+            });
+    }
 });
