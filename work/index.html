@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aníbal Rojo - Work</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
 </head>
 <body>
     <header>
@@ -14,7 +15,7 @@
             <a href="../blog/index.html">[ BLOG ]</a>
             <a href="index.html">[ WORK ]</a>
             <a href="../cv/index.html">[ CV ]</a>
-            <a href="../about.html">[ ABOUT ]</a>
+            <a href="../about/index.html">[ ABOUT ]</a>
         </nav>
         <div class="header-controls">
             <button id="theme-toggle">Dark Mode</button>
@@ -33,7 +34,9 @@
     </header>
 
     <main>
-        <p>This page contains explanations on the work and projects I have done.</p>
+        <div id="page-content">
+            <!-- Markdown content for Work will be loaded here -->
+        </div>
     </main>
 
     <script src="../assets/js/script.js"></script>

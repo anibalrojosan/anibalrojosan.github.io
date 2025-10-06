@@ -55,6 +55,12 @@ document.addEventListener('DOMContentLoaded', () => {
     if (blogPostContentDiv) {
         loadIndividualBlogPost(blogPostContentDiv);
     }
+
+    // Generic Markdown page loader (for About, CV, Work)
+    const pageContentDiv = document.getElementById('page-content');
+    if (pageContentDiv) {
+        loadGenericPageContent(pageContentDiv);
+    }
 });
 
 // Function to load and display blog posts from posts.json
@@ -128,5 +134,46 @@ async function loadIndividualBlogPost(targetElement) {
         }
     } else {
         targetElement.innerHTML = '<p>No blog post specified.</p>';
+    }
+}
+
+// Function to load and display Markdown content for generic pages (About, CV, Work)
+async function loadGenericPageContent(targetElement) {
+    const path = window.location.pathname;
+    console.log('Current pathname:', path);
+    let markdownFilePath = '';
+
+    if (path.endsWith('about.html')) {
+        markdownFilePath = 'about/content/about.md';
+    } else if (path.includes('/about/')) {
+        markdownFilePath = 'content/about.md';
+    } else if (path.includes('/cv/')) {
+        markdownFilePath = 'content/cv.md';
+    } else if (path.includes('/work/')) {
+        markdownFilePath = 'content/work.md';
+    }
+
+    if (markdownFilePath) {
+        console.log('Attempting to fetch:', markdownFilePath);
+        try {
+            const response = await fetch(markdownFilePath);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const markdownText = await response.text();
+            const converter = new showdown.Converter();
+            targetElement.innerHTML = converter.makeHtml(markdownText);
+
+            // Set document title dynamically
+            const titleMatch = markdownText.match(/^#\s+(.+)$/m);
+            if (titleMatch && titleMatch[1]) {
+                document.title = titleMatch[1]; // Use the page title from Markdown
+            }
+        } catch (error) {
+            console.error('Error fetching or parsing markdown for generic page:', error);
+            targetElement.innerHTML = '<p>Error loading content.</p>';
+        }
+    } else {
+        targetElement.innerHTML = '<p>No content specified for this page.</p>';
     }
 }
