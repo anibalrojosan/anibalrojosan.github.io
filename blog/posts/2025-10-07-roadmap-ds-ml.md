@@ -1,1 +1,1 @@
-# What to learn to become a Data Scientist
+# Roadmap to learn Data Science and Machine Learning

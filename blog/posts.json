@@ -1,20 +1,20 @@
 [
   {
-    "title": "My experience doing a MSc in Biochemical Engineering",
+    "title": "My experience in research while doing a MSc. in Biochemical Engineering",
     "date": "2025-10-06",
-    "fileName": "2025-10-06-my-experience-doing-a-msc",
-    "url": "post.html?post=2025-10-06-my-experience-doing-a-msc"
+    "fileName": "2025-10-06-my-experience-doing-a-msc.md",
+    "url": "post.html?post=2025-10-06-my-experience-doing-a-msc.md"
   },
   {
-    "title": "What to learn to be a Data Scientist or Machine Learning Engineer",
+    "title": "Roadmap to learn Data Science and Machine Learning",
     "date": "2025-10-07",
-    "fileName": "2025-10-07-roadmap-ds-ml",
-    "url": "post.html?post=2025-10-07-roadmap-ds-ml"
+    "fileName": "2025-10-07-roadmap-ds-ml.md",
+    "url": "post.html?post=2025-10-07-roadmap-ds-ml.md"
   },
   {
     "title": "Learning math after grad school. My experience using Math Academy",
-    "date": "2025-10-07",
-    "fileName": "2025-10-08-on-learning-math",
-    "url": "post.html?post=2025-10-08-on-learning-math"
+    "date": "2025-10-08",
+    "fileName": "2025-10-08-on-learning-math.md",
+    "url": "post.html?post=2025-10-08-on-learning-math.md"
   }
 ]
