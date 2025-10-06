@@ -100,6 +100,64 @@ button#theme-toggle:hover {
     vertical-align: middle; /* Align icons nicely */
 }
 
+/* Blog list styles */
+.blog-list {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.blog-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.blog-list th,
+.blog-list td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-list th {
+    font-weight: bold;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+.blog-list tr:hover {
+    background-color: #f5f5f5;
+}
+
+.blog-list a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+.blog-list a:hover {
+    text-decoration: underline;
+}
+
+/* Dark mode styles for blog list */
+.dark-mode .blog-list th,
+.dark-mode .blog-list td {
+    border-bottom: 1px solid #444;
+}
+
+.dark-mode .blog-list th {
+    color: #fff;
+    background-color: #2d2d2d;
+}
+
+.dark-mode .blog-list tr:hover {
+    background-color: #3d3d3d;
+}
+
+.dark-mode .blog-list a {
+    color: #4da6ff;
+}
+
 @media (max-width: 768px) {
     .header-controls {
         flex-direction: row-reverse; /* Ensure row-reverse on smaller screens */
