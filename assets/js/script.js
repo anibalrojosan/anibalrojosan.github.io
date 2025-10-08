@@ -120,7 +120,7 @@ async function loadIndividualBlogPost(targetElement) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const markdownText = await response.text();
-            const converter = new showdown.Converter();
+            const converter = new showdown.Converter({ tables: true });
             targetElement.innerHTML = converter.makeHtml(markdownText);
 
             // Extract title from Markdown and set document title
@@ -161,7 +161,7 @@ async function loadGenericPageContent(targetElement) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const markdownText = await response.text();
-            const converter = new showdown.Converter();
+            const converter = new showdown.Converter({ tables: true });
             targetElement.innerHTML = converter.makeHtml(markdownText);
 
             // Set document title dynamically
