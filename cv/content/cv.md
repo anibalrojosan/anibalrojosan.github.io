@@ -54,7 +54,7 @@
 
 <br>
 
-## **Other Skills**
+## **Technical skills**
 
 **Programming & Databases:** Python, R, SQL  
 **Data Science & Machine Learning:** NumPy, Pandas, Matplotlib, Seaborn, statsmodels, scikit-learn, TensorFlow, PyTorch  
