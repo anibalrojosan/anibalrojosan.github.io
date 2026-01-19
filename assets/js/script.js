@@ -37,12 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastScrollY = window.scrollY;
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > lastScrollY && window.scrollY > 1) { // Scrolling down and past a certain threshold
+        // If the scroll is greater than 50px, hide the controls
+        if (window.scrollY > 50) { 
             headerControls.classList.add('header-hidden');
-        } else if (window.scrollY < lastScrollY || window.scrollY < 50) { // Scrolling up or near the top
+        } 
+        // If the scroll is less than 50px, show the controls
+        else { 
             headerControls.classList.remove('header-hidden');
         }
-        lastScrollY = window.scrollY;
     });
 
     // Blog posts listing functionality (for blog/index.html)
