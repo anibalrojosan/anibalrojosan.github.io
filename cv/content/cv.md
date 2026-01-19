@@ -37,7 +37,7 @@
 
 ## **Publications**
 
-- Arango, J., Rojo, A., Casagli, F., Bernard, O., & Jeison, D. (2025). *Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment.*
+Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment**. *Journal of Environmental Chemical Engineering*, *13*(2), 112165. [https://doi.org/10.1016/j.jece.2025.112165](https://doi.org/10.1016/j.jece.2025.112165)
 
 <br>
 
@@ -47,6 +47,7 @@
 |------|----------------|--------------|
 | 2025 | Machine Learning Bootcamp | Kibernum IT Academy |
 | 2025 | Mathematics for Machine Learning | Math Academy |
+| 2025 | Calculus I | Math Academy |
 | 2025 | Mathematical Foundations III | Math Academy |
 | 2025 | Mathematical Foundations II | Math Academy |
 | 2025 | Mathematical Foundations I | Math Academy |
@@ -54,14 +55,16 @@
 | 2024 | Machine Learning Specialization | DeepLearning.AI |
 | 2024 | Mathematics for Machine Learning and Data Science Specialization | DeepLearning.AI |
 | 2020 | Machine Learning | Stanford |
-| 2020 | Introducción a la programación en Python I: Aprendiendo a programar con Python | Pontificia Universidad Católica de Chile |
 
 <br>
 
-## **Technical skills**
+## **Tech Stack**
 
-**Programming & Databases:** Python, R, SQL  
-**Data Science & Machine Learning:** NumPy, Pandas, Matplotlib, Seaborn, statsmodels, scikit-learn, TensorFlow, PyTorch  
-**Developer Tools:** Git, Docker, GitHub Actions, Visual Studio Code, Jupyter Notebooks, Google Colab  
-**BI & Other Software:** Microsoft Excel, Power BI, AutoCAD, LabVIEW, Google Workspace  
-**Languages:** Spanish (Native), English (B2)  
+| Category | Technologies 
+|------|----------------|
+| Languages | Python, JavaScript, R, SQL, Bash
+| Data Science & ML | Numpy, Pandas, Sklearn, Statsmodels, PyTorch, Tensorflow, Keras |
+| Web Development (Fullstack) | HTML, CSS, Flask, Streamlit |
+| Visualization | Matplotlib, Seaborn, Plotly |
+| DevOps & Tooling | Docker, Git, GitHub Actions, Pytest, Pydantic, uv, Ruff |
+| Infrastructure | Linux, VSCode, Google Colab, Jupyter |
