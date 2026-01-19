@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
 
+    // Dark mode toggle functionality
     const enableDarkMode = () => {
         body.classList.add('dark-mode');
         themeToggle.textContent = 'Light Mode';
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', 'light');
     };
 
-    // Initial state
+    // Initial state of the theme
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'light') {
         disableDarkMode();
@@ -31,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Scroll-based header visibility
+    // Hide header controls when scrolling down
     const headerControls = document.querySelector('.header-controls');
     let lastScrollY = window.scrollY;
 
@@ -85,6 +86,7 @@ async function loadBlogPosts() {
     }
 }
 
+// Function to display blog posts in the table
 function displayBlogPosts(posts) {
     const tableBody = document.getElementById('blog-posts-list');
     tableBody.innerHTML = '';
@@ -99,6 +101,7 @@ function displayBlogPosts(posts) {
     });
 }
 
+// Function to format the date of the blog posts
 function formatDate(dateString) {
     const date = new Date(dateString);
     return date.toLocaleDateString('en-US', {
@@ -108,41 +111,61 @@ function formatDate(dateString) {
     });
 }
 
+// Functions that convert Markdown to HTML (loadIndividualBlogPost and loadGenericPageContent
+
 // Function to load and display an individual blog post
 async function loadIndividualBlogPost(targetElement) {
     const urlParams = new URLSearchParams(window.location.search);
     const postFileName = urlParams.get('post');
 
+    // If a post file name is provided, load the post
     if (postFileName) {
         try {
+            // Fetch the post from the posts directory
             const response = await fetch(`posts/${postFileName}`);
+            
+            // If the response is not ok, throw an error
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
+            // Extract the Markdown text from the response
             const markdownText = await response.text();
+
+            // Create a new showdown converter with tables enabled to support markdown tables
             const converter = new showdown.Converter({ tables: true });
+
+            // Convert Markdown to HTML and display it in the target element (the blog post content div)
             targetElement.innerHTML = converter.makeHtml(markdownText);
 
-            // Extract title from Markdown and set document title
+            // Extract title (#) from Markdown and set document title
             const titleMatch = markdownText.match(/^#\s+(.+)$/m);
+            
+            // If the title is found, change the document title to the title of the post
             if (titleMatch && titleMatch[1]) {
-                document.title = titleMatch[1] + ' - Blog'; // Append ' - Blog' for context
+                document.title = titleMatch[1] + ' - Blog';
             }
         } catch (error) {
+            // If there is an error, display a message
             console.error('Error fetching or parsing markdown:', error);
             targetElement.innerHTML = '<p>Error loading blog post.</p>';
         }
     } else {
+        // If no post file name is provided, display a message
         targetElement.innerHTML = '<p>No blog post specified.</p>';
     }
 }
 
 // Function to load and display Markdown content for generic pages (About, CV, Work)
 async function loadGenericPageContent(targetElement) {
+    // Get the current pathname
     const path = window.location.pathname;
+    // Log the current pathname
     console.log('Current pathname:', path);
+    
+    // Initialize the markdown file path
     let markdownFilePath = '';
 
+    // Determine the markdown file path based on the current pathname
     if (path.endsWith('about.html')) {
         markdownFilePath = 'about/content/about.md';
     } else if (path.includes('/about/')) {
