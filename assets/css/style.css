@@ -47,7 +47,7 @@ nav {
 
 nav a {
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 6px;
     text-decoration: none;
     color: var(--text-color);
     padding: 5px 0;
