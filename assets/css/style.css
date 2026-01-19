@@ -1,11 +1,21 @@
+/* Root variables for the theme */
 :root {
     --background-color: #ffffff;
     --text-color: #000000;
     --link-color: #0000ee;
 }
 
+/* Code blocks and brand name */
+code, pre, .brand-name {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+
+/* Body styles */
 body {
-    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
     max-width: 850px;
     margin: 0 auto;
     padding: 30px;
@@ -21,12 +31,16 @@ body.dark-mode {
     --link-color: #8888ff;
 }
 
+
+/* Header styles */
 h1 {
     font-size: 2em;
     margin-bottom: 0.5em;
     text-align: center;
 }
 
+
+/* Navigation styles */
 nav {
     text-align: center; 
 }
@@ -43,6 +57,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+/* Social links */
 .social-links a {
     display: inline-block;
     margin: 10px;
@@ -54,14 +70,16 @@ header {
     margin-bottom: 40px;
 }
 
+
+/* Social icons and theme toggle section*/
 .header-controls {
     position: fixed;
     top: 10px;
     right: 10px;
     display: flex;
-    flex-direction: row-reverse; /* Changed from row to row-reverse */
+    flex-direction: row-reverse; 
     align-items: center;
-    gap: 10px; /* Space between button and icons */
+    gap: 15px; /* Space between button and icons */
     z-index: 1000; /* Ensure it stays on top */
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Smooth transition for hiding/showing */
 }
@@ -72,6 +90,8 @@ header {
     pointer-events: none; /* Disable interaction when hidden */
 }
 
+
+/* Theme toggle button */
 button#theme-toggle {
     position: static; /* Reset positioning as parent handles it */
     background: none;
@@ -89,16 +109,17 @@ button#theme-toggle:hover {
 
 .social-icons a {
     display: inline-block;
-    margin-left: 0px; /* Re-added margin-left for spacing between icons */
-    margin-right: 0; /* Removed margin-right */
+    margin-left: 0px; 
+    margin-right: 0; 
     color: var(--text-color); /* Inherit text color for icons */
 }
 
 .social-icons svg {
-    width: 20px; /* Adjust icon size */
+    width: 20px; 
     height: 20px;
-    vertical-align: middle; /* Align icons nicely */
+    vertical-align: middle; 
 }
+
 
 /* Blog list styles */
 .blog-list {
@@ -110,7 +131,7 @@ button#theme-toggle:hover {
 .blog-list table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 1rem;
+    margin-top: 15px;
 }
 
 .blog-list th,
@@ -139,6 +160,7 @@ button#theme-toggle:hover {
     text-decoration: underline;
 }
 
+
 /* Dark mode styles for blog list */
 .dark-mode .blog-list th,
 .dark-mode .blog-list td {
@@ -158,6 +180,7 @@ button#theme-toggle:hover {
     color: #4da6ff;
 }
 
+
 /* Generic table styles, excluding the blog list */
 table:not(.blog-list) {
     width: 100%;
@@ -176,9 +199,11 @@ table:not(.blog-list) td {
     border-bottom: 1px solid #444;
 }
 
+
+/* Media queries for smaller screens */
 @media (max-width: 768px) {
     .header-controls {
-        flex-direction: row-reverse; /* Ensure row-reverse on smaller screens */
+        flex-direction: row-reverse;
         right: 10px;
         top: 10px;
     }
