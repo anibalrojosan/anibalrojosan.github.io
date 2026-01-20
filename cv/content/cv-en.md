@@ -42,20 +42,9 @@
 
 <br>
 
-## CERTIFICACIONS
+## PUBLICATIONS
 
-| Year | Certification | Institution |
-|------|---------------|--------------|
-| 2025 | Machine Learning Bootcamp | Kibernum IT Academy |
-| 2025 | Mathematics for Machine Learning | Math Academy |
-| 2025 | Calculus I | Math Academy |
-| 2025 | Mathematical Foundations III | Math Academy |
-| 2025 | Mathematical Foundations II | Math Academy |
-| 2025 | Mathematical Foundations I | Math Academy |
-| 2024 | Data Science Bootcamp | Kibernum IT Academy |
-| 2024 | Machine Learning Specialization | DeepLearning.AI |
-| 2024 | Mathematics for Machine Learning and Data Science Specialization | DeepLearning.AI |
-| 2020 | Machine Learning | Stanford |
+Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment**. *Journal of Environmental Chemical Engineering*, *13*(2), 112165. [https://doi.org/10.1016/j.jece.2025.112165](https://doi.org/10.1016/j.jece.2025.112165)
 
 <br>
 
@@ -72,6 +61,17 @@
 
 <br>
 
-## PUBLICATIONS
+## CERTIFICACIONS
 
-Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment**. *Journal of Environmental Chemical Engineering*, *13*(2), 112165. [https://doi.org/10.1016/j.jece.2025.112165](https://doi.org/10.1016/j.jece.2025.112165)
+| Year | Certification | Institution |
+|------|---------------|--------------|
+| 2025 | Machine Learning Bootcamp | Kibernum IT Academy |
+| 2025 | Mathematics for Machine Learning | Math Academy |
+| 2025 | Calculus I | Math Academy |
+| 2025 | Mathematical Foundations III | Math Academy |
+| 2025 | Mathematical Foundations II | Math Academy |
+| 2025 | Mathematical Foundations I | Math Academy |
+| 2024 | Data Science Bootcamp | Kibernum IT Academy |
+| 2024 | Machine Learning Specialization | DeepLearning.AI |
+| 2024 | Mathematics for Machine Learning and Data Science Specialization | DeepLearning.AI |
+| 2020 | Machine Learning | Stanford |
