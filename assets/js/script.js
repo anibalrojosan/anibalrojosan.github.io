@@ -159,46 +159,58 @@ async function loadIndividualBlogPost(targetElement) {
 
 // Function to load and display Markdown content for generic pages (About, CV, Work)
 async function loadGenericPageContent(targetElement) {
-    // Get the current pathname
-    const path = window.location.pathname;
-    // Log the current pathname
-    console.log('Current pathname:', path);
+    // Get the language from the URL (?lang=es or ?lang=en). Default is 'en'.
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang') || 'en';
     
-    // Initialize the markdown file path
+    const path = window.location.pathname;
     let markdownFilePath = '';
 
-    // Determine the markdown file path based on the current pathname
+    // Determine the file path based on the section and the language selected
     if (path.endsWith('about.html')) {
-        markdownFilePath = 'about/content/about.md';
+        markdownFilePath = `about/content/about-${lang}.md`;
     } else if (path.includes('/about/')) {
-        markdownFilePath = 'content/about.md';
+        markdownFilePath = `content/about-${lang}.md`;
     } else if (path.includes('/cv/')) {
-        markdownFilePath = 'content/cv.md';
+        markdownFilePath = `content/cv-${lang}.md`;
     } else if (path.includes('/work/')) {
-        markdownFilePath = 'content/work.md';
+        markdownFilePath = `content/work-${lang}.md`;
     }
 
     if (markdownFilePath) {
-        console.log('Attempting to fetch:', markdownFilePath);
         try {
             const response = await fetch(markdownFilePath);
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            const markdownText = await response.text();
-            const converter = new showdown.Converter({ tables: true });
-            targetElement.innerHTML = converter.makeHtml(markdownText);
-
-            // Set document title dynamically
-            const titleMatch = markdownText.match(/^#\s+(.+)$/m);
-            if (titleMatch && titleMatch[1]) {
-                document.title = titleMatch[1]; // Use the page title from Markdown
+            
+            // If the file in the chosen language does not exist, try to load the English version by default
+            if (!response.ok && lang !== 'en') {
+                console.warn(`Translation '${lang}' not found, trying to load English version...`);
+                const fallbackPath = markdownFilePath.replace(`-${lang}.md`, '-en.md');
+                const fallbackResponse = await fetch(fallbackPath);
+                if (!fallbackResponse.ok) throw new Error(`Could not load content.`);
+                
+                const markdownText = await fallbackResponse.text();
+                renderMarkdownPage(markdownText, targetElement);
+            } else if (!response.ok) {
+                throw new Error(`Error loading file: ${response.status}`);
+            } else {
+                const markdownText = await response.text();
+                renderMarkdownPage(markdownText, targetElement);
             }
         } catch (error) {
-            console.error('Error fetching or parsing markdown for generic page:', error);
-            targetElement.innerHTML = '<p>Error loading content.</p>';
+            console.error('Error loading generic page:', error);
+            targetElement.innerHTML = '<p>Error loading content. Please check if the markdown file exists.</p>';
         }
-    } else {
-        targetElement.innerHTML = '<p>No content specified for this page.</p>';
+    }
+}
+
+// Auxiliary function to render the Markdown and update the title (to avoid repeating code)
+function renderMarkdownPage(markdownText, targetElement) {
+    const converter = new showdown.Converter({ tables: true });
+    targetElement.innerHTML = converter.makeHtml(markdownText);
+
+    // Update the tab title with the first H1 (#) of the Markdown
+    const titleMatch = markdownText.match(/^#\s+(.+)$/m);
+    if (titleMatch && titleMatch[1]) {
+        document.title = titleMatch[1];
     }
 }
