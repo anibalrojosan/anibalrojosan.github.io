@@ -1,1 +1,0 @@
-# Roadmap to learn Data Science and Machine Learning

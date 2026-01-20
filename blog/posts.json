@@ -1,20 +1,16 @@
 [
   {
-    "title": "My experience in research while doing a MSc. in Biochemical Engineering",
-    "date": "2025-10-06",
-    "fileName": "2025-10-06-my-experience-doing-a-msc.md",
-    "url": "post.html?post=2025-10-06-my-experience-doing-a-msc.md"
+    "title": "Aprender a programar en la era de la IA",
+    "date": "2026-01-20",
+    "lang": "es",
+    "fileName": "2026-01-20-learning-to-code-in-the-ai-era-es.md",
+    "url": "post.html?post=2026-01-20-learning-to-code-in-the-ai-era-es.md"
   },
   {
-    "title": "Roadmap to learn Data Science and Machine Learning",
-    "date": "2025-10-07",
-    "fileName": "2025-10-07-roadmap-ds-ml.md",
-    "url": "post.html?post=2025-10-07-roadmap-ds-ml.md"
-  },
-  {
-    "title": "Learning math after grad school. My experience using Math Academy",
-    "date": "2025-10-08",
-    "fileName": "2025-10-08-on-learning-math.md",
-    "url": "post.html?post=2025-10-08-on-learning-math.md"
+    "title": "Learning to code in the AI era",
+    "date": "2026-01-20",
+    "lang": "en",
+    "fileName": "2026-01-20-learning-to-code-in-the-ai-era-en.md",
+    "url": "post.html?post=2026-01-20-learning-to-code-in-the-ai-era-en.md"
   }
 ]

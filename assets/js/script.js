@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dark mode toggle functionality
     const enableDarkMode = () => {
         body.classList.add('dark-mode');
-        themeToggle.textContent = 'Light Mode';
+        themeToggle.textContent = '☀️';
         localStorage.setItem('theme', 'dark');
     };
 
     const disableDarkMode = () => {
         body.classList.remove('dark-mode');
-        themeToggle.textContent = 'Dark Mode';
+        themeToggle.textContent = '🌙';
         localStorage.setItem('theme', 'light');
     };
 
@@ -64,27 +64,58 @@ document.addEventListener('DOMContentLoaded', () => {
     if (pageContentDiv) {
         loadGenericPageContent(pageContentDiv);
     }
+
+    // Always highlight the active language if the buttons are present
+    highlightActiveLanguage();
 });
+
+// Function to highlight the active language button
+function highlightActiveLanguage() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentLang = urlParams.get('lang') || 'en';
+    
+    // Bold the active language button
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        if (btn.id === `lang-${currentLang}`) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+}
 
 // Function to load and display blog posts from posts.json
 async function loadBlogPosts() {
+    // 1. Obtener el idioma de la URL (?lang=es o ?lang=en). Por defecto 'en'.
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentLang = urlParams.get('lang') || 'en';
+
+    // Resaltar el botón del idioma actual
+    highlightActiveLanguage();
+
     try {
         const response = await fetch('./posts.json'); // Fetch the JSON manifest
         if (!response.ok) {
             throw new Error(`Failed to fetch blog posts list: ${response.status}`);
         }
 
-        const posts = await response.json(); // Parse the JSON response
+        let posts = await response.json(); // Parse the JSON response
         
-        // Sort posts by date (newest first)
+        // 2. FILTRAR los posts según el idioma actual
+        posts = posts.filter(post => post.lang === currentLang);
+        
+        // 3. Ordenar por fecha (más recientes primero)
         posts.sort((a, b) => new Date(b.date) - new Date(a.date));
         
-        // Display posts in table
+        // 4. Mostrar los posts filtrados en la tabla
         displayBlogPosts(posts);
         
     } catch (error) {
         console.error('Error loading blog posts:', error);
-        blogPostsList.innerHTML = '<tr><td colspan="2">Error loading blog posts</td></tr>';
+        const blogPostsList = document.getElementById('blog-posts-list');
+        if (blogPostsList) {
+            blogPostsList.innerHTML = '<tr><td colspan="2">Error loading blog posts</td></tr>';
+        }
     }
 }
 

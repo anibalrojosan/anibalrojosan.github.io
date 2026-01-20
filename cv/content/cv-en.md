@@ -1,7 +1,5 @@
 ## PROFESSIONAL EXPERIENCE 
 
-> Mi CV también está disponible en [Español](index.html?lang=es)
-
 ### INDEPENDENT RESEARCHER & SOFTWARE DEVELOPER | Personal Projects | Remote | FEBRUARY 2025 – PRESENT 
 
 * End-to-end design and development of data products, applying software engineering principles to transform experimental models into deployable solutions. 

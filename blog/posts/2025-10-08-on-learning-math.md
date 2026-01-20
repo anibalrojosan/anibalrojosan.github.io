@@ -1,1 +1,0 @@
-# Learning math after grad school. My experience using Math Academy

@@ -1,7 +1,5 @@
 ## EXPERIENCIA PROFESIONAL
 
-> My curriculum vitae it's also available in [English](index.html?lang=en)
-
 ### INVESTIGADOR INDEPENDIENTE & DESARROLLADOR DE SOFTWARE | Proyectos personales | Remoto | FEBRERO 2025 – PRESENTE
 
 * Diseño y desarrollo end-to-end de productos de datos, aplicando principios de ingeniería de software para transformar modelos experimentales en soluciones desplegables.

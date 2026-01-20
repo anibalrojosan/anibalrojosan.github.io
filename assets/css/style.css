@@ -75,13 +75,24 @@ header {
 .header-controls {
     position: fixed;
     top: 10px;
+    left: 10px;
     right: 10px;
     display: flex;
-    flex-direction: row-reverse; 
+    justify-content: space-between;
     align-items: center;
-    gap: 15px; /* Space between button and icons */
-    z-index: 1000; /* Ensure it stays on top */
-    transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out; /* Smooth transition for hiding/showing */
+    z-index: 1000;
+    transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+    pointer-events: none; /* Permite clicks en lo que hay debajo si no es un control */
+}
+
+.header-controls > * {
+    pointer-events: auto; /* Habilita clicks en los controles */
+}
+
+.right-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .header-controls.header-hidden {
@@ -95,16 +106,47 @@ header {
 button#theme-toggle {
     position: static; /* Reset positioning as parent handles it */
     background: none;
-    border: 1px solid var(--text-color);
+    border: none;
     color: var(--text-color);
-    padding: 8px 15px;
+    padding: 5px;
     cursor: pointer;
     margin-top: 0; 
-    margin-right: 10px; /* Added margin to separate from icons */
+    margin-right: 5px;
+    font-size: 1.2em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
 }
 
 button#theme-toggle:hover {
-    opacity: 0.8;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Language selector styles */
+.lang-selector {
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.lang-btn {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 2px 5px;
+    transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+    text-decoration: underline;
+}
+
+.lang-btn.active {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border-radius: 4px;
 }
 
 .social-icons a {
