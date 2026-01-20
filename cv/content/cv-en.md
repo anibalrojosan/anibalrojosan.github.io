@@ -1,50 +1,51 @@
-## Professional experience
+## PROFESSIONAL EXPERIENCE 
 
-### **Researcher**
-**Pontificia Universidad Católica de Valparaíso**  
-**March 2020 – February 2023**
+> Mi CV también está disponible en [Español](index.html?lang=es)
 
-- Investigated scientific literature on the use of **microalgae-bacteria High Rate Algal Pond (HRAP) reactors** for wastewater treatment and the use of **microfiltration membranes** to improve process performance.  
-- Designed and operated **two continuous HRAP reactors**, one of which was coupled to a microfiltration membrane.  
-- Evaluated both technologies under different workloads for **COD removal** and **nutrient capture (N and P)** in wastewater.  
-- Determined **biomass characteristics** and analyzed performance metrics.  
-- Analyzed and visualized data using **Microsoft Excel** and **Python libraries (Pandas, Matplotlib, Seaborn)** to identify patterns, optimize processes, and evaluate scalability — enabling sustainable decision-making.  
-- Developed a **novel technology** that achieved higher load capacity and compact reactor design compared to traditional systems.  
-- Presented results at scientific conferences in **Spanish (CRHIAM Congress 2022)** and **English (Water Congress 2022)**, strengthening skills in **scientific communication and storytelling**.
+### INDEPENDENT RESEARCHER & SOFTWARE DEVELOPER | Personal Projects | Remote | FEBRUARY 2025 – PRESENT 
 
-### **Project Engineer**
-**Núcleo Biotecnológico Curauma**  
-**January 2020 – March 2020**
+* End-to-end design and development of data products, applying software engineering principles to transform experimental models into deployable solutions. 
+* Building robust and scalable applications using Object-Oriented Programming (OOP), ensuring data integrity with Pydantic and code quality with automated testing suites (Pytest). 
+* Implementation of automated MLOps workflows: orchestration of CI/CD pipelines (GitHub Actions) and environment containerization (Docker) to accelerate model deployment in production. 
 
-- Provided **on-site technical support** to commercial establishments in Barrio Bellavista, Santiago, aiming to improve **energy efficiency** and **water consumption**.  
-- Prepared comprehensive technical reports for each establishment, proposing **economic and sustainability improvements**.
+### MICROBIOLOGY ANALYST | Silob Chile | Valparaíso, Chile | JANUARY 2024 – FEBRUARY 2025 
 
-<br>
+* Rigorous execution of microbiological assays on samples of food, water, and liquid industrial waste (RILES) under NCh 17025 and ISO standards, ensuring traceability and quality of the generated data. 
 
-## **Education**
+### RESEARCHER | Pontificia Universidad Católica de Valparaíso | Valparaíso, Chile | MARCH 2020 – FEBRUARY 2023 
 
-### **MSc. in Biochemical Engineering**  
-**Pontificia Universidad Católica de Valparaíso**  
-**2020 – 2022**
+* Generation of heterogeneous datasets through the operation of sensor-instrumented reactors (time series) and discrete sampling, applying an A/B test design (with and without membrane). 
+* Development of Pandas and NumPy scripts for cleaning, imputation, and structuring of raw data, replacing manual Excel workflows and reducing processing times. 
+* Exploratory data analysis for the identification of non-linear patterns in pollutant removal (COD, N, P) and statistical validation of hypotheses on process efficiency. 
+* Creation of scientific charts with Matplotlib and Seaborn to communicate technical findings at international conferences (CHRIAM and Water Congress 2022), facilitating data-driven decision making. 
 
-### **Bioprocess Engineering**  
-**Pontificia Universidad Católica de Valparaíso**  
-**2016 – 2020**  
-🏅 **Awards:** Best Graduate (Class of 2020), Alumni Award (Class of 2020)  
-🎓 **Leadership:** Student Council (Secretary), Academic Assistant, Curriculum Committee Member
+### PROJECT ENGINEER | Núcleo Biotecnológico Curauma | Valparaíso, Chile | JANUARY 2020 – MARCH 2020 
+
+* Execution of on-site technical diagnostics (Barrio Bellavista) to evaluate water and energy consumption patterns. 
+* Development of data-driven improvement plans to maximize profitability and reduce the environmental impact of each venue. 
 
 <br>
 
-## **Publications**
+## EDUCATION 
 
-Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment**. *Journal of Environmental Chemical Engineering*, *13*(2), 112165. [https://doi.org/10.1016/j.jece.2025.112165](https://doi.org/10.1016/j.jece.2025.112165)
+### MSC. BIOCHEMICAL ENGINEERING 
+
+**Pontificia Universidad Católica de Valparaíso** | 2020 – 2022 
+
+### BIOPROCESS ENGINEERING 
+
+**Pontificia Universidad Católica de Valparaíso** | 2016 – 2020 
+
+🏅 **Distinctions:** Best graduate of the class of 2020, Alumni Award class of 2020. 
+
+🎓 **Leadership:** Student Council Secretary, Academic Teaching Assistant for Thermodynamics I and Thermodynamics II, Curriculum Committee Member. 
 
 <br>
 
-## **Certifications**
+## CERTIFICACIONS
 
 | Year | Certification | Institution |
-|------|----------------|--------------|
+|------|---------------|--------------|
 | 2025 | Machine Learning Bootcamp | Kibernum IT Academy |
 | 2025 | Mathematics for Machine Learning | Math Academy |
 | 2025 | Calculus I | Math Academy |
@@ -58,9 +59,9 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 
 <br>
 
-## **Tech Stack**
+## TECH STACK
 
-| Category | Technologies 
+| Category | Technologies | 
 |------|----------------|
 | Languages | Python, JavaScript, R, SQL, Bash
 | Data Science & ML | Numpy, Pandas, Sklearn, Statsmodels, PyTorch, Tensorflow, Keras |
@@ -68,3 +69,9 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 | Visualization | Matplotlib, Seaborn, Plotly |
 | DevOps & Tooling | Docker, Git, GitHub Actions, Pytest, Pydantic, uv, Ruff |
 | Infrastructure | Linux, VSCode, Google Colab, Jupyter |
+
+<br>
+
+## PUBLICATIONS
+
+Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment**. *Journal of Environmental Chemical Engineering*, *13*(2), 112165. [https://doi.org/10.1016/j.jece.2025.112165](https://doi.org/10.1016/j.jece.2025.112165)
