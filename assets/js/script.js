@@ -91,7 +91,11 @@ const translations = {
         'desc-cv': "A detailed look at my professional background and skills.",
         'link-me': "About Me",
         'desc-me': "Learn more about my personal journey and who I am.",
-        'social-invite-text': "You can find links to my social media at the top of the page if you want to get to know me better (:"
+        'social-invite-text': "You can find links to my social media at the top of the page if you want to get to know me better (:",
+        'title-work': "My Work",
+        'title-me': "About Me",
+        'title-cv': "Curriculum Vitae",
+        'title-blog': "Blog",
     },
     'es': {
         'nav-blog': "[ BLOG ]",
@@ -110,7 +114,11 @@ const translations = {
         'desc-cv': "Un vistazo detallado a mi trayectoria profesional y habilidades.",
         'link-me': "Sobre Mí",
         'desc-me': "Conoce más sobre mi camino personal y quién soy.",
-        'social-invite-text': "Puedes encontrar los enlaces a mis redes sociales en la parte superior de la página si quieres que nos conozcamos mejor (:"
+        'social-invite-text': "Puedes encontrar los enlaces a mis redes sociales en la parte superior de la página si quieres que nos conozcamos mejor (:",
+        'title-work': "Mi Trabajo",
+        'title-me': "Sobre Mí",
+        'title-cv': "Mi CV",
+        'title-blog': "Mi Blog",
     }
 };
 
