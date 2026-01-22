@@ -65,9 +65,67 @@ document.addEventListener('DOMContentLoaded', () => {
         loadGenericPageContent(pageContentDiv);
     }
 
+    // Translation logic
+    translatePage();
+
     // Always highlight the active language if the buttons are present
     highlightActiveLanguage();
 });
+
+// Translations
+const translations = {
+    'en': {
+        'nav-blog': "[ BLOG ]",
+        'nav-work': "[ WORK ]",
+        'nav-cv': "[ CV ]",
+        'nav-me': "[ ME ]",
+        // Home page specific
+        'home-hi': "Hi, I'm Aníbal",
+        'intro-text': "Welcome everyone to my personal website! <br> I'm on a journey to become a better scientist and engineer, exploring the intersections of <strong>Tech</strong>, <strong>Machine Learning</strong>, and <strong>Life Sciences</strong>.",
+        'explore-title': "Feel free to explore:",
+        'link-blog': "Read my Blog",
+        'desc-blog': "My thoughts and learnings on science and technology.",
+        'link-work': "Discover my Work",
+        'desc-work': "A showcase of my projects and engineering experiences.",
+        'link-cv': "View my CV",
+        'desc-cv': "A detailed look at my professional background and skills.",
+        'link-me': "About Me",
+        'desc-me': "Learn more about my personal journey and who I am.",
+        'social-invite-text': "You can find links to my social media at the top of the page if you want to get to know me better (:"
+    },
+    'es': {
+        'nav-blog': "[ BLOG ]",
+        'nav-work': "[ TRABAJO ]",
+        'nav-cv': "[ CV ]",
+        'nav-me': "[ YO ]",
+        // Home page specific
+        'home-hi': "Hola, soy Aníbal",
+        'intro-text': "¡Bienvenidos todos a mi sitio web personal! <br> Estoy en un viaje para convertirme en un mejor científico e ingeniero, explorando las intersecciones entre la <strong>Tecnología</strong>, el <strong>Machine Learning</strong> y las <strong>Ciencias de la Vida</strong>.",
+        'explore-title': "Siéntete libre de explorar:",
+        'link-blog': "Lee mi Blog",
+        'desc-blog': "Mis pensamientos y aprendizajes sobre ciencia y tecnología.",
+        'link-work': "Descubre mi Trabajo",
+        'desc-work': "Una muestra de mis proyectos y experiencias en ingeniería.",
+        'link-cv': "Mira mi CV",
+        'desc-cv': "Un vistazo detallado a mi trayectoria profesional y habilidades.",
+        'link-me': "Sobre Mí",
+        'desc-me': "Conoce más sobre mi camino personal y quién soy.",
+        'social-invite-text': "Puedes encontrar los enlaces a mis redes sociales en la parte superior de la página si quieres que nos conozcamos mejor (:"
+    }
+};
+
+function translatePage() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang') || 'en';
+    const dict = translations[lang];
+
+    for (const id in dict) {
+        const element = document.getElementById(id);
+        if (element) {
+            element.innerHTML = dict[id];
+        }
+    }
+}
 
 // Function to highlight the active language button
 function highlightActiveLanguage() {
@@ -198,10 +256,10 @@ async function loadGenericPageContent(targetElement) {
     let markdownFilePath = '';
 
     // Determine the file path based on the section and the language selected
-    if (path.endsWith('about.html')) {
-        markdownFilePath = `about/content/about-${lang}.md`;
-    } else if (path.includes('/about/')) {
-        markdownFilePath = `content/about-${lang}.md`;
+    if (path.endsWith('me.html')) {
+        markdownFilePath = `me/content/me-${lang}.md`;
+    } else if (path.includes('/me/')) {
+        markdownFilePath = `content/me-${lang}.md`;
     } else if (path.includes('/cv/')) {
         markdownFilePath = `content/cv-${lang}.md`;
     } else if (path.includes('/work/')) {

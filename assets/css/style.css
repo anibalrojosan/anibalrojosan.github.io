@@ -245,7 +245,7 @@ table:not(.blog-list) td {
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
     .header-controls {
-        flex-direction: row-reverse;
+        flex-direction: row;
         right: 10px;
         top: 10px;
     }
@@ -265,4 +265,27 @@ blockquote {
 /* Adjustment for dark mode if necessary */
 .dark-mode blockquote {
     background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Site map styles */
+.site-map ul li a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-size: 1.1rem;
+}
+
+.site-map ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Social invite styles */
+.social-invite {
+    margin-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 1rem;
+    font-style: italic;
+}
+
+.dark-mode .social-invite {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

@@ -9,13 +9,13 @@
 </head>
 <body>
     <header>
-        <h1>Hi, I'm Aníbal</h1>
+        <h1 id="home-hi">Hi, I'm Aníbal</h1>
         <nav>
             <a href="index.html">[ ~ ]</a>
-            <a href="blog/index.html">[ BLOG ]</a>
-            <a href="work/index.html">[ WORK ]</a>
-            <a href="cv/index.html">[ CV ]</a>
-            <a href="about/index.html">[ ME ]</a>
+            <a href="blog/index.html" id="nav-blog">[ BLOG ]</a>
+            <a href="work/index.html" id="nav-work">[ WORK ]</a>
+            <a href="cv/index.html" id="nav-cv">[ CV ]</a>
+            <a href="me/index.html" id="nav-me">[ ME ]</a>
         </nav>
         <div class="header-controls">
             <div class="lang-selector">
@@ -40,16 +40,38 @@
 </header>
 
     <main>
-        <p>
-            Welcome everyone to my personal website!
-            <br><br>
-            Here I'll share my thoughts, projects and experiences while I travel this journey to become a better scientist and engineer. If you like Tech, Machine learning and Life Sciences, you're in the right place.
-            <br><br>
-            If you want to know more about me, you can check out the <a href="about/index.html">about</a> page.
-            <br><br>
-            Feel free to explore the website and get to know me better (:
+    <section class="intro">
+        <p id="intro-text">
+            Welcome everyone to my personal website! 
+            <br>
+            I'm on a journey to become a better scientist and engineer, exploring the intersections of <strong>Tech</strong>, <strong>Machine Learning</strong>, and <strong>Life Sciences</strong>.
         </p>
-    </main>
+    </section>
+
+    <section class="site-map">
+        <p id="explore-title">Feel free to explore:</p>
+        <ul style="list-style: none; padding-left: 0;">
+            <li style="margin-bottom: 1rem;">
+                ✍️ <a href="blog/index.html"><strong id="link-blog">Read my Blog</strong></a>: <span id="desc-blog">My thoughts and learnings on science and technology.</span>
+            </li>
+            <li style="margin-bottom: 1rem;">
+                🚀 <a href="work/index.html"><strong id="link-work">Discover my Work</strong></a>: <span id="desc-work">A showcase of my projects and engineering experiences.</span>
+            </li>
+            <li style="margin-bottom: 1rem;">
+                📄 <a href="cv/index.html"><strong id="link-cv">View my CV</strong></a>: <span id="desc-cv">A detailed look at my professional background and skills.</span>
+            </li>
+            <li style="margin-bottom: 1rem;">
+                🐧 <a href="me/index.html"><strong id="link-me">About Me</strong></a>: <span id="desc-me">Learn more about my personal journey and who I am.</span>
+            </li>
+        </ul>
+    </section>
+
+    <section class="social-invite">
+        <p id="social-invite-text" style="font-size: 0.95em; opacity: 0.8;">
+            You can find links to my social media at the top of the page if you want to get to know me better (:
+        </p>
+    </section>
+</main>
 
     <script src="assets/js/script.js"></script>
 </body>
