@@ -10,6 +10,13 @@ code, pre, .brand-name {
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
+.brand-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 
 /* Body styles */
 body {
@@ -287,5 +294,19 @@ blockquote {
 }
 
 .dark-mode .social-invite {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Footer styles */
+footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
+
+.dark-mode footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

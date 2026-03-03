@@ -303,11 +303,23 @@ async function loadGenericPageContent(targetElement) {
 // Auxiliary function to render the Markdown and update the title (to avoid repeating code)
 function renderMarkdownPage(markdownText, targetElement) {
     const converter = new showdown.Converter({ tables: true });
-    targetElement.innerHTML = converter.makeHtml(markdownText);
-
-    // Update the tab title with the first H1 (#) of the Markdown
+    
+    // Extract title (#) from Markdown
     const titleMatch = markdownText.match(/^#\s+(.+)$/m);
+    let contentToRender = markdownText;
+
     if (titleMatch && titleMatch[1]) {
-        document.title = titleMatch[1];
+        const title = titleMatch[1];
+        document.title = title;
+        
+        // Update H1 in the main section if it exists
+        const mainH1 = document.querySelector('main h1');
+        if (mainH1) {
+            mainH1.innerHTML = title;
+            // Remove the first H1 from markdown to avoid duplication
+            contentToRender = markdownText.replace(/^#\s+.+$/m, '').trim();
+        }
     }
+    
+    targetElement.innerHTML = converter.makeHtml(contentToRender);
 }
