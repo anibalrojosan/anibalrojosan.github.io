@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.scrollY > 10) { 
             headerControls.classList.add('header-hidden');
         } 
-        // If the scroll is less than 50px, show the controls
+        // If the scroll is less than 10px, show the controls
         else { 
             headerControls.classList.remove('header-hidden');
         }
