@@ -28,13 +28,13 @@
 
 ### MSC. BIOCHEMICAL ENGINEERING 
 
-**Pontificia Universidad Católica de Valparaíso** | 2020 – 2022 
+**Pontificia Universidad Católica de Valparaíso**
 
 ### BIOPROCESS ENGINEERING 
 
-**Pontificia Universidad Católica de Valparaíso** | 2016 – 2020 
+**Pontificia Universidad Católica de Valparaíso**
 
-🏅 **Distinctions:** Best graduate of the class of 2020, Alumni Award class of 2020. 
+🏅 **Distinctions:** Best graduate, Alumni Award. 
 
 🎓 **Leadership:** Student Council Secretary, Academic Teaching Assistant for Thermodynamics I and Thermodynamics II, Curriculum Committee Member. 
 

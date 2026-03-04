@@ -28,13 +28,13 @@
 
 ### MAGÍSTER EN CIENCIAS DE LA INGENIERÍA, MENCIÓN INGENIERÍA BIOQUÍMICA
 
-**Pontificia Universidad Católica de Valparaíso** | 2020 – 2022
+**Pontificia Universidad Católica de Valparaíso**
 
 ### INGENIERÍA DE EJECUCIÓN EN BIOPROCESOS
 
-**Pontificia Universidad Católica de Valparaíso** | 2016 – 2020
+**Pontificia Universidad Católica de Valparaíso**
 
-🏅 **Distincciones:** Mejor titulado promoción 2020, Premio alumni promoción 2020
+🏅 **Distincciones:** Mejor titulado, Premio alumni.
 
 🎓 **Liderazgo:** Secretario del centro de alumnos, Ayudante académico Termodinámica I y Termodinámica II, Miembro del comité curricular
 
