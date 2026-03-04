@@ -44,8 +44,8 @@ body.dark-mode {
 /* Header styles */
 h1 {
     font-size: 2em;
-    margin-top: 0px;
-    padding-top: 5px;
+    margin-top: 0;
+    padding-top: 10px;
     margin-bottom: 0.5em;
     text-align: center;
 }
@@ -341,4 +341,20 @@ footer {
 
 .dark-mode footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Tech icons in tables */
+table img {
+    vertical-align: middle;
+    margin: 5px;
+    transition: transform 0.2s ease;
+}
+
+table img:hover {
+    transform: scale(1.2);
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
 }
