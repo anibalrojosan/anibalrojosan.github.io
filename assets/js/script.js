@@ -81,7 +81,7 @@ const translations = {
         'nav-me': "[ ME ]",
         // Home page specific
         'home-hi': "Hi, I'm Aníbal",
-        'intro-text': "Welcome everyone to my personal website! <br> I'm on a journey to become a better scientist and engineer, exploring the intersections of <strong>Tech</strong>, <strong>Machine Learning</strong>, and <strong>Life Sciences</strong>.",
+        'intro-text': "<strong>Welcome to my personal website!</strong> <br> I'm on a journey to become a better scientist and engineer, exploring the intersections of <b>Tech</b>, <b>Machine Learning</b>, and <b>Life Sciences</b>.",
         'explore-title': "Feel free to explore:",
         'link-blog': "Read my Blog",
         'desc-blog': "My thoughts and learnings on science and technology.",
@@ -91,7 +91,7 @@ const translations = {
         'desc-cv': "A detailed look at my professional background and skills.",
         'link-me': "About Me",
         'desc-me': "Learn more about my personal journey and who I am.",
-        'social-invite-text': "You can find links to my social media at the top of the page if you want to get to know me better (:",
+        'social-invite-text': "You can find links to my social media at the top if you want to get to know me better (:",
         'title-work': "My Work",
         'title-me': "About Me",
         'title-cv': "Curriculum Vitae",
@@ -104,7 +104,7 @@ const translations = {
         'nav-me': "[ YO ]",
         // Home page specific
         'home-hi': "Hola, soy Aníbal",
-        'intro-text': "¡Bienvenidos a mi sitio! <br> Estoy en un viaje para convertirme en un mejor científico e ingeniero, explorando las intersecciones entre la <strong>tecnología</strong>, el <strong>machine learning</strong> y las <strong>ciencias de la vida</strong>.",
+        'intro-text': "<strong>¡Bienvenidos a mi sitio!</strong> <br> Estoy en un viaje para convertirme en un mejor científico e ingeniero, explorando las intersecciones entre la <b>tecnología</b>, el <b>machine learning</b> y las <b>ciencias de la vida</b>.",
         'explore-title': "Siéntete libre de explorar:",
         'link-blog': "Mi blog",
         'desc-blog': "Aquí comparto mis pensamientos y aprendizajes sobre ciencia, tecnología y vida.",

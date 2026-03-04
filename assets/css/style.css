@@ -1,8 +1,8 @@
 /* Root variables for the theme */
 :root {
-    --background-color: #ffffff;
-    --text-color: #000000;
-    --link-color: #0000ee;
+    --background-color: #fcfcfc;
+    --text-color: #222222;
+    --link-color: #0056b3;
 }
 
 /* Code blocks and brand name */
@@ -11,9 +11,11 @@ code, pre, .brand-name {
 }
 
 .brand-name {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-weight: bold;
     font-size: 1.2em;
     text-align: center;
+    margin-top: 20x;
     margin-bottom: 10px;
 }
 
@@ -46,10 +48,23 @@ h1 {
     text-align: center;
 }
 
+#home-hi {
+    margin-bottom: 0.2em;
+}
+
+/* Intro text styles */
+#intro-text strong {
+    font-size: 1.25em;
+    display: block;
+    margin-bottom: 0.5em;
+    color: var(--text-color);
+}
+
 
 /* Navigation styles */
 nav {
-    text-align: center; 
+    text-align: center;
+    margin-top: 25px;
 }
 
 nav a {
@@ -192,7 +207,7 @@ button#theme-toggle:hover {
 
 .blog-list th {
     font-weight: bold;
-    color: #333;
+    color: #333333;
     background-color: #f8f8f8;
 }
 
