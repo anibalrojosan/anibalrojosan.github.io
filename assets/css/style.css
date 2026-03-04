@@ -25,7 +25,7 @@ body {
     font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     font-weight: normal;
     font-size: 18px;
-    max-width: 850px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 30px;
     text-align: left;
@@ -43,7 +43,7 @@ body.dark-mode {
 
 /* Header styles */
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     margin-top: 0;
     padding-top: 10px;
     margin-bottom: 0.5em;
@@ -51,7 +51,7 @@ h1 {
 }
 
 #home-hi {
-    margin-bottom: 0.2em;
+    text-align: center;
 }
 
 /* Intro text styles */
@@ -69,18 +69,9 @@ nav {
     margin-top: 45px; /* margin for internal pages */
 }
 
-/* specific adjustment for the navigation on the Home */
-body:has(#home-hi) nav {
-    margin-top: 10px; /* smaller margin for the Home */
-}
-
 @media (max-width: 600px) {
     nav {
-        margin-top: 30px; /* More space on mobile to avoid clashing with notch/icons */
-    }
-    
-    body:has(#home-hi) nav {
-        margin-top: 35px;
+        margin-top: 65px; /* More space on mobile to avoid clashing with notch/icons */
     }
 }
 

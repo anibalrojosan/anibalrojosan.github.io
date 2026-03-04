@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Dark mode toggle functionality
     const enableDarkMode = () => {
         body.classList.add('dark-mode');
-        themeToggle.textContent = '☀️';
+        if (themeToggle) themeToggle.textContent = '☀️';
         localStorage.setItem('theme', 'dark');
     };
 
     const disableDarkMode = () => {
         body.classList.remove('dark-mode');
-        themeToggle.textContent = '🌙';
+        if (themeToggle) themeToggle.textContent = '🌙';
         localStorage.setItem('theme', 'light');
     };
 
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         loadIndividualBlogPost(blogPostContentDiv);
     }
 
-    // Generic Markdown page loader (for About, CV, Work)
+    // Generic Markdown page loader (for About, CV, Work, Home)
     const pageContentDiv = document.getElementById('page-content');
     if (pageContentDiv) {
         loadGenericPageContent(pageContentDiv);
@@ -266,14 +266,14 @@ async function loadGenericPageContent(targetElement) {
     let markdownFilePath = '';
 
     // Determine the file path based on the section and the language selected
-    if (path.endsWith('me.html')) {
-        markdownFilePath = `me/content/me-${lang}.md`;
-    } else if (path.includes('/me/')) {
-        markdownFilePath = `content/me-${lang}.md`;
-    } else if (path.includes('/cv/')) {
+    if (path.includes('/cv/')) {
         markdownFilePath = `content/cv-${lang}.md`;
     } else if (path.includes('/work/')) {
         markdownFilePath = `content/work-${lang}.md`;
+    } else if (path.includes('/me/')) {
+        markdownFilePath = `content/me-${lang}.md`;
+    } else if (path.endsWith('index.html') || path.endsWith('/') || path === '') {
+        markdownFilePath = `home/content/home-${lang}.md`;
     }
 
     if (markdownFilePath) {
