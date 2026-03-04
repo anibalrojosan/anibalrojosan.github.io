@@ -100,6 +100,30 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Back to Top Button */
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    z-index: 1000;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+#back-to-top:hover {
+    transform: scale(1.1);
+}
+
 /* ==========================================================================
    4. NAVIGATION & CONTROLS
    ========================================================================== */

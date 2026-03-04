@@ -68,6 +68,25 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- TRANSLATION INITIALIZATION ---
     translatePage();
     highlightActiveLanguage();
+
+    // --- BACK TO TOP BUTTON ---
+    const backToTopBtn = document.getElementById('back-to-top');
+    if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.style.display = 'flex';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    }
 });
 
 // --- TRANSLATION LOGIC ---
