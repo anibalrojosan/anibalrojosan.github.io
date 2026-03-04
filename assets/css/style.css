@@ -179,7 +179,7 @@ button#theme-toggle:hover {
     font-size: 0.9em;
 }
 
-.lang-btn {
+.lang-btn, .lang-btn:visited {
     text-decoration: none;
     color: var(--text-color);
     padding: 2px 5px;
