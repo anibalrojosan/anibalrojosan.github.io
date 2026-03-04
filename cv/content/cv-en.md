@@ -22,7 +22,7 @@
 * Execution of on-site technical diagnostics (Barrio Bellavista) to evaluate water and energy consumption patterns. 
 * Development of data-driven improvement plans to maximize profitability and reduce the environmental impact of each venue. 
 
-<br>
+---
 
 ## EDUCATION 
 
@@ -38,13 +38,13 @@
 
 🎓 **Leadership:** Student Council Secretary, Academic Teaching Assistant for Thermodynamics I and Thermodynamics II, Curriculum Committee Member. 
 
-<br>
+---
 
 ## PUBLICATIONS
 
 Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Assessing the impact of biomass retention in membrane-assisted micro-algae-bacteria sewage treatment**. *Journal of Environmental Chemical Engineering*, *13*(2), 112165. [https://doi.org/10.1016/j.jece.2025.112165](https://doi.org/10.1016/j.jece.2025.112165)
 
-<br>
+---
 
 ## TECH STACK
 
@@ -57,7 +57,7 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 | DevOps & Tooling | Docker, Git, GitHub Actions, Pytest, Pydantic, uv, Ruff |
 | Infrastructure | Linux, VSCode, Google Colab, Jupyter |
 
-<br>
+---
 
 ## CERTIFICACIONS
 
