@@ -87,19 +87,6 @@ main {
     min-height: 60vh;
 }
 
-footer {
-    margin-top: 4rem;
-    padding: 2rem 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    text-align: center;
-    font-size: 0.85rem;
-    opacity: 0.6;
-}
-
-.dark-mode footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 /* Back to Top Button */
 #back-to-top {
     position: fixed;
