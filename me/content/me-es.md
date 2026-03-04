@@ -1,11 +1,10 @@
-Soy un científico de corazón, siempre en busca de nuevos retos y oportunidades para aprender y crecer.
+## Mi Trayectoria
+Soy **Ingeniero de Bioprocesos** e **Investigador en Ingeniería Bioquímica** con una profunda pasión por la intersección entre la **tecnología**, el **ML** y las **ciencias de la vida**. Mi formación en investigación científica rigurosa ha moldeado mi enfoque para la resolución de problemas, enfatizando soluciones sostenibles y escalables.
 
-Mi interés por la ciencia, la investigación y la sostenibilidad me llevó a estudiar **Ingeniería en Bioprocesos**, lo que eventualmente me permitió trabajar como **investigador** mientras cursaba mi **Magíster en Ingeniería Bioquímica**, donde me especialicé en **Biotecnología Ambiental** y **Tratamiento de Aguas Residuales**.
+> "Mi objetivo es transformar datos experimentales complejos en soluciones tecnológicas robustas y desplegables."
 
-Soy una persona curiosa con una fuerte pasión por la tecnología. En 2020 descubrí Python y los Jupyter Notebooks, lo que despertó mi interés por la computación científica y me llevó finalmente a explorar los campos de la Ciencia de Datos y el Machine Learning.
+## Evolución Técnica
+En 2022, tras finalizar mi maestría y con la explosión de los LLMs, decidí que quería sumergirme profundamente en la ciencia de datos y la IA, por lo que me he sumergido en un camino de autoaprendizaje y entrenamiento para tener bases sólidas de programación y matemáticas aplicadas a ML. Esto me llevó a evolucionar de flujos de trabajo manuales en laboratorios al análisis de datos, desarrollo de aplicaciones fulls-stack y construcción de pipelines de `MLOps`.
 
-Hacia 2022, tras finalizar mis estudios de posgrado y con la explosión de los modelos de lenguaje, decidí que quería sumergirme profundamente en la **ciencia de datos**, el **machine learning** y la **IA generativa**, por lo que necesitaba aprender a programar y obtener una comprensión más profunda de las matemáticas.
-
-Mi enfoque actual está en fortalecer mis bases matemáticas y dominar la ingeniería de software para lograr dos objetivos clave:
-1. Realizar investigación en ML y explorar sus aplicaciones en la ingeniería bioquímica 🦠🤖, con el fin de generar un impacto positivo en la sociedad y el medio ambiente.
-2. Dominar el ciclo de vida completo de los sistemas de Machine Learning (Full Stack ML). Más allá de construir modelos en entornos aislados, quiero desarrollar pipelines end-to-end que sean escalables y resilientes. Mi enfoque abarca desde la arquitectura de datos y la ingeniería de características (feature engineering), pasando por el entrenamiento y versionado de modelos con MLOps, hasta el despliegue en producción y el monitoreo continuo para garantizar un valor real al negocio.
+* 🧪 **Investigación:** Más de 3 años de experiencia en laboratorios de bioprocesos, instrumentación de reactores y ensayos microbiológicos.
+* 🛠️ **Ingeniería:** Actualmente enfocado en el diseño de pipelines de datos y la construcción de productos de datos full-stack robustos y escalables. Gran interés en las matemáticas aplicadas, ciencia de datos, orquestación de LLMs y los últimos avances en la investigación de ML/AI.
