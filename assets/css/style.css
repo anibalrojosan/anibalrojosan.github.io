@@ -74,7 +74,7 @@ body:has(#home-hi) nav {
 
 @media (max-width: 600px) {
     nav {
-        margin-top: 65px; /* More space on mobile to avoid clashing with notch/icons */
+        margin-top: 40px; /* More space on mobile to avoid clashing with notch/icons */
     }
     
     body:has(#home-hi) nav {
