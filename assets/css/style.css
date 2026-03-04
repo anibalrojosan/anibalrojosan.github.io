@@ -274,6 +274,13 @@ table:not(.blog-list) td {
 
 /* Media queries for smaller screens */
 @media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
     .header-controls {
         flex-direction: row;
         right: 10px;
