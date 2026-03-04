@@ -79,7 +79,6 @@ const translations = {
         'nav-work': "[ WORK ]",
         'nav-cv': "[ CV ]",
         'nav-me': "[ ME ]",
-        // Home page specific
         'home-hi': "Hi, I'm Aníbal",
         'intro-text': "<strong>Welcome to my personal website!</strong> <br> I'm on a journey to become a better scientist and engineer, exploring the intersections of <b>Tech</b>, <b>Machine Learning</b>, and <b>Life Sciences</b>.",
         'explore-title': "Feel free to explore:",
@@ -102,7 +101,6 @@ const translations = {
         'nav-work': "[ TRABAJO ]",
         'nav-cv': "[ CV ]",
         'nav-me': "[ YO ]",
-        // Home page specific
         'home-hi': "Hola, soy Aníbal",
         'intro-text': "<strong>¡Bienvenidos a mi sitio!</strong> <br> Estoy en un viaje para convertirme en un mejor científico e ingeniero, explorando las intersecciones entre la <b>tecnología</b>, el <b>machine learning</b> y las <b>ciencias de la vida</b>.",
         'explore-title': "Siéntete libre de explorar:",
@@ -202,8 +200,12 @@ function displayBlogPosts(posts) {
 
 // Function to format the date of the blog posts
 function formatDate(dateString) {
+    const urlParams = new URLSearchParams(window.location.search);
+    const lang = urlParams.get('lang') || 'en';
+    const locale = lang === 'es' ? 'es-ES' : 'en-US';
+
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-US', {
+    return date.toLocaleDateString(locale, {
         year: 'numeric',
         month: 'short',
         day: 'numeric'
