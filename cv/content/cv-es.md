@@ -34,9 +34,14 @@
 
 **Pontificia Universidad Católica de Valparaíso**
 
-🏅 **Distincciones:** Mejor titulado, Premio alumni.
+🏅 **Distincciones:**
+- **Mejor titulado** - Distinción máxima al rendimiento académico.
+- **Premio alumni** - Premio a la trayectoria y compromiso institucional.
 
-🎓 **Liderazgo:** Secretario del centro de alumnos, Ayudante académico Termodinámica I y Termodinámica II, Miembro del comité curricular
+🎓 **Liderazgo:**
+- **Secretario del centro de alumnos** - Gestión y representación estudiantil.
+- **Ayudante académico** - Termodinámica I y II.
+- **Miembro del comité curricular** - Optimización de planes de estudio.
 
 ---
 
@@ -49,7 +54,7 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 ## TECH STACK
 
 | Categoría | Tecnologías |
-| :--- | :--- |
+| :--- | :---: |
 | **Lenguajes** | <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="35"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="35"/></a> <a href="https://www.gnu.org/software/bash/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="35"/></a> |
 | **Ciencia de datos & ML** | <a href="https://numpy.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="35"/></a> <a href="https://pandas.pydata.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="35"/></a> <a href="https://scikit-learn.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="35"/></a> <a href="https://pytorch.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="35"/></a> <a href="https://www.tensorflow.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" width="35"/></a> <a href="https://keras.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" width="35"/></a> |
 | **Bases de datos** | <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="35"/></a> <a href="https://www.mysql.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="35"/></a> |
@@ -62,7 +67,7 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 ## CERTIFICACIONES
 
 | Año | Certificación | Institución |
-|------|---------------|--------------|
+|------|---------------|:--------------:|
 | 2025 | Machine Learning Bootcamp | Kibernum IT Academy |
 | 2025 | Mathematics for Machine Learning | Math Academy |
 | 2025 | Calculus I | Math Academy |

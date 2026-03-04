@@ -8,7 +8,7 @@
 
 ### MICROBIOLOGY ANALYST | Silob Chile | Valparaíso, Chile | JANUARY 2024 – FEBRUARY 2025 
 
-* Rigorous execution of microbiological assays on samples of food, water, and liquid industrial waste (RILES) under NCh 17025 and ISO standards, ensuring traceability and quality of the generated data. 
+* Rigorous execution of microbiological assays on samples of food, water, and liquid industrial waste  according to NCh 17025 and ISO standards, ensuring traceability and quality of the generated data. 
 
 ### RESEARCHER | Pontificia Universidad Católica de Valparaíso | Valparaíso, Chile | MARCH 2020 – FEBRUARY 2023 
 
@@ -30,13 +30,18 @@
 
 **Pontificia Universidad Católica de Valparaíso**
 
-### BIOPROCESS ENGINEERING 
+### BIOPROCESS ENGINEERING
 
 **Pontificia Universidad Católica de Valparaíso**
 
-🏅 **Distinctions:** Best graduate, Alumni Award. 
+🏅 **Distinctions**
+- **Best Graduate** - Distinguished achievement in academic performance.
+- **Alumni Award** - Award for institutional commitment and career trajectory.
 
-🎓 **Leadership:** Student Council Secretary, Academic Teaching Assistant for Thermodynamics I and Thermodynamics II, Curriculum Committee Member. 
+🎓 **Leadership & Experience**
+- **Student Council Secretary** - Student council management and representation.
+- **Academic Teaching Assistant** - Thermodynamics I and II.
+- **Curriculum Committee Member** - Curriculum optimization.
 
 ---
 
@@ -49,7 +54,7 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 ## TECH STACK
 
 | Category | Technologies |
-| :--- | :--- |
+| :--- | :---: |
 | **Languages** | <a href="https://www.python.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="35"/></a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="35"/></a> <a href="https://www.gnu.org/software/bash/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" width="35"/></a> |
 | **Data Science & ML** | <a href="https://numpy.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" width="35"/></a> <a href="https://pandas.pydata.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" width="35"/></a> <a href="https://scikit-learn.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg" width="35"/></a> <a href="https://pytorch.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" width="35"/></a> <a href="https://www.tensorflow.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" width="35"/></a> <a href="https://keras.io/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg" width="35"/></a> |
 | **Databases** | <a href="https://www.postgresql.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="35"/></a> <a href="https://www.mysql.com/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="35"/></a> |
@@ -59,10 +64,10 @@ Arango, J., **Rojo, A.**, Casagli, F., Bernard, O., & Jeison, D. (2025). **Asses
 
 ---
 
-## CERTIFICACIONS
+## CERTIFICATIONS
 
 | Year | Certification | Institution |
-|------|---------------|--------------|
+|------|---------------|:--------------:|
 | 2025 | Machine Learning Bootcamp | Kibernum IT Academy |
 | 2025 | Mathematics for Machine Learning | Math Academy |
 | 2025 | Calculus I | Math Academy |
