@@ -1,4 +1,22 @@
+const LANG_STORAGE_KEY = 'siteLang';
+
+function resolveLang() {
+    const params = new URLSearchParams(window.location.search);
+    const fromUrl = params.get('lang');
+    if (fromUrl === 'es' || fromUrl === 'en') {
+        localStorage.setItem(LANG_STORAGE_KEY, fromUrl);
+        return fromUrl;
+    }
+    const stored = localStorage.getItem(LANG_STORAGE_KEY);
+    if (stored === 'es' || stored === 'en') {
+        return stored;
+    }
+    return 'en';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    document.documentElement.lang = resolveLang() === 'es' ? 'es' : 'en';
+
     const themeToggle = document.getElementById('theme-toggle');
     const body = document.body;
 
@@ -91,8 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- TRANSLATION LOGIC ---
 function translatePage() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const lang = urlParams.get('lang') || 'en';
+    const lang = resolveLang();
     const dict = translations[lang];
 
     if (dict) {
@@ -106,9 +123,8 @@ function translatePage() {
 }
 
 function highlightActiveLanguage() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const currentLang = urlParams.get('lang') || 'en';
-    
+    const currentLang = resolveLang();
+
     document.querySelectorAll('.lang-btn').forEach(btn => {
         if (btn.id === `lang-${currentLang}`) {
             btn.classList.add('active');
@@ -120,9 +136,7 @@ function highlightActiveLanguage() {
 
 // --- BLOG FUNCTIONALITY ---
 async function loadBlogPosts() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const currentLang = urlParams.get('lang') || 'en';
-    highlightActiveLanguage();
+    const currentLang = resolveLang();
 
     try {
         const response = await fetch('./posts.json');
@@ -158,8 +172,7 @@ function displayBlogPosts(posts) {
 }
 
 function formatDate(dateString) {
-    const urlParams = new URLSearchParams(window.location.search);
-    const lang = urlParams.get('lang') || 'en';
+    const lang = resolveLang();
     const locale = lang === 'es' ? 'es-ES' : 'en-US';
 
     const date = new Date(dateString);
@@ -197,8 +210,7 @@ async function loadIndividualBlogPost(targetElement) {
 }
 
 async function loadGenericPageContent(targetElement) {
-    const urlParams = new URLSearchParams(window.location.search);
-    const lang = urlParams.get('lang') || 'en';
+    const lang = resolveLang();
     const path = window.location.pathname;
     let markdownFilePath = '';
 

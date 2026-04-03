@@ -1,7 +1,4 @@
-
-## Welcome everyone to my personal website!
-
-I'm on a journey to become a better scientist and engineer, exploring the intersections of **Tech**, **Machine Learning**, and **Life Sciences**.
+I'm on a journey to become a better scientist and engineer, exploring the intersections of **Technology**, **Machine Learning**, and **Environmental Sciences**.
 
 ### Feel free to explore:
 * ✍️ [**Read my Blog**](blog/index.html): My thoughts and learnings on science and technology.
@@ -10,4 +7,4 @@ I'm on a journey to become a better scientist and engineer, exploring the inters
 * 🐧 [**About Me**](me/index.html): Learn more about my personal journey and who I am.
 
 ---
-You can find links to my social media at the top of the page if you want to get to know me better (:
+At the top of the page you can find links to my social media so we can connect (:

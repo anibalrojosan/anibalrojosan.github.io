@@ -9,6 +9,15 @@
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐧</text></svg>">
 </head>
 <body>
+    <script>
+    (function () {
+        try {
+            if (localStorage.getItem('theme') !== 'light') {
+                document.body.classList.add('dark-mode');
+            }
+        } catch (_) {}
+    })();
+    </script>
     <header>
         <nav>
             <a href="index.html">[ ~ ]</a>
@@ -42,7 +51,7 @@
     <main>
         <h1 style="text-align: left;" id="home-hi">Hi, I'm Aníbal</h1>
         <div id="page-content">
-            <!-- Content will be loaded from home-en.md or home-es.md -->
+
         </div>
     </main>
 

@@ -1,5 +1,5 @@
 ## My Journey
-I am a **Bioprocess Engineer** and **Biochemical Engineering Researcher** with a deep passion for the intersection of **tech**, **ML**, and **life sciences**. My background in rigorous scientific research has shaped my approach to problem-solving, emphasizing sustainable and scalable solutions.
+I am a **Biochemical Engineering Researcher** with a deep passion for the intersection of **tech**, **ML**, and **environmental sciences**. My background in rigorous scientific research has shaped my approach to problem-solving, emphasizing sustainable and scalable solutions.
 
 > "My goal is to transform complex experimental data into robust, deployable technological solutions."
 

@@ -4,14 +4,14 @@
 
 :root {
     --background-color: #fcfcfc;
-    --text-color: #222222;
+    --text-color: #0b0b0b;
     --link-color: #007acc;
 }
 
 body.dark-mode {
     --background-color: #1a1a1a;
     --text-color: #e0e0e0;
-    --link-color: #4da6ff;
+    --link-color: #338dc9;
 }
 
 /* ==========================================================================
