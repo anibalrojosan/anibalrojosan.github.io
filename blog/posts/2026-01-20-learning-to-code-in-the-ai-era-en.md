@@ -10,4 +10,5 @@ If you're here, it's probably asume that you're interested in learning to progra
 
 This question has a trap, because its answer can be:
 - very obvious (*Python*, obviously Python, if it's the language of AI, why the mystery?) or,
-- very deep (there are dozens of programming languages and areas in technology besides AI, and I think it's valuable to know about them too at least a bit).
+- not so obvious (there are dozens of programming languages and areas in technology besides AI, and I think it's valuable to know about them too at least a bit).
+

@@ -276,7 +276,11 @@ async function loadGenericPageContent(targetElement) {
 }
 
 function renderMarkdownPage(markdownText, targetElement) {
-    const converter = new showdown.Converter({ tables: true });
+    const converter = new showdown.Converter({
+        tables: true,
+        customizedHeaderId: true,
+        ghCompatibleHeaderId: true,
+    });
     const titleMatch = markdownText.match(/^#\s+(.+)$/m);
     let contentToRender = markdownText;
 
@@ -290,4 +294,15 @@ function renderMarkdownPage(markdownText, targetElement) {
         }
     }
     targetElement.innerHTML = converter.makeHtml(contentToRender);
+
+    const hash = window.location.hash;
+    if (hash && hash.length > 1) {
+        const id = decodeURIComponent(hash.slice(1));
+        queueMicrotask(() => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'instant', block: 'start' });
+            }
+        });
+    }
 }
