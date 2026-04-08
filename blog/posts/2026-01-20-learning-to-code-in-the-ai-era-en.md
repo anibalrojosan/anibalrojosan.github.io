@@ -1,6 +1,6 @@
 # How to learn to code in the AI era
 
-> This guide serves as a *Hub* of posts on how to study and build programming skills. It includes resources, online courses and books I recommend. <br/> Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.<br/>
+> This guide serves as a *Hub* of posts on how to study and build programming skills.  Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.<br/>
 > I'm working on a future post to explain 'why' you might want to learn to program.
 
 If you're here, I assume you're interested in learning to program (and/or you're curious about the concept of 'AI'). In this blog post I want to share the resources I've used to teach myself programming over the last few years. If I can spark your curiosity about how to learn this skill, I'll consider it a win. Without further ado, let's get started:
@@ -37,10 +37,10 @@ When I recommend a language, I usually start by asking what you'd like to do onc
 
 Still, these days I recommend looking at different areas of technology and the languages people use there. For example:
 
-- *Web development*: HTML, CSS, and JavaScript/TypeScript are the undisputed leaders.
-- *Mobile app development*: Swift, Kotlin, and Flutter are the most popular options.
-- *High-frequency trading*: Python and R are widely used, but this is where algorithms and lower-level knowledge really matter, so languages like C++ become essential.
-- *Game development*: lower-level languages like C/C++ are common, but engines such as Unity (C#) or Godot (GDScript) are also very popular.
+- **Web development**: HTML, CSS, and JavaScript/TypeScript are the undisputed leaders.
+- **Mobile app development**: Swift, Kotlin, and Flutter are the most popular options.
+- **High-frequency trading**: Python and R are widely used, but this is where algorithms and lower-level knowledge really matter, so languages like C++ become essential.
+- **Game development**: lower-level languages like C/C++ are common, but engines such as Unity (C#) or Godot (GDScript) are also very popular.
 
 That's just a sketch, there are many more languages I haven't mentioned, and I encourage you to explore them.
 
@@ -64,6 +64,8 @@ From here on, this guide focuses mainly on Python, since it's the language I've 
 
 ## 2. Resources to learn Python {2-resources-to-learn-python}
 
+> I'll talk in a future post about how to learn specific areas of technology, such as backend, frontend, data science, machine learning, etc.
+
 There are countless ways to learn Python today, so many that I like to split them into two pillars: *theoretical resources* and *practical resources*. Should you learn theory first and practice later? With AI as a coding assistant, I'd strongly recommend doing **both in parallel**. The idea is:
 
 1. Learn Python syntax and how to work with the language. In parallel, learn core programming concepts and logic.
@@ -75,11 +77,11 @@ I usually break this pillar into three categories:
 
 #### 2.1.1 Online courses {211-online-courses}
 
-Online courses from different universities, institutions, etc. These can vary greatly in rigor and difficulty, but they serve as an *on-ramp*: they help you learn concepts, vocabulary, and give you a roadmap to follow. The best ones are available on Youtube, Coursera, Udemy, etc.
+Online courses from different universities, institutions, etc. These can vary greatly in rigor and difficulty, but they serve as an *on-ramp*: they help you learn concepts, vocabulary, and give you a roadmap to follow. The best ones are available on *Youtube*, *Coursera*, *Udemy*, etc.
 
 #### 2.1.2 Technical books {212-technical-books}
 
-Technical and programming books. These vary greatly in content, but they are very valuable as structured knowledge sources (like a university course syllabus). They're great for having a semi-structured roadmap of topics to learn. I recommend many publishers like O'Reilly, Addison-Wesley, Packt and Springer.
+Technical and programming books. These vary greatly in content, but they are very valuable as structured knowledge sources (like a university course syllabus). They're great for having a semi-structured roadmap of topics to learn. I recommend many publishers like *O'Reilly*, *Addison-Wesley*, *Packt* and *Springer*.
 
 #### 2.1.3 Official documentation {213-official-documentation}
 
@@ -108,7 +110,7 @@ Overcoming the fear of adding and adding lines of code and generating something 
 
 For personal projects, I recommend learning about version control (Git) and repository management (GitHub, GitLab, etc.) as soon as possible. This is essential for collaborating with other developers and having a history of changes in your code.
 
-> Note: personally, I consider 'learning on the fly' as exploring and learning about things/systems I don't know through all the resources I've previously exposed. It's a way to break down a very large problem into smaller, more digestible parts that I'll learn alongside working on a project. <br/> Contrary to what many people think, I don't think 'learning on the fly' implies 'not knowing what you're doing', or that it's not worth learning the fundamentals of the discipline. <br/> I'll talk more about this in the next section.
+> Personally, I consider that *learning on the fly* implies exploring and learning about things/systems I don't know through all the resources I've previously exposed. It's a way to break down a very large problem into smaller, more digestible parts that I'll learn alongside working on a project. <br/> Contrary to what many people think, I don't think this implies *not knowing what you're doing*, or that it's not worth learning the fundamentals of the discipline. <br/> I'll talk more about this in a future post.
 
 ---
 

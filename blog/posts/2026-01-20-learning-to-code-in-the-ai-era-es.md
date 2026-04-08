@@ -1,6 +1,6 @@
 # Cómo aprender a programar en la era de la IA
 
-> Esta guía sirve como un *Hub* de posts sobre como estudiar y entrenar habilidades de programación. Incluye recursos, cursos online, y libros que recomiendo. <br/> Debido a la extensión de cada sección, dedicaré posts dedicados a cada uno de ellas para profundizar en cada tema. <br/>
+> Esta guía sirve como un *Hub* de posts sobre como estudiar y entrenar habilidades de programación. Debido a la extensión de cada sección, dedicaré posts dedicados a cada uno de ellas para profundizar en cada tema. <br/>
 > Para explicar el 'por qué' puede que quieras aprender a programar, estoy preparando un futuro blog. 
 
 Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la atención el concepto de 'IA'). En este blog post pretendo explicar mis recursos usados para aprender a programar de manera autodidacta estos últimos años. Si logro despertar tu curiosidad sobre como aprender esta habilidad, ya me habré dado por satisfecho. Sin más dilación, comencemos:
@@ -29,16 +29,16 @@ Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la
 ## 1. Lenguajes de programación, ¿cual elegir? {1-lenguajes-de-programacion-cual-elegir}
 
 Esta pregunta tiene trampa, ya que su respuesta puede ser:
-- muy obvia (*Python*, obviamente que Python, si es el lenguaje de la IA ¿n, ¿por qué tanto misterio?) o,
+- muy obvia (*Python*, obviamente que Python, es el lenguaje de la IA ¿no? ¿Por qué tanto misterio?) o,
 - no tan obvia (hay miles de áreas en tecnología además de la IA, decenas de lenguajes de programación y considero que también es valioso conocer de ellos). 
 
 En mi caso, a la hora de recomendar un lenguaje de programación, suelo primero preguntar a qué te gustaría dedicarte una vez hayas dominado ese lenguaje. En mi caso particular, descubrí Python casi por azar en un ramo de mi magíster, y por casi el mismo azar descubrí la *ciencia de datos* y el *machine learning*. Además de que la sintaxis de Python es muy legible y fácil de entender, mi elección en ese momento era bastante obvia. 
 
 Sin embargo, actualmente recomiendo dar un vistazo a distintas áreas de la tecnologia y los lenguajes que se usan. Por ejemplo:
-- *Desarrollo web*: HTML, CSS, JavaScript/TypeScript son los reyes indiscutidos.
-- *Desarrollo de aplicaciones móviles*: Swift, Kotlin, Flutter son las opciones más populares.
-- *High frequency trading*: Si bien Python y R son muy usados, aquí es cuando es indispensable saber de algoritmos y conocimiento de más bajo nivel, por lo que lenguajes como C++ son indispensables.
-- *Desarrollo de videojuegos*: lenguajes de bajo nivel como C/C++ son muy usados, pero también motores como Unity (C#) o Godot (GDScript) son muy populares.
+- **Desarrollo web**: HTML, CSS, JavaScript/TypeScript son los reyes indiscutidos.
+- **Desarrollo de aplicaciones móviles**: Swift, Kotlin, Flutter son las opciones más populares.
+- **High frequency trading**: Si bien Python y R son muy usados, aquí es cuando es indispensable saber de algoritmos y conocimiento de más bajo nivel, por lo que lenguajes como C++ son indispensables.
+- **Desarrollo de videojuegos**: lenguajes de bajo nivel como C/C++ son muy usados, pero también motores como Unity (C#) o Godot (GDScript) son muy populares.
 
 Esto es solo una pincelada, hay un montón de lenguajes que no he mencionado y que te invito a explorar.
 
@@ -60,6 +60,8 @@ De ahora en adelante la guía será enfocada principalmente a Python, ya que es 
 
 ## 2. Recursos para aprender Python {2-recursos-para-aprender-python}
 
+> Hablaré en un futuro post de como aprender áreas de TI específicas, tales como backend, frontend, data science, machine learning, etc.
+
 Actualmente hay una infinidad de formas de aprender Python. Es tanto que prefiero separarlo en dos pilares fundamentales: *recursos teóricos* y *recursos prácticos*. ¿Debo aprender primero la teoría y luego la práctica? Actualmente con las facilidades que nos brinda la IA como asistente de código, recomiendo encarecidamente **aprender ambos a la par**. La idea es la siguiente: 
 1. Aprender la sintáxis de Python y como trabajar con este lenguaje. En paralelo, aprender los conceptos fundamentales de programación y lógica.
 2. Realizar ejercicios prácticos para aplicar lo aprendido (proyectos personales). Además, realizar ejercicios teóricos respecto al lenguaje siempre es una buena idea para reforzar lo aprendido.
@@ -74,7 +76,7 @@ Cursos online de distintas universidades, instituciones, etc. Estos pueden ser m
 
 #### 2.1.2 Libros técnicos {212-libros-tecnicos}
 
-Libros técnicos y de programación. Estos son muy variados en cuanto a contenido, pero son muy valiosos como fuente de conocimiento estructurado (como el syllabus de un ramo universitario). Sirven mucho para tener un mapa claro de temas sobre los cuales aprender. Recomiendo muchos editoriales como O'Reilly, Addison-Wesley, Packt y Springer.
+Libros técnicos y de programación. Estos son muy variados en cuanto a contenido, pero son muy valiosos como fuente de conocimiento estructurado (como el syllabus de un ramo universitario). Sirven mucho para tener un mapa claro de temas sobre los cuales aprender. Recomiendo muchos editoriales como *O'Reilly*, *Addison-Wesley*, *Packt* y *Springer*.
 
 #### 2.1.3 Documentación oficial {213-documentacion-oficial}
 
@@ -102,7 +104,7 @@ Perderle el miedo a ir sumando y sumando lineas de código e ir generando algo t
 
 Para crear proyectos personales, recomiendo lo antes posible aprender sobre el control de versiones (Git) y el manejo de repositorios (GitHub, GitLab, etc.). Esto es fundamental para poder colaborar con otros desarrolladores, y para poder tener un historial de cambios en tu código.
 
-> Nota: personalmente, considero que 'aprender sobre la marcha' implica ir explorando y aprendiendo sobre cosas/sistemas que no conozco mediante todos los medios que he expuesto previamente. Es una forma de descomponer un problema muy grande en partes más pequeñas y digeribles las cuales iré aprendiendo a la par que trabajo en un proyecto. <br/> Al contrario de lo que mucha gente piensa, no considero que 'aprender sobre la marcha' implique 'no saber lo que estoy haciendo', o que no valga la pena aprender los fundamentos de la disciplina. <br/> Hablaré sobre esto en la siguiente sección.
+> Personalmente, considero que *aprender sobre la marcha* implica ir explorando y aprendiendo sobre cosas/sistemas que no conozco usando todos los medios que he expuesto previamente. Es una forma de descomponer un problema grande en partes más pequeñas y digeribles las cuales iré aprendiendo a la par que trabajo en un proyecto. <br/> Al contrario de lo que mucha gente piensa, no considero que esto implique *no saber lo que estoy haciendo*, o que no valga la pena aprender los fundamentos de la disciplina. <br/> Hablaré más sobre esto en un futuro post.
 
 ---
 
