@@ -1,6 +1,6 @@
 # Cómo aprender a programar en la era de la IA
 
-> Esta guía se centra en como estudiar y entrenar habilidades de programación. Incluye recursos, cursos online, y libros que recomiendo. Debido a la extensión de cada sección, dedicaré posts dedicados a cada uno de ellas para profundizar en cada tema. <br/>
+> Esta guía sirve como un *Hub* de posts sobre como estudiar y entrenar habilidades de programación. Incluye recursos, cursos online, y libros que recomiendo. <br/> Debido a la extensión de cada sección, dedicaré posts dedicados a cada uno de ellas para profundizar en cada tema. <br/>
 > Para explicar el 'por qué' puede que quieras aprender a programar, estoy preparando un futuro blog. 
 
 Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la atención el concepto de 'IA'). En este blog post pretendo explicar mis recursos usados para aprender a programar de manera autodidacta estos últimos años. Si logro despertar tu curiosidad sobre como aprender esta habilidad, ya me habré dado por satisfecho. Sin más dilación, comencemos:
@@ -19,6 +19,8 @@ Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la
         - [2.2.1 Ejercicios prácticos](#221-ejercicios-practicos)
         - [2.2.2 Proyectos personales](#222-proyectos-personales)
 - [3. Como usar la IA sin sabotear tu aprendizaje](#3-como-usar-la-ia-sin-sabotear-tu-aprendizaje)
+    - [3.1 Deuda técnica y cognitiva](#31-deuda-tecnica-y-cognitiva)
+    - [3.2 El dilema de la productividad](#32-el-dilema-de-la-productividad)
 - [4. Rutinas y hábitos de estudio](#4-rutinas-y-habitos-de-estudio)
 - [5. Errores comunes y como evitarlos](#5-errores-comunes-y-como-evitarlos)
 
@@ -58,7 +60,7 @@ De ahora en adelante la guía será enfocada principalmente a Python, ya que es 
 
 ## 2. Recursos para aprender Python {2-recursos-para-aprender-python}
 
-Actualmente hay una infinidad de formas de aprender Python. Es tanto que prefiero separarlo en dos pilares fundamentales: *recursos teóricos*, *recursos prácticos*. ¿Debo aprender primero la teoría y luego la práctica? Actualmente con las facilidades que nos brinda la IA como asistente de código, recomiendo encarecidamente aprender ambos a la par. La idea es la siguiente: 
+Actualmente hay una infinidad de formas de aprender Python. Es tanto que prefiero separarlo en dos pilares fundamentales: *recursos teóricos* y *recursos prácticos*. ¿Debo aprender primero la teoría y luego la práctica? Actualmente con las facilidades que nos brinda la IA como asistente de código, recomiendo encarecidamente **aprender ambos a la par**. La idea es la siguiente: 
 1. Aprender la sintáxis de Python y como trabajar con este lenguaje. En paralelo, aprender los conceptos fundamentales de programación y lógica.
 2. Realizar ejercicios prácticos para aplicar lo aprendido (proyectos personales). Además, realizar ejercicios teóricos respecto al lenguaje siempre es una buena idea para reforzar lo aprendido.
 
@@ -106,11 +108,36 @@ Para crear proyectos personales, recomiendo lo antes posible aprender sobre el c
 
 ## 3. Como usar la IA sin sabotear tu aprendizaje {3-como-usar-la-ia-sin-sabotear-tu-aprendizaje}
 
+Si bien la IA es una herramienta muy poderosa, y que encuentro muy interesante y prometedora, hay una serie de consideraciones que me gustaría compartir:
+1. Me gusta ver la IA como un catalizador, un multiplicador de habilidades. Si tu nivel base es muy bajo, usar IA no aumentará mucho tu nivel. Por el contrario, si cuentas con un nivel técnico base relativamente alto, la IA te ayudará a aumentar tu nivel de manera exponencial. La única forma de subir nuestro nivel base es mediante el entrenamiento constante y sistemático (de la misma forma que un deportista)
+2. Hay formas más y menos efectivas de usar la IA. Como toda herramienta, cuenta con una curva de aprendizaje, y buenas prácticas. Al ser una herramienta nueva y que está en constante desarrollo, estas buenas prácticas están en constante cambio y debemos como mínimo tener nociones de como los desarrolladores más capacitados la usan.
+3. Por ningún motivo la IA debe reemplazar tu cerebro. Es un catalizador, no un sustituto. Nutrir y entrenar tu cerebro para que sea capaz de resolver problemas cada vez más complejos es fundamental para la vida y para tu carrera.
+
+Considero que hay dos problemas serios que debemos evitar:
+
+#### 3.1 Deuda técnica y cognitiva {31-deuda-tecnica-y-cognitiva}
+
+La IA genera mucho código, hace planes muy complejos, te dice que sí a todo y en contadas ocasiones te corrige. Esto genera que proyectos delegados a la IA crezcan de manera exponencial, y al no ser nosotros los creadores integros de este sistema, existe una deuda real con respecto a nuestro entendimiento sobre el sistema.
+
+#### 3.2 El dilema de la productividad {32-el-dilema-de-la-productividad}
+
+Un fenómeno que se está dando recientemente es el testimonio de desarrolladores que no pueden 'dejar de trabajar'. Si bien muchos lo justifican que como están pagando un servicio, deben exprimir al máximo ese servicio para aprovechar esa inversión, pienso que va por otro lado: la IA es una forma excelente de desatascarnos. La sensación de que la respuesta está siempre a un prompt de distancia nos genera ese pensamiento de 'un prompt más y termino' que genera un bucle sin fin de prompting. La percepción que se tenía anteriormente de 'con la IA trabajaremos menos' ha resultado en todo lo contrario. Es fundamental no saturar nuestro cerebro de información para no quemarnos y mantener un rendimiento alto el mayor tiempo posibe, por lo que el descanso y la desconexión son fundamentales.
+
+Hablaré más sobre como usar IA de manera efectiva en un siguiente post.
+
 ---
 
 ## 4. Rutinas y hábitos de estudio {4-rutinas-y-habitos-de-estudio}
 
+Si bien hay muchas formas de aprender y estudiar, cuando he entrenado como si fuera un deportista de alto rendimiento es cuando he percivido mayores avances. El entrenamiento constante y sistemático es fundamental para subir de nivel. Es un tema un tanto polémico pero muy interesante, por lo que dedicaré un post completo a este tema.
+
 ---
 
 ## 5. Errores comunes y como evitarlos {5-errores-comunes-y-como-evitarlos}
- Tutorial hell, saltar fundamentos, copiar sin entender, no leer errores, compararse demasiado pronto.
+
+Temas que abordaré en un futuro post: 
+- Tutorial hell
+- Saltar fundamentos
+- Copiar sin entender
+- No leer errores
+- Compararse demasiado pronto

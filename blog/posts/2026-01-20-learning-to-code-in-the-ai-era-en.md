@@ -1,6 +1,6 @@
 # How to learn to code in the AI era
 
-> This guide focuses on how to study and build programming skills. It includes resources, online courses and books I recommend. Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.<br/>
+> This guide serves as a *Hub* of posts on how to study and build programming skills. It includes resources, online courses and books I recommend. <br/> Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.<br/>
 > I'm working on a future post to explain 'why' you might want to learn to program.
 
 If you're here, I assume you're interested in learning to program (and/or you're curious about the concept of 'AI'). In this blog post I want to share the resources I've used to teach myself programming over the last few years. If I can spark your curiosity about how to learn this skill, I'll consider it a win. Without further ado, let's get started:
@@ -19,6 +19,8 @@ If you're here, I assume you're interested in learning to program (and/or you're
         - [2.2.1 Practical exercises](#221-practical-exercises)
         - [2.2.2 Personal projects](#222-personal-projects)
 - [3. How to use AI without sabotaging your learning](#3-how-to-use-ai-without-sabotaging-your-learning)
+    - [3.1 Technical and cognitive debt](#31-technical-and-cognitive-debt)
+    - [3.2 The productivity dilemma](#32-the-productivity-dilemma)
 - [4. Routines and habits of study](#4-routines-and-habits-of-study)
 - [5. Common errors and how to avoid them](#5-common-errors-and-how-to-avoid-them)
 
@@ -112,10 +114,36 @@ For personal projects, I recommend learning about version control (Git) and repo
 
 ## 3. How to use AI without sabotaging your learning {3-how-to-use-ai-without-sabotaging-your-learning}
 
+Using AI as a coding assistant is a powerful tool, and I find it very interesting and promising. There are some considerations I'd like to share:
+1. I like to see AI as a catalyst, a multiplier of skills. If your base level is very low, using AI won't increase your level much. On the contrary, if you have a relatively high technical base level, AI will help you increase your level exponentially. The only way to increase our base level is through constant and systematic training (just like a athlete)
+2. There are more and less effective ways to use AI. Like any tool, it has a learning curve, and best practices. As a new tool and that is constantly developing, these best practices are constantly changing and we should at least have an idea of how the most skilled developers use it.
+3. For no reason should AI replace your brain. It's a catalyst, not a substitute. Feeding and training your brain to be able to solve increasingly complex problems is fundamental for life and for your career.
+
+I consider there are two serious problems we should avoid:
+
+#### 3.1 Technical and cognitive debt {31-technical-and-cognitive-debt}
+
+AI generates a lot of code, makes very complex plans, tells you yes to everything and occasionally corrects you. This generates that projects delegated to AI grow exponentially, and as we are not the creators of this system, there is a real debt with respect to our understanding of the system.
+
+#### 3.2 The productivity dilemma {32-the-productivity-dilemma}
+
+A phenomenon that is happening recently is the testimony of developers who cannot 'stop working'. While many justify that as they are paying for a service, they must squeeze the maximum out of that service to make the most of that investment, I think the root of this is different: AI is an excellent way to untangle ourselves. The feeling that the answer is always at a prompt distance generates the thought of 'one more prompt and I'm done' that generates an infinite loop of prompting. The perception that was had previously of 'with AI we will work less' has resulted in the opposite. It is essential not to saturate our brain with information to not burn out and maintain a high performance the longest possible time, so rest and disconnection are fundamental.
+
+I'll talk more about this in a future post.
+
 ---
 
 ## 4. Routines and habits of study {4-routines-and-habits-of-study}
 
+When I train like an athlete of high performance, I perceive greater advances. Constant and systematic training is fundamental to level up. It's a somewhat controversial topic but very interesting, so I'll dedicate a full post to this topic.
+
 ---
 
 ## 5. Common errors and how to avoid them {5-common-errors-and-how-to-avoid-them}
+
+Topics I'll cover in a future post:
+- Tutorial hell
+- Skipping fundamentals
+- Copying without understanding
+- Not reading errors
+- Comparing too soon
