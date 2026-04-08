@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- TRANSLATION INITIALIZATION ---
+    updateLangSelectorUrls();
     translatePage();
     highlightActiveLanguage();
 
@@ -109,6 +110,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // --- TRANSLATION LOGIC ---
 function translatePage() {
+    if (typeof translations === 'undefined') {
+        return;
+    }
     const lang = resolveLang();
     const dict = translations[lang];
 
@@ -120,6 +124,31 @@ function translatePage() {
             }
         }
     }
+}
+
+function blogPostFileForLang(postFile, targetLang) {
+    if (!postFile) return postFile;
+    if (postFile.endsWith('-en.md')) {
+        return targetLang === 'es' ? postFile.replace(/-en\.md$/, '-es.md') : postFile;
+    }
+    if (postFile.endsWith('-es.md')) {
+        return targetLang === 'en' ? postFile.replace(/-es\.md$/, '-en.md') : postFile;
+    }
+    return postFile;
+}
+
+/** Keeps query params (e.g. ?post=...) when switching lang; swaps -en/-es post slug on blog/post.html */
+function updateLangSelectorUrls() {
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        const targetLang = btn.id === 'lang-es' ? 'es' : 'en';
+        const params = new URLSearchParams(window.location.search);
+        params.set('lang', targetLang);
+        const postFile = params.get('post');
+        if (postFile) {
+            params.set('post', blogPostFileForLang(postFile, targetLang));
+        }
+        btn.href = '?' + params.toString();
+    });
 }
 
 function highlightActiveLanguage() {
