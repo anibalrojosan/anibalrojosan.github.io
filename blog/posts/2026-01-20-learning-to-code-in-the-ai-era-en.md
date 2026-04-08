@@ -3,7 +3,7 @@
 > This guide serves as a *Hub* of posts on how to study and build programming skills.  Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.<br/>
 > I'm working on a future post to explain 'why' you might want to learn to program.
 
-If you're here, I assume you're interested in learning to program (and/or you're curious about the concept of 'AI'). In this blog post I want to share the resources I've used to teach myself programming over the last few years. If I can spark your curiosity about how to learn this skill, I'll consider it a win. Without further ado, let's get started:
+If you're here, I assume you're interested in learning to program (and/or you're curious about the concept of 'AI'). In this blog post I want to show the resources I've used to teach myself programming over the last few years. If I can spark your curiosity about how to learn this skill, I'll consider it a win. Without further ado, let's get started:
 
 ---
 
@@ -33,7 +33,7 @@ This question is a bit of a trick, because the answer can be:
 - very obvious (*Python*, obviously Python; if it's the language of AI, why all the mystery?), or
 - not so obvious (there are many areas in tech beyond AI, dozens of programming languages, and I think it's also valuable to know at least a little about them).
 
-When I recommend a language, I usually start by asking what you'd like to do once you're comfortable with it. In my case, I found Python almost by chance in a master's course, and almost the same chance led me to *data science* and *machine learning*. Python's syntax is very readable and easy to grasp, so my choice back then was pretty obvious.
+When I recommend a language, I usually start by asking what you'd like to do once you're comfortable with it. In my case, I found Python almost by chance in a master's course, and almost the same chance led me to *data science* and *machine learning*, areas that became my major interest. Also, Python's syntax is very readable and easy to grasp, so my choice back then was pretty obvious.
 
 Still, these days I recommend looking at different areas of technology and the languages people use there. For example:
 
@@ -55,8 +55,8 @@ Beyond syntax, I strongly recommend picking up ideas like execution speed and le
 
 To answer "which one should you choose?", if I were starting from scratch today I'd suggest:
 
-- Pick a high-level language, learn basic syntax and programming fundamentals, and use it to practice, explore, and see whether you actually enjoy programming (it's not for everyone, frustration comes with the territory).
-- Treat that language as the tool you use to build and study programming as a discipline: the medium through which you create things and apply the theory you'll keep learning.
+- **Pick a high-level language**, learn basic syntax and programming fundamentals, and use it to practice, explore, and see whether you actually enjoy programming (it's not for everyone, frustration comes with the territory).
+- Treat that language as the tool you use to build and study programming as a discipline. It's the medium through which you build your projects and apply the theory that you'll be learning along the way.
 
 From here on, this guide focuses mainly on Python, since it's the language I've used the most. Eventually it's worth widening the set of languages you're comfortable with, but you have to start somewhere.
 
@@ -75,9 +75,11 @@ There are countless ways to learn Python today, so many that I like to split the
 
 I usually break this pillar into three categories:
 
-#### 2.1.1 Online courses {211-online-courses}
+#### 2.1.1 [Online courses](post.html?post=2026-04-08-online-courses-en.md) {211-online-courses}
 
-Online courses from different universities, institutions, etc. These can vary greatly in rigor and difficulty, but they serve as an *on-ramp*: they help you learn concepts, vocabulary, and give you a roadmap to follow. The best ones are available on *Youtube*, *Coursera*, *Udemy*, etc.
+Online courses from different universities, institutions, etc. These can vary greatly in rigor and difficulty, but they serve as an *on-ramp*: they help you learn concepts, vocabulary, and give you a roadmap to follow. 
+
+Many of them are available on *Youtube*, *Coursera* or *Udemy*. Many of them are free and of high quality in the content taught.
 
 #### 2.1.2 Technical books {212-technical-books}
 

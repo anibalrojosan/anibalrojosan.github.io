@@ -1,9 +1,9 @@
 # Cómo aprender a programar en la era de la IA
 
-> Esta guía sirve como un *Hub* de posts sobre como estudiar y entrenar habilidades de programación. Debido a la extensión de cada sección, dedicaré posts dedicados a cada uno de ellas para profundizar en cada tema. <br/>
+> Esta guía sirve como un *Hub* de posts sobre como estudiar y entrenar habilidades de programación. Debido a la extensión de cada sección, dedicaré posts a cada una para profundizar en cada tema. <br/>
 > Para explicar el 'por qué' puede que quieras aprender a programar, estoy preparando un futuro blog. 
 
-Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la atención el concepto de 'IA'). En este blog post pretendo explicar mis recursos usados para aprender a programar de manera autodidacta estos últimos años. Si logro despertar tu curiosidad sobre como aprender esta habilidad, ya me habré dado por satisfecho. Sin más dilación, comencemos:
+Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la atención el concepto de 'IA'). En este blog post te mostraré los recursos que he usado para aprender a programar de manera autodidacta estos últimos años. Si logro despertar tu curiosidad sobre como aprender esta habilidad, ya me habré dado por satisfecho. Sin más dilación, comencemos:
 
 ---
 
@@ -30,9 +30,9 @@ Si estás aquí, asumo que te interesa aprender a programar (y/o que te llame la
 
 Esta pregunta tiene trampa, ya que su respuesta puede ser:
 - muy obvia (*Python*, obviamente que Python, es el lenguaje de la IA ¿no? ¿Por qué tanto misterio?) o,
-- no tan obvia (hay miles de áreas en tecnología además de la IA, decenas de lenguajes de programación y considero que también es valioso conocer de ellos). 
+- no tan obvia (hay decenas de áreas en tecnología además de la IA, y decenas de lenguajes de programación. Considero que también es valioso conocer de ellos). 
 
-En mi caso, a la hora de recomendar un lenguaje de programación, suelo primero preguntar a qué te gustaría dedicarte una vez hayas dominado ese lenguaje. En mi caso particular, descubrí Python casi por azar en un ramo de mi magíster, y por casi el mismo azar descubrí la *ciencia de datos* y el *machine learning*. Además de que la sintaxis de Python es muy legible y fácil de entender, mi elección en ese momento era bastante obvia. 
+En mi caso, a la hora de recomendar un lenguaje de programación, suelo primero preguntar a qué te gustaría dedicarte una vez hayas dominado ese lenguaje. En mi caso particular, descubrí Python casi por azar en un ramo de mi magíster, y por casi el mismo azar descubrí la *ciencia de datos* y el *machine learning*, ramas que se convirtieron en mi mayor interés. Además de que la sintaxis de Python es muy legible y fácil de entender, mi elección en ese momento era bastante obvia. 
 
 Sin embargo, actualmente recomiendo dar un vistazo a distintas áreas de la tecnologia y los lenguajes que se usan. Por ejemplo:
 - **Desarrollo web**: HTML, CSS, JavaScript/TypeScript son los reyes indiscutidos.
@@ -51,7 +51,7 @@ En términos simples, mientras más '*alto nivel*' tengamos, nos alejamos más d
 Recomiendo encarecidamente además de aprender sintaxis de un lenguaje, tener este tipo de nociones (velocidad de ejecución, nivel de abstracción, etc.). A largo plazo son conocimientos muy útiles que te ayudarán a tomar mejores decisiones. 
 
 Para responder a la pregunta de '¿cual elegir?', si empezara desde cero hoy, mis recomendaciones serían: 
-- Elige un lenguaje de alto nivel, aprende sintaxis básica, y fundamentos de programación. Usa este lenguaje para practicar, explorar y para saber si realmente te gusta programar (no es un hobby para todos, hay mucha frustración asociada). 
+- **Elige un lenguaje de alto nivel**, aprende sintaxis básica, y fundamentos de programación. Usa este lenguaje para practicar, explorar y para saber si realmente te gusta programar (no es un hobby para todos, hay mucha frustración asociada). 
 - Piensa que este lenguaje es la herramienta con la cual construir y aprender una disciplina que es la programación, es el medio por el cual crear cosas y aplicar el conocimiento teórico que irás aprendiendo.
 
 De ahora en adelante la guía será enfocada principalmente a Python, ya que es el lenguaje que más he usado. Eventualmente siempre es bueno ampliar nuestro abanico de lenguajes que dominemos, pero hay que partir por algo.
@@ -70,9 +70,11 @@ Actualmente hay una infinidad de formas de aprender Python. Es tanto que prefier
 
 Este primer pilar lo suelo dividir en 3 categorías: 
 
-#### 2.1.1 Cursos online {211-cursos-online}
+#### 2.1.1 [Cursos online](post.html?post=2026-04-08-online-courses-es.md) {211-cursos-online}
 
-Cursos online de distintas universidades, instituciones, etc. Estos pueden ser muy variados en cuanto a rigurosidad y dificultad, pero sirven como una 'puerta de entrada': te ayudan a aprender conceptos, vocabulario, y tener una hoja de ruta a la cual seguir (*saber lo que sabes y más importante, saber lo que no sabes*). Disponibles en Youtube, Coursera, Udemy, etc.
+Cursos online de distintas universidades, instituciones, etc. Estos pueden ser muy variados en cuanto a rigurosidad y dificultad, pero sirven como una 'puerta de entrada': te ayudan a aprender conceptos, vocabulario, y tener una hoja de ruta a la cual seguir (*saber lo que sabes y más importante, saber lo que no sabes*). 
+
+Disponibles en plataformas como *Youtube*, *Coursera* o *Udemy*. Muchos de ellos son gratis y de alta calidad en los contenidos impartidos.
 
 #### 2.1.2 Libros técnicos {212-libros-tecnicos}
 
