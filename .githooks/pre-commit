@@ -1,0 +1,5 @@
+#!/bin/sh
+# Run: git config core.hooksPath .githooks
+if git diff --cached --name-only | grep -qE '^blog/posts/.*\.md$|^blog/posts\.json$'; then
+  node scripts/sync-blog-updated.js && git add blog/posts.json
+fi

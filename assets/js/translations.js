@@ -21,6 +21,8 @@ const translations = {
         'title-me': "About Me",
         'title-cv': "Curriculum Vitae",
         'title-blog': "Blog",
+        'blog-col-updated': "Last update",
+        'blog-col-title': "Title",
     },
     'es': {
         'nav-blog': "[ BLOG ]",
@@ -43,5 +45,7 @@ const translations = {
         'title-me': "Sobre mí",
         'title-cv': "Mi CV",
         'title-blog': "Mi blog",
+        'blog-col-updated': "Última actualización",
+        'blog-col-title': "Título",
     }
 };

@@ -173,7 +173,11 @@ async function loadBlogPosts() {
 
         let posts = await response.json();
         posts = posts.filter(post => post.lang === currentLang);
-        posts.sort((a, b) => new Date(b.date) - new Date(a.date));
+        posts.sort((a, b) => {
+            const tb = new Date(b.updated || b.date).getTime();
+            const ta = new Date(a.updated || a.date).getTime();
+            return tb - ta;
+        });
         
         displayBlogPosts(posts);
     } catch (error) {
@@ -191,8 +195,9 @@ function displayBlogPosts(posts) {
         tableBody.innerHTML = '';
         posts.forEach(post => {
             const row = document.createElement('tr');
+            const updated = post.updated || post.date;
             row.innerHTML = `
-                <td>${formatDate(post.date)}</td>
+                <td>${formatDate(updated)}</td>
                 <td><a href="${post.url}">${post.title}</a></td>
             `;
             tableBody.appendChild(row);
@@ -204,11 +209,25 @@ function formatDate(dateString) {
     const lang = resolveLang();
     const locale = lang === 'es' ? 'es-ES' : 'en-US';
 
+    const ymd = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(dateString).trim());
+    if (ymd) {
+        const y = Number(ymd[1]);
+        const m = Number(ymd[2]) - 1;
+        const d = Number(ymd[3]);
+        const date = new Date(Date.UTC(y, m, d));
+        return date.toLocaleDateString(locale, {
+            timeZone: 'UTC',
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+        });
+    }
+
     const date = new Date(dateString);
     return date.toLocaleDateString(locale, {
         year: 'numeric',
         month: 'short',
-        day: 'numeric'
+        day: 'numeric',
     });
 }
 
