@@ -1,7 +1,6 @@
 # How to learn to code in the AI era
 
-> This guide focuses on how to study and build programming skills. It includes resources, online courses and books I recommend. Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.
->
+> This guide focuses on how to study and build programming skills. It includes resources, online courses and books I recommend. Due to the length of each section, I'll be dedicating posts to each one to dive deeper into each topic.<br/>
 > I'm working on a future post to explain 'why' you might want to learn to program.
 
 If you're here, I assume you're interested in learning to program (and/or you're curious about the concept of 'AI'). In this blog post I want to share the resources I've used to teach myself programming over the last few years. If I can spark your curiosity about how to learn this skill, I'll consider it a win. Without further ado, let's get started:
@@ -13,7 +12,12 @@ If you're here, I assume you're interested in learning to program (and/or you're
 - [1. Programming languages, which one should you choose?](#1-programming-languages-which-one-should-you-choose)
 - [2. Resources to learn Python](#2-resources-to-learn-python)
     - [2.1 Theoretical resources](#21-theoretical-resources)
+        - [2.1.1 Online courses](#211-online-courses)
+        - [2.1.2 Technical books](#212-technical-books)
+        - [2.1.3 Official documentation](#213-official-documentation)
     - [2.2 Practical exercises](#22-practical-exercises)
+        - [2.2.1 Practical exercises](#221-practical-exercises)
+        - [2.2.2 Personal projects](#222-personal-projects)
 - [3. How to use AI without sabotaging your learning](#3-how-to-use-ai-without-sabotaging-your-learning)
 - [4. Routines and habits of study](#4-routines-and-habits-of-study)
 - [5. Common errors and how to avoid them](#5-common-errors-and-how-to-avoid-them)
@@ -52,39 +56,57 @@ To answer "which one should you choose?", if I were starting from scratch today 
 - Pick a high-level language, learn basic syntax and programming fundamentals, and use it to practice, explore, and see whether you actually enjoy programming (it's not for everyone, frustration comes with the territory).
 - Treat that language as the tool you use to build and study programming as a discipline: the medium through which you create things and apply the theory you'll keep learning.
 
-From here on, this guide focuses mainly on Python, it's the language I've used the most. Eventually it's worth widening the set of languages you're comfortable with, but you have to start somewhere.
+From here on, this guide focuses mainly on Python, since it's the language I've used the most. Eventually it's worth widening the set of languages you're comfortable with, but you have to start somewhere.
 
 ---
 
 ## 2. Resources to learn Python {2-resources-to-learn-python}
 
-There are countless ways to learn Python today, so many that I like to split them into two pillars: *theoretical resources* and *practical exercises*. Should you learn theory first and practice later? With AI as a coding assistant, I'd strongly recommend doing **both in parallel**. The idea is:
+There are countless ways to learn Python today, so many that I like to split them into two pillars: *theoretical resources* and *practical resources*. Should you learn theory first and practice later? With AI as a coding assistant, I'd strongly recommend doing **both in parallel**. The idea is:
 
-- Learn Python syntax and how to work with the language.
-- Learn core programming concepts and logic.
-- Do practical exercises to apply what you learn.
-- Theory drills about the language itself are also a good way to reinforce what you've learned.
+1. Learn Python syntax and how to work with the language. In parallel, learn core programming concepts and logic.
+2. Do practical exercises to apply what you learn (personal projects). Additionally, theory drills about the language itself are also a good way to reinforce what you've learned.
 
 ### 2.1 Theoretical resources {21-theoretical-resources}
 
 I usually break this pillar into three categories:
 
-- *Online courses*
-- *Books*
-- *Official documentation*
+#### 2.1.1 Online courses {211-online-courses}
 
-Each has value, and some will fit your learning style better. In my experience, online courses, whatever their rigor or difficulty, work well as an *on-ramp*: they help you learn concepts and vocabulary and give you a roadmap to follow (*know what you know, and more importantly, know what you don't*). They're valuable, and I recommend plenty of courses from strong universities, but I've drawn the most knowledge, both theoretical and practical, from *technical books* and *official docs*.
+Online courses from different universities, institutions, etc. These can vary greatly in rigor and difficulty, but they serve as an *on-ramp*: they help you learn concepts, vocabulary, and give you a roadmap to follow. The best ones are available on Youtube, Coursera, Udemy, etc.
 
-### 2.2 Practical exercises {22-practical-exercises}
+#### 2.1.2 Technical books {212-technical-books}
+
+Technical and programming books. These vary greatly in content, but they are very valuable as structured knowledge sources (like a university course syllabus). They're great for having a semi-structured roadmap of topics to learn. I recommend many publishers like O'Reilly, Addison-Wesley, Packt and Springer.
+
+#### 2.1.3 Official documentation {213-official-documentation}
+
+Even in the era of AI, it's always a good idea to refer to the official documentation of a language or its libraries to learn about its usage/best practices. These tools are constantly evolving, so we always have to keep an eye out for new features or improvements. If a new version of a programming language was released, or a library added a feature requested by the community, it's our duty to find out and decide whether to update our stack or stay with the previous versions.
+
+Each has value, and some will fit your learning style better.
+In my experience, online courses, whatever their rigor or difficulty, work well as an *on-ramp*: they help you learn concepts and vocabulary and give you a roadmap to follow (*know what you know, and more importantly, know what you don't*). They're valuable, and I recommend plenty of courses from strong universities, but personally I've drawn the most knowledge, both theoretical and practical, from *technical books* and *official documentation*.
+
+### 2.2 Practical resources {22-practical-resources}
 
 I'll split this second pillar into two categories:
 
-- *Practical exercises*
-- *Personal projects*
+#### 2.2.1 Practical exercises {221-practical-exercises}
 
-Practical exercises apply what you've learned; personal projects apply it in a more realistic setting. By "practical exercise" I mean pulling knowledge from your own head (not outsourcing to AI) to answer a question, fix a small problem, complete or correct syntax, or figure out what a console error means. Anything that forces you to retrieve what you know is mental practice that helps you retain it longer. I highly recommend practical exercises whenever you can. Having AI hand you the answer instantly is useful, but it doesn't train your memory to hold information, in fact, the opposite. Today it's more important than ever to make your brain work through increasingly hard problems.
+Practical exercises apply what you've learned. Think of it like when you were a kid and had to solve math problems without a calculator. Just pencil and paper. The idea is similar: remove unnecessary aids (AI, search the web) to solve small theoretical problems, answer a question, complete or correct syntax, or figure out what a console error means. Anything that forces you to retrieve what you know is mental practice that helps you retain it longer.
 
-Personal projects, on the other hand, apply what you've learned in a "real" context. They're great motivation to keep learning and a way to show your skills in a portfolio for employers or clients. I'd start with small personal projects to apply what you learn, little challenges or reminders of your progress, and let them grow into larger, more complex work: building apps, ML experiments, and so on.
+I highly recommend practical exercises whenever you can. Having AI hand you the answer instantly is useful, but it doesn't train your memory to hold information, in fact, the opposite. Today it's more important than ever to make your brain work through increasingly complex problems.
+
+It makes even more sense to do practical exercises when referring to how to learn math for ML/AI, a topic I'll cover in its own dedicated blog.
+
+#### 2.2.2 Personal projects {222-personal-projects}
+
+Personal projects are a way to apply what you've learned in a real-world context. They're a good motivator to keep learning, and a way to demonstrate your skills in a portfolio that potential employers or clients can see. I recommend starting with small personal projects to apply what you've learned, whether it's small challenges or as a reminder of your learning. After that, these will evolve into increasingly complex projects, developing applications, scientific experiments of ML, etc.
+
+Overcoming the fear of adding and adding lines of code and generating something tangible but less digestible is part of the process. I invite you to if you have ideas (for example: imagine you're a fitness person and you'd like there to be an app that can count macros and micros and estimate calories from a photo of your food) write them down and research what you need to learn to try to create it yourself. Learning how to create this type of services and getting into concepts like architecture, backend, frontend, and databases is very valuable to internalize as soon as possible. Then, it's just a matter of time before you get to work and learn on the fly.
+
+For personal projects, I recommend learning about version control (Git) and repository management (GitHub, GitLab, etc.) as soon as possible. This is essential for collaborating with other developers and having a history of changes in your code.
+
+> Note: personally, I consider 'learning on the fly' as exploring and learning about things/systems I don't know through all the resources I've previously exposed. It's a way to break down a very large problem into smaller, more digestible parts that I'll learn alongside working on a project. <br/> Contrary to what many people think, I don't think 'learning on the fly' implies 'not knowing what you're doing', or that it's not worth learning the fundamentals of the discipline. <br/> I'll talk more about this in the next section.
 
 ---
 
