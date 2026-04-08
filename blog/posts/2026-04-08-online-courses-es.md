@@ -17,7 +17,7 @@ En este post reuní **cursos online** y **canales de YouTube** que me sirvieron 
     - [Backend (canal de YouTube)](#backend-canal-de-youtube)
     - [Arquitectura de software y nivel senior (español)](#arquitectura-de-software-y-nivel-senior-espanol)
 
-**Cómo elijo qué recomiendo**
+**Cómo elijo qué recomiendo**: Para recomendar algún curso, considero tres criterios principales:
 
 1. Los he realizado personalmente y me han sido útiles para aprender.
 2. Son cursos ampliamente recomendados por la comunidad y son impartidos por referentes en la industria.
