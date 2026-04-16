@@ -81,7 +81,7 @@ Online courses from different universities, institutions, etc. These can vary gr
 
 Many of them are available on *Youtube*, *Coursera* or *Udemy*. Many of them are free and of high quality in the content taught.
 
-#### 2.1.2 Technical books {212-technical-books}
+#### 2.1.2 [Technical books](post.html?post=2026-04-09-technical-books-en.md) {212-technical-books}
 
 Technical and programming books. These vary greatly in content, but they are very valuable as structured knowledge sources (like a university course syllabus). They're great for having a semi-structured roadmap of topics to learn. I recommend many publishers like *O'Reilly*, *Addison-Wesley*, *Packt* and *Springer*.
 

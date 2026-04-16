@@ -76,7 +76,7 @@ Cursos online de distintas universidades, instituciones, etc. Estos pueden ser m
 
 Disponibles en plataformas como *Youtube*, *Coursera* o *Udemy*. Muchos de ellos son gratis y de alta calidad en los contenidos impartidos.
 
-#### 2.1.2 Libros técnicos {212-libros-tecnicos}
+#### 2.1.2 [Libros técnicos](post.html?post=2026-04-09-technical-books-es.md) {212-libros-tecnicos}
 
 Libros técnicos y de programación. Estos son muy variados en cuanto a contenido, pero son muy valiosos como fuente de conocimiento estructurado (como el syllabus de un ramo universitario). Sirven mucho para tener un mapa claro de temas sobre los cuales aprender. Recomiendo muchos editoriales como *O'Reilly*, *Addison-Wesley*, *Packt* y *Springer*.
 
