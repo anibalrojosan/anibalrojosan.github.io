@@ -109,12 +109,25 @@ Fundamentals of how information is stored in relational databases, query optimiz
 
 ## 4. Data Engineering Books {#4-data-engineering-books}
 
+Data Engineering is vital because ML models are only as good as the data that feeds them. While a data scientist trains models, a data engineer builds the robust pipelines that ensure the information flow is constant, clean and scalable.
+
+Without these foundations, DS/ML projects fail in production. Mastering data engineering allows you to handle Big Data, optimize computing costs and ensure data quality. It is the bridge that transforms an isolated experiment into a real and reliable solution within any organization.
+
+This selection of books addresses the fundamental conceptos of this area.
+
 | Cover | Description |
 | --- | --- |
 | ![Fundamentals of Data Engineering](images/books/data-engineering/fundamentals-of-data-engineering.png) | **Title:** [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) <br> **Authors:** Joe Rels and Matt Housley <br><br> This is a guide that defines and structures the field of *Data Engineering*, centering on fundamental concepts instead of specific tools. <br> The book focuses on the *data life cycle*, divided into 5 stages: *Generation*, *Storage*, *Ingestion*, *Transformation* and *Serving*, as well as what the authors call *undercurrents* (*security*, *data architecture*, *data management*, etc.), which are responsibilities and transversal disciplines to the entire life cycle. <br> I consider this a very useful guide to understand how data is managed in medium and large organizations, and to understand the limitations and processes behind the data that is consumed, improving collaboration between engineering teams. |
 | ![Designing Data-Intensive Applications](images/books/data-engineering/DDIA.png) | **Title:** [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) <br> **Authors:** [Martin Kleppmann](https://martin.kleppmann.com/) and Chris Riccomini <br><br> Another classic and highly recommended book in software, specifically for the area of *distributed systems* and *data architectures*. <br> It focuses on fundamental concepts and *trade-offs* when developing scalable and maintainable systems where the main challenges are volume, speed and complexity of data. It addresses topics like *data modeling*, *storage* and *recovery*, *partitioning*, *transactions* (ACID principles), *real-time data processing*, etc. <br> The first time I tried to use it as study material, the content was too dense for me because it operates at the design level of complex systems (beyond just writing code and simple software development). <br> I recommend exploring it when you have familiarity with the data flow in real environments, which will allow you to connect theory with the infrastructure challenges the book exposes. |
 
 ## 5. Data Analysis Books {#5-data-analysis-books}
+
+The goal of the *data analyst* is to translate historical data into strategic decisions. Its value lies in transforming figures into actionable *dashboards* and *insights* that replace intuition with evidence.
+He masters tools like *Excel*, *Power BI*, *Tableau* or *Looker*, but his success depends on critical skills: analytical thinking, effective communication and a deep business logic.
+
+If this professional learns also about *data engineering*, he gains total autonomy: he stops relying on third parties to access data, can optimize his own *SQL* queries and builds faster workflows. This makes him a highly efficient and valuable hybrid profile.
+
+This selection of books addresses both technical and soft skills to help you get started in this area.
 
 | Cover | Description |
 | --- | --- |
@@ -125,6 +138,12 @@ Fundamentals of how information is stored in relational databases, query optimiz
 | ![Storytelling with Data](images/books/data-analysis/storytelling-with-data.png) | **Title:** [Storytelling with Data](https://www.storytellingwithdata.com/) <br> **Author:** [Cole Nussbaumer Knaflic](https://www.linkedin.com/in/coleknaflic/) <br><br> This book focuses on the importance of presenting findings through visual storytelling: simplifying charts, directing attention, and tailoring the message to the audience. Choosing visualizations effectively, eliminating clutter, and mastering storytelling strategies (knowing *who* you are talking to, what you *want* them to know, and *how* to present it) are critical soft skills for data-driven decision-making. Highly recommended for anyone familiar with BI tools. |
 
 ## 6. Data Science Books {#6-data-science-books}
+
+The *data scientist* acts as a strategic bridge that translates business problems into mathematical solutions through exploratory analysis, experiment design (*A/B testing*) and model creation/training of *machine learning*. His work goes beyond code: he must be a great storyteller to communicate findings to the direction, ensuring always ethics and quality in data governance. 
+
+Due to the constant advancement of technology, this professional must investigate on his own and stay updated to implement innovations that optimize processes and maintain the company's competitiveness in the long term.
+
+This selection of books addresses critical concepts from both the business and technical skills needed to perform this role.
 
 | Cover | Description |
 | --- | --- |

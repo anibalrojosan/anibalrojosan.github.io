@@ -111,12 +111,25 @@ Fundamentos de como se almacena la información en bases de datos relacionales, 
 
 ## 4. Libros de Data Engineering {#4-libros-de-data-engineering}
 
+Aprender sobre ingeniería de datos es vital porque los modelos de ML solo son tan buenos como los datos que los alimentan. Mientras que un científico de datos entrena modelos, el ingeniero de datos construye las tuberías (pipelines) robustas que garantizan que el flujo de información sea constante, limpio y escalable.
+
+Sin estas bases, los proyectos de DS/ML fallan al pasar a producción. Aprender sobre esta área permite manejar *Big Data*, optimizar costos de computación y asegurar la calidad del dato. Es el puente que transforma un experimento aislado en una solución real y confiable dentro de cualquier empresa.
+
+Esta selección de libros aborda los conceptos fundamentales de esta área.
+
 | Portada | Descripción |
 | --- | --- |
 | ![Fundamentals of Data Engineering](images/books/data-engineering/fundamentals-of-data-engineering.png) | **Nombre:** [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781098119058/) <br> **Autores:** Joe Rels y Matt Housley <br><br> Esta es una guía que define y estructura el campo de *Data Engineering*, centrandose en conceptos fundamentales en vez de herramientas específicas. <br> El libro se centra en *el ciclo de vida de los datos*, dividido en 5 etapas: *Generation*, *Storage*, *Ingestion*, *Transformation* y *Serving*, además de lo que los autores llaman *undercurrents* (*security*, *data architecture*, *data management*, etc.), que son responsabilidades y disciplinas transversales a todo el ciclo de vida. <br> Considero que es una guía muy útil para comprender como se gestionan los datos en medianas y grandes organizaciones, y para comprender limitaciones y procesos detrás de los datos que se consumen, mejorando la colaboración entre equipos de ingeniería. |
 | ![Designing Data-Intensive Applications](images/books/data-engineering/DDIA.png) | **Nombre:** [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) <br> **Autores:** [Martin Kleppmann](https://martin.kleppmann.com/) y Chris Riccomini <br><br> Otro libro clásico y muy recomendado de software, en específico para el área de *sistemas distribuidos* y *arquitectura de datos*. <br> Se centra en los conceptos fundamentales y *trade-offs* a la hora de desarrollar sistemas escalables y mantenibles donde los principales desafíos son el volumen, la velocidad y la complejidad de los datos. Aborda temas como el *modelado de datos*, *almacenamiento* y *recuperación*, *particionamiento*, *transacciones* (principios ACID), *procesamiento de datos en tiempo real*, etc. <br> La primera vez que intenté usarlo como material de estudio, el contenido me resultó excesivamente denso porque opera a nivel de diseño de sistemas complejos (más allá de solamente escribir código y simple desarrollo de software). <br> Recomiendo explorarlo cuando ya tengas familiaridad con el flujo de datos en entornos reales, lo que te permitirá conectar la teoría con los desafíos de infraestructura que el libro expone. |
 
 ## 5. Libros de Data Analysis {#5-libros-de-data-analysis}
+
+El *analista de datos* traduce datos históricos en decisiones estratégicas. Su valor reside en transformar cifras en *dashboards* e *insights* accionables que reemplazan la intuición por evidencia.
+Domina herramientas como *Excel*, *Power BI*, *Tableau* o *Looker*, pero su éxito depende de habilidades críticas: pensamiento analítico, comunicación efectiva y una profunda lógica de negocio.
+
+Si este profesional aprende también sobre *ingeniería de datos*, gana una autonomía total: deja de depender de terceros para acceder a los datos, puede optimizar sus propias consultas *SQL* y construye flujos de trabajo más rápidos. Esto lo convierte en un perfil híbrido altamente eficiente y valorado.
+
+Esta selección de libros aborda las habilidades fundamentales tanto técnicas como blandas para que te introduzcas en esta área.
 
 | Portada | Descripción |
 | --- | --- |
@@ -127,6 +140,13 @@ Fundamentos de como se almacena la información en bases de datos relacionales, 
 | ![Storytelling with Data](images/books/data-analysis/storytelling-with-data.png) | **Nombre:** [Storytelling with Data](https://www.storytellingwithdata.com/) <br> **Autora:** Cole Nussbaumer Knaflic <br><br> Este libro se enfoca en la importancia de presentar hallazgos con narrativa visual: simplificar gráficos, dirigir la atención y adaptar el mensaje a la audiencia. Elegir visualizaciones de manera efectiva, eliminar el caos (*cluttering*) y estrategias de como contar una historia (a *quién* le hablo, qué *quiero* que sepan y *cómo* lo debo exponer) son habilidades blandas críticas a la hora de usar datos para toma de decisiones. Muy recomendado para cualquiera que esté familiarizado con herramientas de BI. |
 
 ## 6. Libros de Data Science {#6-libros-de-data-science}
+
+El *científico de datos* actúa como un puente estratégico que traduce problemas de negocio en soluciones matemáticas mediante el análisis exploratorio, el diseño de experimentos (*A/B testing*) y la creación/entrenamiento de modelos de *machine learning*. Su labor va más allá del código: debe ser un gran storyteller para comunicar hallazgos a la dirección, asegurando siempre la ética y calidad en la gobernanza de los datos. 
+
+Debido al avance constante de la tecnología, es un profesional que debe investigar por su cuenta y mantenerse actualizado para implementar innovaciones que optimicen procesos y mantengan la competitividad de la empresa a largo plazo.
+
+La siguiente selección de libros aborda conceptos críticas tanto desde la perspectiva del negocio como de las habilidades técnicas necesarias para desempeñar este rol.
+
 
 | Portada | Descripción |
 | --- | --- |
