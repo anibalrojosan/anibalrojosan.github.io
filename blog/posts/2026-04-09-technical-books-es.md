@@ -4,7 +4,10 @@ En este post he reunido **libros técnicos** que he usado y que me han sido úti
 
 ## Tabla de contenidos
 
-- [1. ¿Vale la pena leer libros técnicos?](#1-vale-la-pena-leer-libros-tecnicos)
+- [1. Introducción](#1-introducción)
+    - [1.1 ¿Vale la pena leer libros técnicos?](#11-vale-la-pena-leer-libros-tecnicos) 
+    - [1.2 Cómo leer libros técnicos](#12-como-leer-libros-tecnicos)
+    - [1.3 Criterios para esta guía](#13-criterios-para-esta-guía)
 - [2. Libros para aprender a programar con Python](#2-libros-para-aprender-a-programar-con-python)
     - [2.1 Nivel básico](#21-nivel-basico)
     - [2.2 Nivel intermedio/avanzado](#22-nivel-intermedioavanzado)
@@ -24,13 +27,32 @@ En este post he reunido **libros técnicos** que he usado y que me han sido úti
     - [7.5. Libros de Natural Language Processing](#75-libros-de-natural-language-processing)
 - [8. Libros de Generative AI](#8-libros-de-generative-ai)
 
-## 1. ¿Vale la pena leer libros técnicos? {#1-vale-la-pena-leer-libros-tecnicos}
+## 1. Introducción {#1-introducción}
+
+### 1.1 ¿Vale la pena leer libros técnicos? {#11-vale-la-pena-leer-libros-tecnicos}
 
 Como mencioné en mi [guía general para aprender a programar](post.html?post=2026-01-20-learning-to-code-in-the-ai-era-es.md), considero que los libros son excelentes para brindarte un curriculum estructurado el cual seguir. Se habla mucho de que actualmente 'la industria se mueve mucho más rápido que los libros, por lo que estos quedan anticuados muy rápido'. Me gustaría dar mi opinión sobre esto: 
 - Es cierto que, en particular en GenAI, el avance es tan rápido que técnicas y herramientas nacen y quedan 'obsoletas' en poco tiempo, recomiendo echarle un ojo a estos libros para comprender fundamentos y la gran cantidad de subáreas que existen en el mundo de la IA. Hay librerías y frameworks que han sido adoptados de una manera muy rápida por la industria para sacarle provecho a los modelos SOTA de ese momento. Y así de rápido, los nuevos modelos y sus mejoras en *tool calling* y *harness* las han convertido en actores secundarios. Este hecho no te debe hacer creer que los libros que recomendaré no te puedan ser útiles.
 - Por otro lado, hay disciplinas que son fundamentales. Las **matemáticas**, **estadística**, los **principios de la informática** o de cualquier ciencia es conocimiento base que no expira. Los fundamentos son los fundamentos: el cálculo multivariable, álgebra lineal, matemáticas discretas o resolución de problemas es conocimiento base que no expira, y te pueden servir para múltiples disciplinas más alla del desarrollo de software. 
 
-**Cómo elijo qué recomiendo**: Siguiendo los criterios que expuse en mi blog de [cursos online que recomiendo](post.html?post=2026-04-08-online-courses-es.md), para recomendar algún libro, considero los siguientes tres criterios:
+### 1.2 Cómo leer libros técnicos {#12-como-leer-libros-tecnicos}
+
+Un libro técnico no se lee como una novela. Este es el error número uno que no te permite extraer información de manera eficiente y es un funete gratis de frustración. Para que la inversión de tiempo valga la pena, aquí tienes algunos tips:
+
+1. **No leas en orden lineal**: A diferencia de la ficción, puedes saltar. Lee el índice y la introducción para entender el "mapa" del libro. Si ya dominas un tema, sáltalo o dale una lectura rápida (siempre puedes encontrar vacíos en tus conocimientos). Enfócate en los capítulos que resuelven tus dudas actuales.
+
+2. **"Ensuciate las manos"**: Si el libro tiene código o ejercicios, escríbelos tú mismo. No basta con leer el bloque de código y decir "ah, entiendo qué hace". Al teclearlo, te enfrentarás a errores de sintaxis y entenderás la lógica real. Cambia nombres de variables, intenta romper el código, etc.
+
+3. **El repo de GitHub es tu mejor amigo**: Si un libro cuenta con documentación propio es un recurso fundamental el cual tiene que sacarle provecho. Es muy común que hayan notebooks complemetarios por cada capítulo, y los 'issues' del repo pueden tener fe de erratas y actualizaciones.
+
+4. **Lee en tres pasadas**: primero una pasada rápida: Hojea el capítulo, mira los diagramas, las negritas y los resúmenes. Entiende el "qué". Luego, lectura activa: Lee con calma y subraya o toma notas. Entiende el "cómo". Finalmente, ejecuta: Haz los ejercicios y retos. Entiende el "por qué". No es necesario leer un capitulo completo antes de ejercitar lo aprendido.
+
+5. **Crea un proyecto paralelo**:
+Usa el libro como manual de referencia para construir algo propio. Ejemplo: si el libro es sobre "Escapar de los Notebooks", no solo hagas los ejercicios del libro; intenta convertir uno de tus propios notebooks viejos en una aplicación real siguiendo los pasos del autor. Si es sobre sintaxis de una librería, abre un notebook aparte, descarga un dataset y practica con la sintaxis. Cualquier excusa es buena para poner en práctica lo aprendido.
+
+### 1.3 Criterios para esta guía {#13-criterios-para-esta-guía}
+
+*Siguiendo los criterios que expuse en mi blog de [cursos online que recomiendo](post.html?post=2026-04-08-online-courses-es.md), para recomendar algún libro, considero los siguientes tres criterios:
 
 1. Los he leído (en mayor o menor medida) y me han sido útiles para aprender.
 2. Son libros ampliamente recomendados por la comunidad y son escritos por referentes en la industria.

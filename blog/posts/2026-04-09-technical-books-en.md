@@ -4,7 +4,10 @@ In this post I gathered **technical books** that I've used and that have been us
 
 ## Table of contents
 
-- [1. Should I read technical books?](#1-should-i-read-technical-books)
+- [1. Introduction](#1-introduction)
+    - [1.1 Should I read technical books?](#11-should-i-read-technical-books)
+    - [1.2 How to read technical books](#12-how-to-read-technical-books)
+    - [1.3 Criteria for this guide](#13-criteria-for-this-guide)
 - [2. Python Books](#2-python-books)
     - [2.1 Basic Level](#21-basic-level)
     - [2.2 Intermediate/Advanced Level](#22-intermediateadvanced-level)
@@ -23,13 +26,32 @@ In this post I gathered **technical books** that I've used and that have been us
     - [6.5. Natural Language Processing Books](#65-natural-language-processing-books)
 - [7. Generative AI Books](#7-generative-ai-books)
 
-## 1. Should I read technical books? {#1-should-i-read-technical-books}
+## 1. Introduction {#1-introduction}
+
+### 1.1 Should I read technical books? {#11-should-i-read-technical-books}
 
 As I mentioned in my [general guide to learning how to program](post.html?post=2026-01-20-learning-to-code-in-the-ai-era-en.md), I consider that books are excellent for giving you a structured curriculum to follow. It is often said that currently 'the industry moves much faster than books, so these quickly become outdated'. I would like to give my opinion on this: 
 - It is true that, particularly in GenAI, the advance is so fast that techniques and tools are born and become 'obsolete' in a short time, I recommend taking a look at these books to understand fundamentals and the great number of sub-areas that exist in the world of AI. There are libraries and frameworks that have been adopted by the industry very quickly to take advantage of the SOTA models of that moment. And so quickly, the new models and their improvements in *tool calling* and *harness* have made them secondary actors. This fact should not make you believe that the books I recommend are not useful to you.
 - On the other hand, there are disciplines that are fundamental. The **mathematics**, **statistics**, the **principles of computer science** or any science is base knowledge that does not expire. The foundations are the foundations: multivariate calculus, linear algebra, discrete mathematics or problem solving is base knowledge that does not expire, and can serve for multiple disciplines beyond software development. 
 
-**How I choose what to recommend**: Following my criteria from my blog post on [online courses that I recommend](post.html?post=2026-04-08-online-courses-en.md), to recommend any book, I consider the following three criteria:
+### 1.2 How to read technical books {#12-how-to-read-technical-books}
+
+A technical book is not read like a novel. This is the first mistake that prevents you from extracting information efficiently and is a free source of frustration. To make the investment of time worthwhile, here are some tips:
+
+1. **Do not read linearly**: Unlike fiction, you can skip. Read the index and introduction to understand the "map" of the book. If you already master a topic, skip it or give it a quick read (you can always find gaps in your knowledge). Focus on the chapters that solve your current questions.
+
+2. **"Get your hands dirty"**: If the book has code or exercises, write it yourself. It is not enough to read the code block and say "oh, I understand what it does". By typing it, you will face syntax errors and understand the real logic. Change variable names, try to break the code, etc.
+
+3. The GitHub repo is your best friend: If a book has its own documentation, it is a fundamental resource that you have to take advantage of. It is very common to have complementary notebooks for each chapter, and the 'issues' of the repo can have errata and updates.
+
+4. Read in three passes: first a quick pass: skim the chapter, look at the diagrams, bold and summaries. Understand the "what". Then, active reading: read slowly and underline or take notes. Understand the "how". Finally, execute: Do the exercises and challenges. Understand the "why". You do not need to read a chapter completely before exercising what you have learned.
+
+5. Create a parallel project:
+Use the book as a reference to build something yourself. Example: if the book is about "Escaping the Notebooks", don't just do the book's exercises; try to convert one of your old notebooks into a real application following the author's steps. If it's about the syntax of a library, open a separate notebook, download a dataset and practice with the syntax. Any excuse is good to put into practice what you have learned.
+
+### 1.3 Criteria for this guide {#13-criteria-for-this-guide}
+
+Following my criteria from my blog post on [online courses that I recommend](post.html?post=2026-04-08-online-courses-en.md), to recommend any book, I consider the following three criteria:
 
 1. I have read them (to varying degrees) and they have been useful for me to learn.
 2. They are widely recommended by the community and are written by referents in the industry.
