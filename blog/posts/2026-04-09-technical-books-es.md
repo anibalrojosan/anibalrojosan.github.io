@@ -38,6 +38,16 @@ Como mencioné en mi [guía general para aprender a programar](post.html?post=20
 
 ## 2. Libros para aprender a programar con Python {#2-libros-para-aprender-a-programar-con-python}
 
+Python es considerado el lenguaje de programación ideal si estás interesado en DS/ML/AI. Es por lejos el lenguaje más usado en esta área debido a que:
+
+- Es un lenguaje versátil: además de para computación científica puede usarse para *backend*/*frontend*/*data engineering*, etc.
+- Es fácil de aprender y leer (sintáxis muy parecida al inglés)
+- Es de alto nivel: permite abstraerse de la máquina y enfocarse en la lógica de programación.
+
+En esta sección, he dividido los libros en dos niveles: 
+- **Nivel básico**: para personas sin conocimientos de programación y que han decidido aprender Python como su primer lenguaje.
+- **Nivel intermedio/avanzado**: para aquellos que ya tienen conocimientos básicos de Python y quieren profundizar en sus conceptos fundamentales y en lo que es capaz de ofrecer este lenguaje.
+
 ### 2.1 Nivel básico {#21-nivel-basico}
 
 | Portada | Descripción |
@@ -53,6 +63,14 @@ Como mencioné en mi [guía general para aprender a programar](post.html?post=20
 | ![Fluent Python](images/books/python/fluent-python.png) | **Nombre:** [Fluent Python](https://www.fluentpython.com/) <br> **Autor:** [Luciano Ramalho](https://www.linkedin.com/in/lucianoramalho/?originalSubdomain=br) <br><br> La primera vez que me crucé con este libro creí que estaba enfocado en principiantes. Tan pronto comencé a leerlo, me di cuenta que no entendía nada, vi su índice y estaba lleno de conceptos de los que no había escuchado. Resulta que este libro en realidad es una guía más avanzada. <br> Toca temas como *dunder methods*, *context managers*, *generadores*, *iteradores*, *closures*, *decoradores*, *programación orientada a objetos*, *type hints* (muy usados en ML/AI), *concurrencia* y *metaprogramación*. <br> Si ya tienes conocimientos de Python, este libro es una excelente opción para profundizar en qué más ofrece este lenguaje además de lo básico. |
 
 ## 3. Libros de software {#3-libros-de-software}
+
+Debido a la adopción cada vez más rápida de herramientas de GenAI, áreas que históricamente han usado código principalmente como un medio para resolver problemas han incorporado herramientas de desarrollo de software para crear sistemas completos. Hace 10-15 años bastaba con tener una base sólida en matemáticas, aprender un poco de programación para poder analizar datos en notebooks aislados y presentar resultados. Hoy en día se espera poder crear aplicaciones completas que incorporen análisis de datos avanzado y modelos de ML/AI. Esto abre un abanico de posibilidades para innovar, por lo que comprender los fundamentos de *ciencia de la computación* y *ingeniería de software* es fundamental.
+
+Esta es un área gigantesca que aborda un montón de temas diferentes y en constante evolución, por lo que el aprendizaje continuo es crítico. Para mantenerlo más o menos simple y fácil de seguir, he dividido esta sección en libros en cuatro categorías:
+- **Nivel básico**: fundamentos de como funciona la computación y buenas prácticas para escribir código limpio y mantenible.
+- **Nivel intermedio/avanzado**: arquitectura y diseño de software, patrones de diseño, etc.
+- **Estructuras de datos y algoritmos**: cómo se almacenan y procesan los datos en la memoria y en disco, y algoritmos comunes (búsqueda y ordenamiento, etc.). Es un área fundamnetal para desarrollar habilidades de resolución de problemas, pensamiento algorítmico y optimización de recursos.
+- **Bases de datos**: fundamentos de como se almacena la información en bases de datos relacionales, optimización de consultas, etc.
 
 ### 3.1 Nivel básico (aprendiendo a programar) {#31-nivel-basico-aprendiendo-a-programar}
 | Portada | Descripción |

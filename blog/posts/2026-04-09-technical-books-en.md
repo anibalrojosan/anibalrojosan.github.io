@@ -37,6 +37,15 @@ As I mentioned in my [general guide to learning how to program](post.html?post=2
 
 ## 2. Python Books {#2-python-books}
 
+Python is considered the ideal programming language if you are interested in DS/ML/AI. It is by far the most used language in this area because:
+- It is a versatile language: it can be used not only for scientific computing, but also for backend/frontend/data engineering, etc.
+- It is easy to learn and read (syntax very similar to English)
+- It is a high-level language: it allows abstracting away from the machine and focusing on programming logic.
+
+In this section, I have divided the books into two levels:
+- **Basic level**: for people without programming knowledge and who have decided to learn Python as their first programming language.
+- **Intermediate/advanced level**: for those who already have basic knowledge of Python and want to deepen their fundamental concepts and what this language can offer.
+
 ### 2.1 Basic Level {#21-basic-level}
 
 | Cover | Description |
@@ -52,6 +61,14 @@ As I mentioned in my [general guide to learning how to program](post.html?post=2
 | ![Fluent Python](images/books/python/fluent-python.png) | **Title:** [Fluent Python](https://www.fluentpython.com/) <br> **Author:** [Luciano Ramalho](https://www.linkedin.com/in/lucianoramalho/?originalSubdomain=br) <br><br> The first time I came across this book I thought it was focused on beginners. As soon as I started reading it, I realized I didn't understand anything, I looked at its table of contents and it was full of concepts I hadn't heard of. Turns out this book is actually a more advanced guide. <br> It covers topics like *dunder methods*, *context managers*, *generators*, *iterators*, *closures*, *decorators*, *object-oriented programming*, *type hints* (very used in ML/AI), *concurrency* and *metaprogramming*. <br> If you already know Python, this book is an excellent option to deepen what else this language offers besides the basics. |
 
 ## 3. Software Books {#3-software-books}
+
+Due to the increasingly rapid adoption of GenAI tools, areas that historically have used code mainly as a means to solve problems have incorporated software development tools to create complete systems. Ten to fifteen years ago, it was enough to have a solid foundation in mathematics, learn a little programming to be able to analyze data in isolated notebooks and present results. Today, it is expected to be able to create complete applications that incorporate advanced data analysis and ML/AI models. This opens up a wide range of possibilities to innovate, so understanding the fundamentals of *computer science* and *software engineering* is a must.
+
+This is a huge area that addresses a lot of different topics and is constantly evolving, so continuous learning is critical. To keep it relatively simple and easy to follow, I have divided this section into books in four categories:
+- **Basic level**: fundamentals of how computers work and good practices for writing clean and maintainable code.
+- **Intermediate/advanced level**: software architecture and design, design patterns, etc.
+- **Data structures and algorithms**: how data is stored and processed in memory and disk, and common algorithms (search and sorting, etc.). It is a fundamental area to develop problem-solving skills, algorithmic thinking and resource optimization.
+- **Databases**: fundamentals of how information is stored in relational databases, query optimization, etc.
 
 ### 3.1 Basic Level (Learning to Code) {#31-basic-level-learning-to-code}
 | Cover | Description |
