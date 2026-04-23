@@ -43,8 +43,9 @@ Python es considerado el lenguaje de programación ideal si estás interesado en
 - Es un lenguaje versátil: además de para computación científica puede usarse para *backend*/*frontend*/*data engineering*, etc.
 - Es fácil de aprender y leer (sintáxis muy parecida al inglés)
 - Es de alto nivel: permite abstraerse de la máquina y enfocarse en la lógica de programación.
+- Posee una gran cantidad de librerías y frameworks que han sido adoptados de una manera muy rápida por la industria y que son muy usados en el día a día, tanto para el desarrollo de software como para el análisis de datos y el machine learning.
 
-En esta sección, he dividido los libros en dos niveles: 
+En esta sección nos enfocaremos solo en aprender Python. Para ello he dividido los libros en dos niveles: 
 - **Nivel básico**: para personas sin conocimientos de programación y que han decidido aprender Python como su primer lenguaje.
 - **Nivel intermedio/avanzado**: para aquellos que ya tienen conocimientos básicos de Python y quieren profundizar en sus conceptos fundamentales y en lo que es capaz de ofrecer este lenguaje.
 

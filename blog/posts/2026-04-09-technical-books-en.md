@@ -41,8 +41,9 @@ Python is considered the ideal programming language if you are interested in DS/
 - It is a versatile language: it can be used not only for scientific computing, but also for backend/frontend/data engineering, etc.
 - It is easy to learn and read (syntax very similar to English)
 - It is a high-level language: it allows abstracting away from the machine and focusing on programming logic.
+- It has a large number of libraries and frameworks that have been adopted very quickly by the industry and are very used in the day to day, both for software development and for data analysis and machine learning.
 
-In this section, I have divided the books into two levels:
+In this section we will focus only on learning Python. For this, I have divided the books into two levels:
 - **Basic level**: for people without programming knowledge and who have decided to learn Python as their first programming language.
 - **Intermediate/advanced level**: for those who already have basic knowledge of Python and want to deepen their fundamental concepts and what this language can offer.
 
