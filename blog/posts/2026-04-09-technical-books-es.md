@@ -52,7 +52,7 @@ Usa el libro como manual de referencia para construir algo propio. Ejemplo: si e
 
 ### 1.3 Criterios para esta guía {#13-criterios-para-esta-guía}
 
-*Siguiendo los criterios que expuse en mi blog de [cursos online que recomiendo](post.html?post=2026-04-08-online-courses-es.md), para recomendar algún libro, considero los siguientes tres criterios:
+Siguiendo los criterios que expuse en mi blog de [cursos online que recomiendo](post.html?post=2026-04-08-online-courses-es.md), para recomendar algún libro, considero los siguientes tres criterios:
 
 1. Los he leído (en mayor o menor medida) y me han sido útiles para aprender.
 2. Son libros ampliamente recomendados por la comunidad y son escritos por referentes en la industria.
