@@ -45,11 +45,11 @@ Python es considerado el lenguaje de programación ideal si estás interesado en
 - Es de alto nivel: permite abstraerse de la máquina y enfocarse en la lógica de programación.
 - Posee una gran cantidad de librerías y frameworks que han sido adoptados de una manera muy rápida por la industria y que son muy usados en el día a día, tanto para el desarrollo de software como para el análisis de datos y el machine learning.
 
-En esta sección nos enfocaremos solo en aprender Python. Para ello he dividido los libros en dos niveles: 
-- **Nivel básico**: para personas sin conocimientos de programación y que han decidido aprender Python como su primer lenguaje.
-- **Nivel intermedio/avanzado**: para aquellos que ya tienen conocimientos básicos de Python y quieren profundizar en sus conceptos fundamentales y en lo que es capaz de ofrecer este lenguaje.
+En esta sección nos enfocaremos solo en aprender Python. Para ello he dividido los libros en dos niveles:
 
 ### 2.1 Nivel básico {#21-nivel-basico}
+
+Recursos para personas sin conocimientos de programación y que han decidido aprender Python como su primer lenguaje.
 
 | Portada | Descripción |
 | --- | --- |
@@ -58,6 +58,8 @@ En esta sección nos enfocaremos solo en aprender Python. Para ello he dividido 
 | ![Think Python](images/books/python/think-python.png) | **Nombre:** [Think Python](https://allendowney.github.io/ThinkPython/) (Web oficial) <br> **Autor:** [Allen B. Downey](https://www.allendowney.com/wp/) <br><br> Si bien es un libro para principiantes, aborda también más avanzados como *programación orientada a objetos* (OOP) y *list comprehensions*. Recomiendo comenzar con este si ya conoces un poco de Python y quieres profundizar en sus conceptos fundamentales. |
 
 ### 2.2 Nivel intermedio/avanzado {#22-nivel-intermedioavanzado}
+
+Recursos para aquellos que ya tienen conocimientos básicos de Python y quieren profundizar en sus conceptos fundamentales y en lo que es capaz de ofrecer este lenguaje.
 
 | Portada | Descripción |
 | --- | --- |
@@ -68,12 +70,11 @@ En esta sección nos enfocaremos solo en aprender Python. Para ello he dividido 
 Debido a la adopción cada vez más rápida de herramientas de GenAI, áreas que históricamente han usado código principalmente como un medio para resolver problemas han incorporado herramientas de desarrollo de software para crear sistemas completos. Hace 10-15 años bastaba con tener una base sólida en matemáticas, aprender un poco de programación para poder analizar datos en notebooks aislados y presentar resultados. Hoy en día se espera poder crear aplicaciones completas que incorporen análisis de datos avanzado y modelos de ML/AI. Esto abre un abanico de posibilidades para innovar, por lo que comprender los fundamentos de *ciencia de la computación* y *ingeniería de software* es fundamental.
 
 Esta es un área gigantesca que aborda un montón de temas diferentes y en constante evolución, por lo que el aprendizaje continuo es crítico. Para mantenerlo más o menos simple y fácil de seguir, he dividido esta sección en libros en cuatro categorías:
-- **Nivel básico**: fundamentos de como funciona la computación y buenas prácticas para escribir código limpio y mantenible.
-- **Nivel intermedio/avanzado**: arquitectura y diseño de software, patrones de diseño, etc.
-- **Estructuras de datos y algoritmos**: cómo se almacenan y procesan los datos en la memoria y en disco, y algoritmos comunes (búsqueda y ordenamiento, etc.). Es un área fundamnetal para desarrollar habilidades de resolución de problemas, pensamiento algorítmico y optimización de recursos.
-- **Bases de datos**: fundamentos de como se almacena la información en bases de datos relacionales, optimización de consultas, etc.
 
 ### 3.1 Nivel básico (aprendiendo a programar) {#31-nivel-basico-aprendiendo-a-programar}
+
+Fundamentos de como funciona la computación y buenas prácticas para escribir código limpio y mantenible.
+
 | Portada | Descripción |
 | --- | --- |
 | ![How Computers Really Work](images/books/software/how-computers-really-work.png) | **Nombre:** [How Computers Really Work](https://www.amazon.com/How-Computers-Really-Work-Explained/dp/161729875X) <br> **Autor:** [Matthew Justice](https://www.mattjustice.com/) <br><br> Este libro es una guía para entender cómo funcionan los computadores, y lo que permite su uso en el día a día. Aborda desde bajo nivel (*circuitos*, *binario*, *memoria*) hasta alto nivel (*sistemas operativos*, *lenguajes de programación*, *cómo funciona el internet*). <br> Recomiendo además de saber como *usar* un computador para programar, entender como muchas de las cosas que asumimos como normales funcionan por debajo. Con conocimiento básico de matemáticas y ciencias es suficiente para entenderlo. <br> |
@@ -81,12 +82,18 @@ Esta es un área gigantesca que aborda un montón de temas diferentes y en const
 | ![The Pragmatic Programmer](images/books/software/thepragmaticprogrammer.png) | **Nombre:** [The Pragmatic Programmer: Your Journey to Mastery](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/) <br> **Autores:** Andrew Hunt y Dave Thomas <br><br> Esta es una guía práctica para mejorar la calidad de código. Aquí se habla del famoso concepto de DRY (*Don't Repeat Yourself*) y otras buenas prácticas para escribir código limpio, simple y mantenible. También habla sobre como aprender nuevas herramientas y como realizar pruebas rigurosas. <br> Considero que su enfoque en fomentar la curiosidad y el aprendizaje continuo es crítico para poder adaptarse a una industria en constante cambio. Es un libro que puedes revisar una y otra vez independiente de tu seniority.<br> |
 
 ### 3.2 Nivel intermedio/avanzado (arquitectura y diseño de software) {#32-nivel-intermedioavanzado-arquitectura-y-diseno-de-software}
+
+Luego de sentirte cómo programando, es momento de aprender como empaquetar tu código para crear sistemas complejos. Esto implica entender sobre arquitecturas de software, patrones de diseño, etc.
+
 | Portada | Descripción |
 | --- | --- |
-| ![Fundamentals of Software Architecture](images/books/software/fundamentals-of-software-architecture.png) | **Nombre:** [Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) <br> **Autores:** Mark Richards y Neal Ford <br><br> Este libro sirve como introducción a la arquitectura de software. Presenta un mapa general de esta disciplina, dividiendo el libro en dos grandes tópicos: <br> - Primero, los **fundamentos** como la *modularidad* y el *pensamiento arquitectónico*. <br> - Segundo, los **patrones** de diseño más comunes (*por capas*, *monolito*, *microservicios*, etc.) y sus ventajas y desventajas. <br> Una vez dominado el cómo escribir código, es necesario comprender como este se empaqueta y modulariza. Este conjunto de módulos genera finalmente una aplicación, y hay muchas filosofías de diseño dependiendo del tamaño y complejidad del sistema final que queremos crear. <br> Lo recomiendo mucho para cuando quieras introducirte en esta área.|
+| ![Fundamentals of Software Architecture](images/books/software/fundamentals-of-software-architecture.png) | **Nombre:** [Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) <br> **Autores:** Mark Richards y Neal Ford <br><br> Este libro sirve como introducción a la arquitectura de software, presentando un mapa general de esta área. <br> El libro se divide en dos grandes tópicos: <br> - Primero, los **fundamentos** como la *modularidad* y el *pensamiento arquitectónico*. <br> - Segundo, los **patrones** de diseño más comunes (*por capas*, *monolito*, *microservicios*, etc.) y sus ventajas y desventajas. <br> Una vez dominado el cómo escribir código, es necesario comprender como este se empaqueta y modulariza. Este conjunto de módulos genera finalmente una aplicación, y hay muchas filosofías de diseño dependiendo del tamaño y complejidad del sistema final que queremos crear. <br> Lo recomiendo mucho para cuando quieras introducirte en esta área.|
 | ![Software Architecture: The Hard Parts](images/books/software/software-arquitecture-the-hard-parts.png) | **Nombre:** [Software Architecture: The Hard Parts](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) <br> **Autores:** Neal Ford, Mark Richards, Pramod Sadalage y Zhamak Dehghani <br><br> Podrías pensar en este libro como una continuación del anterior. Hecho por el mismo grupo de consultores, consiste en un análisis más profundo centrado en situaciones donde no existen unas *méjores prácticas* tan claras (será necesario tomar la *menos mala*). <br>Explica como romper un monolito y como volver a unir servicios (*comunicacion* y *transaccionalidad*) y distintos *trades-offs* que se deben considerar al elegir una arquitectura de software. El enfoque es interesante ya que los autores se colocan en el lugar de una empresa ficticia (llamada *Sysops Squad*) y la usan para exponer y justificar sus puntos. Además profundiza aún más en almacenamiento y manipulación de datos que el libro anterior (arquitecturas de datos como *Data Mesh*). <br> Recomiendo este libro una vez ya hayas hecho pequeños proyectos y hayas experimentado con distintas arquitecturas, ya que considero que es más útil para desarrolladores con cierto grado de *seniority*.|
 
 ### 3.3 Estructuras de datos y algoritmos {#33-estructuras-de-datos-y-algoritmos}
+
+Fundamentos de como se almacenan y procesan los datos en la memoria y en disco, y algoritmos comunes (búsqueda y ordenamiento, etc.). Es un área fundamental para desarrollar habilidades de resolución de problemas, pensamiento algorítmico y optimización de recursos.
+
 | Portada | Descripción |
 | --- | --- |
 | ![Grokking Algorithms](images/books/software/grokking-algorithms.webp) | **Nombre:** [Grokking Algorithms](https://www.oreilly.com/library/view/grokking-algorithms/9781617292231/) <br> **Autor:** Aditya Y. Bhargava <br><br> Esta es una guía con más de 400 ilustraciones centrada en los algoritmos más importantes (*búsqueda*, *ordenamiento*, *algoritmos de grafos*, etc.), además de las estructuras de datos fundamentales (*árboles*, *hashes*, *colas*, etc.). Por supuesto, también incluye tanto ejercicios teóricos como ejemplos en código.<br> Si no sabes nada de la teoría de DSA, recomiendo este libro como tu primera incursión debido a que las ilustraciones facilitan mucho la intuición detrás de estos conceptos. Perfecto para acompañar con cursos introductorios de DSA.|
@@ -94,6 +101,9 @@ Esta es un área gigantesca que aborda un montón de temas diferentes y en const
 | ![The Art of Computer Programming](images/books/software/the-art-of-computer-programming.jpg) | **Nombre:** The Art of Computer Programming <br> **Autor:** [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/) <br><br> Esta es una serie de libros clásicos en lo referente al análisis de algoritmos y estructuras de datos fundamentales. Acá la dificultad sube bastante con respecto a los anteriores libros. Su contenido es mucho más tecnico, por lo que es más dificil de digerir. <br> Es bastante denso (posee 7 volúmenes), por lo que requiere de bastante tiempo de dedicación... varios años diría yo. Es básicamente una biblia en lo referente a DSA, muy recomendado si quieres profundizar en ellos desde un punto de vista teórico.<br> |
 
 ### 3.4 Bases de datos {#34-bases-de-datos}
+
+Fundamentos de como se almacena la información en bases de datos relacionales, optimización de consultas, etc.
+
 | Portada | Descripción |
 | --- | --- |
 | ![Database System Concepts, 6ta edición](images/books/databases/databases-system-concepts.png) | **Nombre:** [Database System Concepts](https://www.oreilly.com/library/view/database-system-concepts/9780136086233/) <br> **Autores:** Abraham Silberschatz, Henry F. Korth y S. Sudarshan <br><br> Este es texto universitario de asignatura de bases de datos completa. Abarca prácticamente todo lo necesario: *modelo relacional*, *SQL*, *diseño* (ER, normalización), *transacciones*, *control de concurrencia*, *recuperación*, *índices*, *procesamiento y optimización de consultas*, entre otros temas. <br> Lo recomiendo como una primera exposición a DBMS a nivel conceptual y algoritmico, aunque cierto rigor matemático y paciencia es requerida. Es perfecto para comprender bases de datos más allá de operaciones CRUD y optimización de consultas. |

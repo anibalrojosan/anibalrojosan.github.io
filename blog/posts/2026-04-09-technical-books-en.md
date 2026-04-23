@@ -44,10 +44,10 @@ Python is considered the ideal programming language if you are interested in DS/
 - It has a large number of libraries and frameworks that have been adopted very quickly by the industry and are very used in the day to day, both for software development and for data analysis and machine learning.
 
 In this section we will focus only on learning Python. For this, I have divided the books into two levels:
-- **Basic level**: for people without programming knowledge and who have decided to learn Python as their first programming language.
-- **Intermediate/advanced level**: for those who already have basic knowledge of Python and want to deepen their fundamental concepts and what this language can offer.
 
 ### 2.1 Basic Level {#21-basic-level}
+
+Resources for people without programming knowledge and who have decided to learn Python as their first programming language.
 
 | Cover | Description |
 | --- | --- |
@@ -56,6 +56,8 @@ In this section we will focus only on learning Python. For this, I have divided 
 | ![Think Python](images/books/python/think-python.png) | **Title:** [Think Python](https://allendowney.github.io/ThinkPython/) <br> **Author:** [Allen B. Downey](https://www.allendowney.com/wp/) <br><br> While it is a book for beginners, it also addresses more advanced topics like *object-oriented programming* (OOP) and *list comprehensions*. I recommend starting with this if you already know a bit of Python and want to deepen its fundamental concepts. |
 
 ### 2.2 Intermediate/Advanced Level {#22-intermediateadvanced-level}
+
+Resources for those who already have basic knowledge of Python and want to deepen their fundamental concepts and what this language can offer.
 
 | Cover | Description |
 | --- | --- |
@@ -66,12 +68,11 @@ In this section we will focus only on learning Python. For this, I have divided 
 Due to the increasingly rapid adoption of GenAI tools, areas that historically have used code mainly as a means to solve problems have incorporated software development tools to create complete systems. Ten to fifteen years ago, it was enough to have a solid foundation in mathematics, learn a little programming to be able to analyze data in isolated notebooks and present results. Today, it is expected to be able to create complete applications that incorporate advanced data analysis and ML/AI models. This opens up a wide range of possibilities to innovate, so understanding the fundamentals of *computer science* and *software engineering* is a must.
 
 This is a huge area that addresses a lot of different topics and is constantly evolving, so continuous learning is critical. To keep it relatively simple and easy to follow, I have divided this section into books in four categories:
-- **Basic level**: fundamentals of how computers work and good practices for writing clean and maintainable code.
-- **Intermediate/advanced level**: software architecture and design, design patterns, etc.
-- **Data structures and algorithms**: how data is stored and processed in memory and disk, and common algorithms (search and sorting, etc.). It is a fundamental area to develop problem-solving skills, algorithmic thinking and resource optimization.
-- **Databases**: fundamentals of how information is stored in relational databases, query optimization, etc.
 
 ### 3.1 Basic Level (Learning to Code) {#31-basic-level-learning-to-code}
+
+Fundamentals of how computers work and good practices for writing clean and maintainable code.
+
 | Cover | Description |
 | --- | --- |
 | ![How Computers Really Work](images/books/software/how-computers-really-work.png) | **Title:** [How Computers Really Work](https://www.amazon.com/How-Computers-Really-Work-Explained/dp/161729875X) <br> **Author:** [Matthew Justice](https://www.mattjustice.com/) <br><br> As it name says, this book covers everything about how computers work, and what allows their use in everyday life. It covers from low level (*circuits*, *binary*, *memory*) to high level (*operating systems*, *programming languages*, *how the internet works*). <br> I recommend, in addition to knowing how to *use* a computer to program, to understand how many of the things we take for granted work below. With basic knowledge of mathematics and science is enough to understand it. <br> |
@@ -79,12 +80,18 @@ This is a huge area that addresses a lot of different topics and is constantly e
 | ![The Pragmatic Programmer](images/books/software/thepragmaticprogrammer.png) | **Title:** [The Pragmatic Programmer: Your Journey to Mastery](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/) <br> **Authors:** Andrew Hunt and Dave Thomas <br><br> This is a practical guide to improve code quality. Here the famous concept of DRY (*Don't Repeat Yourself*) and other best practices for writing clean, simple and maintainable code are discussed. It also talks about how to learn new tools and how to perform rigorous tests. <br> I consider that its focus on fostering curiosity and continuous learning is critical to being able to adapt to an industry in constant change. It is a book that you can review again and again regardless of your seniority.<br> |
 
 ### 3.2 Intermediate/Advanced Level (Software Architecture and Design) {#32-intermediateadvanced-level-software-architecture-and-design}
+
+After feeling like you are programming, it is time to learn how to package your code to create complex systems. This involves understanding about software architecture, design patterns, etc.
+
 | Cover | Description |
 | --- | --- |
 | ![Fundamentals of Software Architecture](images/books/software/fundamentals-of-software-architecture.png) | **Title:** [Fundamentals of Software Architecture](https://www.oreilly.com/library/view/fundamentals-of-software/9781492043447/) <br> **Authors:** Mark Richards and Neal Ford <br><br> This book presents a general map of this discipline, dividing the book into two large topics. First, the **fundamentals** like *modularity* and *architectural thinking*, and second, the **patterns** of the most common design (*layered*, *monolith*, *microservices*, etc.) and their advantages and disadvantages. <br> Once you have mastered how to write code, it is necessary to understand how this is packaged and modularized. This set of modules finally generates an application, and there are many design philosophies depending on the size and complexity of the final system we want to create. <br> I recommend this book a lot when you want to introduce yourself into this area.|
 | ![Software Architecture: The Hard Parts](images/books/software/software-arquitecture-the-hard-parts.png) | **Title:** [Software Architecture: The Hard Parts](https://www.oreilly.com/library/view/software-architecture-the/9781492086888/) <br> **Authors:** Neal Ford, Mark Richards, Pramod Sadalage and Zhamak Dehghani <br><br> You might think of this book as a continuation of the previous one. Made by the same group of consultants, it is a deeper analysis focused on situations where there are no clear *best practices* (it will be necessary to take the *least bad*). <br> It explains how to break a monolith and how to reunite services (*communication* and *transactionality*) and different *trade-offs* that must be considered when choosing a software architecture. The focus is interesting because the authors place themselves in the place of a fictitious company (called *Sysops Squad*) and use it to expose and justify their points. Additionally, it deepens even more in data storage and manipulation than the previous book (data architectures like *Data Mesh*). <br> I recommend this book once you have already made small projects and have experimented with different architectures, since I consider it more useful for developers with a certain degree of *seniority*.|
 
 ### 3.3 Data Structures and Algorithms {#33-data-structures-and-algorithms}
+
+How data is stored and processed in memory and disk, and common algorithms (search and sorting, etc.). It is a fundamental area to develop problem-solving skills, algorithmic thinking and resource optimization.
+
 | Cover | Description |
 | --- | --- |
 | ![Grokking Algorithms](images/books/software/grokking-algorithms.webp) | **Title:** [Grokking Algorithms](https://www.oreilly.com/library/view/grokking-algorithms/9781617292231/) <br> **Author:** Aditya Y. Bhargava <br><br> This is a guide with more than 400 illustrations centered on the most important algorithms (*search*, *sorting*, *graph algorithms*, etc.), as well as the fundamental data structures (*trees*, *hashes*, *queues*, etc.). Of course, it also includes both theoretical exercises and code examples.<br> If you don't know anything about DSA theory, I recommend this book as your first introduction because the illustrations facilitate the intuition behind these concepts. |
@@ -92,6 +99,9 @@ This is a huge area that addresses a lot of different topics and is constantly e
 | ![The Art of Computer Programming](images/books/software/the-art-of-computer-programming.jpg) | **Title:** The Art of Computer Programming <br> **Author:** [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/) <br><br> This is a series of classic books in the field of algorithm analysis and fundamental data structures. Here the difficulty increases considerably with respect to the previous books. Its content is much more technical than the previous books, so it is more difficult to digest. <br> It is quite dense (it has 7 volumes), so it requires a lot of time commitment... several years maybe. It is a basic bible in the field of DSA, very recommended if you want to deepen them from a theoretical perspective.<br> |
 
 ### 3.4 Databases {#34-databases}
+
+Fundamentals of how information is stored in relational databases, query optimization, etc.
+
 | Cover | Description |
 | --- | --- |
 | ![Database System Concepts, 6th edition](images/books/databases/databases-system-concepts.png) | **Title:** [Database System Concepts](https://www.oreilly.com/library/view/database-system-concepts/9780136086233/) <br> **Authors:** Abraham Silberschatz, Henry F. Korth and S. Sudarshan <br><br> This is a complete university textbook on database systems. It covers almost everything necessary: *relational model*, *SQL*, *design* (ER, normalization), *transactions*, *concurrency control*, *recovery*, *indexes*, *query processing and optimization*, among other topics. <br> I recommend it as a first exposure to DBMS at a conceptual and algorithmic level, although certain mathematical rigor and patience are required. It is perfect for understanding databases beyond CRUD operations and query optimization. |
