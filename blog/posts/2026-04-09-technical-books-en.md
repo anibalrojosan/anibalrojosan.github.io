@@ -31,8 +31,10 @@ In this post I gathered **technical books** that I've used and that have been us
 ### 1.1 Should I read technical books? {#11-should-i-read-technical-books}
 
 As I mentioned in my [general guide to learning how to program](post.html?post=2026-01-20-learning-to-code-in-the-ai-era-en.md), I consider that books are excellent for giving you a structured curriculum to follow. It is often said that currently 'the industry moves much faster than books, so these quickly become outdated'. I would like to give my opinion on this: 
-- It is true that, particularly in GenAI, the advance is so fast that techniques and tools are born and become 'obsolete' in a short time, I recommend taking a look at these books to understand fundamentals and the great number of sub-areas that exist in the world of AI. There are libraries and frameworks that have been adopted by the industry very quickly to take advantage of the SOTA models of that moment. And so quickly, the new models and their improvements in *tool calling* and *harness* have made them secondary actors. This fact should not make you believe that the books I recommend are not useful to you.
-- On the other hand, there are disciplines that are fundamental. The **mathematics**, **statistics**, the **principles of computer science** or any science is base knowledge that does not expire. The foundations are the foundations: multivariate calculus, linear algebra, discrete mathematics or problem solving is base knowledge that does not expire, and can serve for multiple disciplines beyond software development. 
+
+1. It is true that, particularly in *GenAI*, the advance is so fast that techniques and tools that are very used in the industry, like *LangChain*, can become 'obsolete' in a short time due to the improvements in *tool calling* and *harnesses* of the new models. However, this obsolescence does not diminish the value of these books; on the contrary, they are essential to master the fundamentals and understand the complexity of the sub-areas of data and AI, allowing you to go beyond the trendy libraries.
+
+2. On the other hand, there are disciplines that are fundamental. The **mathematics**, **statistics**, the **principles of computer science** or any science is base knowledge that does not expire. The foundations are the foundations: multivariate calculus, linear algebra, discrete mathematics or problem solving is base knowledge that does not expire, and can serve for multiple disciplines beyond software development. 
 
 ### 1.2 How to read technical books {#12-how-to-read-technical-books}
 
@@ -54,16 +56,22 @@ Use the book as a reference to build something yourself. Example: if the book is
 Following my criteria from my blog post on [online courses that I recommend](post.html?post=2026-04-08-online-courses-en.md), to recommend any book, I consider the following three criteria:
 
 1. I have read them (to varying degrees) and they have been useful for me to learn.
+
 2. They are widely recommended by the community and are written by referents in the industry.
+
 3. They belong to prestigious publishers. If not, the author has a website and/or GitHub repo with useful content about their book.
 
 ## 2. Python Books {#2-python-books}
 
-Python is considered the ideal programming language if you are interested in DS/ML/AI. It is by far the most used language in this area because:
-- It is a versatile language: it can be used not only for scientific computing, but also for backend/frontend/data engineering, etc.
+Python is considered the ideal programming language if you are interested in *DS/ML/AI*. It is by far the most used language in this area because:
+
+- It is a versatile language: it can be used not only for scientific computing, but also for *backend/frontend/data engineering*, etc.
+
 - It is easy to learn and read (syntax very similar to English)
+
 - It is a high-level language: it allows abstracting away from the machine and focusing on programming logic.
-- It has a large number of libraries and frameworks that have been adopted very quickly by the industry and are very used in the day to day, both for software development and for data analysis and machine learning.
+
+- It has a large number of libraries and frameworks that have been adopted by the industry and are very used in the day to day, both for software development and for data analysis and machine learning.
 
 In this section we will focus only on learning Python. For this, I have divided the books into two levels:
 
