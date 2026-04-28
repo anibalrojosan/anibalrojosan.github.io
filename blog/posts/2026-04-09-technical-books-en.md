@@ -16,15 +16,16 @@ In this post I gathered **technical books** that I've used and that have been us
     - [3.2 Intermediate/Advanced Level (Software Architecture and Design)](#32-intermediateadvanced-level-software-architecture-and-design)
     - [3.3 Data Structures and Algorithms](#33-data-structures-and-algorithms)
     - [3.4 Databases](#34-databases)
-- [4. Data Analysis Books](#4-data-analysis-books)
-- [5. Data Science Books](#5-data-science-books)
-- [6. Machine Learning Books](#6-machine-learning-books)
-    - [6.1. Math Books for Machine Learning](#61-math-books-for-machine-learning)
-    - [6.2. Deep Learning Books](#62-deep-learning-books)
-    - [6.3. Reinforcement Learning Books](#63-reinforcement-learning-books)
-    - [6.4. Computer Vision Books](#64-computer-vision-books)
-    - [6.5. Natural Language Processing Books](#65-natural-language-processing-books)
-- [7. Generative AI Books](#7-generative-ai-books)
+- [4. Data Engineering Books](#4-data-engineering-books)
+- [5. Data Analysis Books](#5-data-analysis-books)
+- [6. Data Science Books](#6-data-science-books)
+- [7. Machine Learning Books](#7-machine-learning-books)
+    - [7.1. Math Books for Machine Learning](#71-math-books-for-machine-learning)
+    - [7.2. Deep Learning Books](#72-deep-learning-books)
+    - [7.3. Reinforcement Learning Books](#73-reinforcement-learning-books)
+    - [7.4. Computer Vision Books](#74-computer-vision-books)
+    - [7.5. Natural Language Processing Books](#75-natural-language-processing-books)
+- [8. Generative AI Books](#8-generative-ai-books)
 
 ## 1. Introduction {#1-introduction}
 
@@ -148,6 +149,7 @@ This selection of books addresses the fundamental conceptos of this area.
 | Cover | Description |
 | --- | --- |
 | ![Fundamentals of Data Engineering](images/books/data-engineering/fundamentals-of-data-engineering.png) | **Title:** [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/) <br> **Authors:** Joe Rels and Matt Housley <br><br> This is a guide that defines and structures the field of *Data Engineering*, centering on fundamental concepts instead of specific tools. <br> The book focuses on the *data life cycle*, divided into 5 stages: *Generation*, *Storage*, *Ingestion*, *Transformation* and *Serving*, as well as what the authors call *undercurrents* (*security*, *data architecture*, *data management*, etc.), which are responsibilities and transversal disciplines to the entire life cycle. <br> I consider this a very useful guide to understand how data is managed in medium and large organizations, and to understand the limitations and processes behind the data that is consumed, improving collaboration between engineering teams. |
+| ![Designing Distributed Systems](images/books/data-engineering/DDS.png) | **Title:** [Designing Distributed Systems](https://www.oreilly.com/library/view/designing-distributed-systems/9781098156343/) <br> **Author:** [Brendan Burns](https://x.com/brendandburns) <br><br> This book written by the co-founder of the Kubernetes project serves as an introduction to distributed systems. It is a small and implementation-focused book centered on *container design patterns* and how they are used to build applications in the cloud. It is ideal to get an idea of how modern services are structured. It is a relatively light read compared to other books on this topic. It will help you understand the vocabulary and design patterns used in cloud-native development. <br><br> I recommend studying this book before moving on to the next book on my list. |
 | ![Designing Data-Intensive Applications](images/books/data-engineering/DDIA.png) | **Title:** [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) <br> **Authors:** [Martin Kleppmann](https://martin.kleppmann.com/) and Chris Riccomini <br><br> Another classic and highly recommended book in software, specifically for the area of *distributed systems* and *data architectures*. <br> It focuses on fundamental concepts and *trade-offs* when developing scalable and maintainable systems where the main challenges are volume, speed and complexity of data. It addresses topics like *data modeling*, *storage* and *recovery*, *partitioning*, *transactions* (ACID principles), *real-time data processing*, etc. <br> The first time I tried to use it as study material, the content was too dense for me because it operates at the design level of complex systems (beyond just writing code and simple software development). <br> I recommend exploring it when you have familiarity with the data flow in real environments, which will allow you to connect theory with the infrastructure challenges the book exposes. |
 
 ## 5. Data Analysis Books {#5-data-analysis-books}
