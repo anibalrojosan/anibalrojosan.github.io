@@ -8,24 +8,25 @@ In this post I gathered **technical books** that I've used and that have been us
     - [1.1 Should I read technical books?](#11-should-i-read-technical-books)
     - [1.2 How to read technical books](#12-how-to-read-technical-books)
     - [1.3 Criteria for this guide](#13-criteria-for-this-guide)
-- [2. Python Books](#2-python-books)
+- [2. Python](#2-python)
     - [2.1 Basic Level](#21-basic-level)
     - [2.2 Intermediate/Advanced Level](#22-intermediateadvanced-level)
-- [3. Software Books](#3-software-books)
+- [3. Software Development](#3-software-development)
     - [3.1 Basic Level (Learning to Code)](#31-basic-level-learning-to-code)
     - [3.2 Intermediate/Advanced Level (Software Architecture and Design)](#32-intermediateadvanced-level-software-architecture-and-design)
     - [3.3 Data Structures and Algorithms](#33-data-structures-and-algorithms)
     - [3.4 Databases](#34-databases)
-- [4. Data Engineering Books](#4-data-engineering-books)
-- [5. Data Analysis Books](#5-data-analysis-books)
-- [6. Data Science Books](#6-data-science-books)
-- [7. Machine Learning Books](#7-machine-learning-books)
-    - [7.1. Math Books for Machine Learning](#71-math-books-for-machine-learning)
-    - [7.2. Deep Learning Books](#72-deep-learning-books)
-    - [7.3. Reinforcement Learning Books](#73-reinforcement-learning-books)
-    - [7.4. Computer Vision Books](#74-computer-vision-books)
-    - [7.5. Natural Language Processing Books](#75-natural-language-processing-books)
-- [8. Generative AI Books](#8-generative-ai-books)
+- [4. Data Engineering](#4-data-engineering)
+- [5. Data Analysis](#5-data-analysis)
+- [6. Data Science](#6-data-science)
+- [7. Machine Learning](#7-machine-learning)
+    - [7.1 Math for Machine Learning](#71-math-for-machine-learning)
+    - [7.2 Applied Machine Learning](#72-applied-machine-learning)
+    - [7.3 Deep Learning](#73-deep-learning)
+    - [7.4 Reinforcement Learning](#74-reinforcement-learning)
+    - [7.5 Computer Vision](#75-computer-vision)
+    - [7.6 Natural Language Processing](#76-natural-language-processing)
+- [8. Generative AI](#8-generative-ai)
 
 ## 1. Introduction {#1-introduction}
 
@@ -62,7 +63,7 @@ Following my criteria from my blog post on [online courses that I recommend](pos
 
 3. They belong to prestigious publishers. If not, the author has a website and/or GitHub repo with useful content about their book.
 
-## 2. Python Books {#2-python-books}
+## 2. Python {#2-python}
 
 Python is considered the ideal programming language if you are interested in *DS/ML/AI*. It is by far the most used language in this area because:
 
@@ -94,7 +95,7 @@ Resources for those who already have basic knowledge of Python and want to deepe
 | --- | --- |
 | ![Fluent Python](images/books/python/fluent-python.png) | **Title:** [Fluent Python](https://www.fluentpython.com/) <br> **Author:** [Luciano Ramalho](https://www.linkedin.com/in/lucianoramalho/?originalSubdomain=br) <br><br> The first time I came across this book I thought it was focused on beginners. As soon as I started reading it, I realized I didn't understand anything, I looked at its table of contents and it was full of concepts I hadn't heard of. Turns out this book is actually a more advanced guide. <br> It covers topics like *dunder methods*, *context managers*, *generators*, *iterators*, *closures*, *decorators*, *object-oriented programming*, *type hints* (very used in ML/AI), *concurrency* and *metaprogramming*. <br> If you already know Python, this book is an excellent option to deepen what else this language offers besides the basics. |
 
-## 3. Software Books {#3-software-books}
+## 3. Software Development {#3-software-development}
 
 Due to the increasingly rapid adoption of GenAI tools, areas that historically have used code mainly as a means to solve problems have incorporated software development tools to create complete systems. Ten to fifteen years ago, it was enough to have a solid foundation in mathematics, learn a little programming to be able to analyze data in isolated notebooks and present results. Today, it is expected to be able to create complete applications that incorporate advanced data analysis and ML/AI models. This opens up a wide range of possibilities to innovate, so understanding the fundamentals of *computer science* and *software engineering* is a must.
 
@@ -138,7 +139,7 @@ Fundamentals of how information is stored in relational databases, query optimiz
 | ![Database System Concepts, 6th edition](images/books/databases/databases-system-concepts.png) | **Title:** [Database System Concepts](https://www.oreilly.com/library/view/database-system-concepts/9780136086233/) <br> **Authors:** Abraham Silberschatz, Henry F. Korth and S. Sudarshan <br><br> This is a complete university textbook on database systems. It covers almost everything necessary: *relational model*, *SQL*, *design* (ER, normalization), *transactions*, *concurrency control*, *recovery*, *indexes*, *query processing and optimization*, among other topics. <br> I recommend it as a first exposure to DBMS at a conceptual and algorithmic level, although certain mathematical rigor and patience are required. It is perfect for understanding databases beyond CRUD operations and query optimization. |
 | ![Database Internals: A deep-dive into how distributed data systems work](images/books/databases/database-internals.png) | **Title:** [Database Internals: A deep-dive into how distributed data systems work](https://www.amazon.com/Database-Internals-deep-dive-distributed-systems/dp/1617296566) <br> **Author:** [Alex Petrov](https://x.com/ifesdjeen) <br><br> This book focuses on the **internal workings of storage engines** and how design decisions are materialized in real systems: disk organization, index structures (**B-Trees**, **LSM** families), journaling, compaction, and, in the second part, topics on **replication, consistency and fault tolerance** in distributed environments. <br> The focus is not on learning SQL or the relational model from scratch, but on understanding **implementation and trade-offs**: why a system behaves the way it does and what implications it has for performance and reliability. <br> It is a very good book, but **I do not recommend it as a first contact** with databases, because to get the most out of it you need to understand transactions, indexes, and, for the advanced parts, have an intuition about distributed systems. |
 
-## 4. Data Engineering Books {#4-data-engineering-books}
+## 4. Data Engineering {#4-data-engineering}
 
 Data Engineering is vital because ML models are only as good as the data that feeds them. While a data scientist trains models, a data engineer builds the robust pipelines that ensure the information flow is constant, clean and scalable.
 
@@ -152,7 +153,7 @@ This selection of books addresses the fundamental conceptos of this area.
 | ![Designing Distributed Systems](images/books/data-engineering/DDS.png) | **Title:** [Designing Distributed Systems](https://www.oreilly.com/library/view/designing-distributed-systems/9781098156343/) <br> **Author:** [Brendan Burns](https://x.com/brendandburns) <br><br> This book written by the co-founder of the Kubernetes project serves as an introduction to distributed systems. It is a small and implementation-focused book centered on *container design patterns* and how they are used to build applications in the cloud. It is ideal to get an idea of how modern services are structured. It is a relatively light read compared to other books on this topic that will help you understand the vocabulary and design patterns used in cloud-native development. <br><br> I suggest studying this book before moving on to the next recomendation. |
 | ![Designing Data-Intensive Applications](images/books/data-engineering/DDIA.png) | **Title:** [Designing Data-Intensive Applications](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/) <br> **Authors:** [Martin Kleppmann](https://martin.kleppmann.com/) and Chris Riccomini <br><br> Another classic and highly recommended book in software, specifically for the area of *distributed systems* and *data architectures*. <br> It focuses on fundamental concepts and *trade-offs* when developing scalable and maintainable systems where the main challenges are volume, speed and complexity of data. It addresses topics like *data modeling*, *storage* and *recovery*, *partitioning*, *transactions* (ACID principles), *real-time data processing*, etc. <br> The first time I tried to use it as study material, the content was too dense for me because it operates at the design level of complex systems (beyond just writing code and simple software development). <br> I recommend exploring it when you have familiarity with the data flow in real environments, which will allow you to connect theory with the infrastructure challenges the book exposes. |
 
-## 5. Data Analysis Books {#5-data-analysis-books}
+## 5. Data Analysis {#5-data-analysis}
 
 The goal of *data analysis* is to translate historical data into strategic decisions. Its purpose is to transform figures into actionable *dashboards* and *insights* that replace intuition with evidence. Data analysis is supported by tools like *Excel*, *Power BI*, *Tableau* or *Looker*, but its success depends on critical skills like analytical thinking, effective communication and a deep business logic. 
 
@@ -168,7 +169,7 @@ This selection of books addresses both technical and soft skills to help you get
 | ![Think Stats](images/books/data-analysis/think-stats-eda-3-edition.jpg) | **Title:** [Think Stats, 3rd edition](https://allendowney.github.io/ThinkStats/) (Official website) <br> **Author:** [Allen B. Downey](https://www.allendowney.com/wp/) <br><br> Introduction to statistics and exploratory analysis with code in Python, with emphasis on intuition and experimentation over memorized formulas. This is a fundamental resource for any person with basic knowledge of statistics and probabilities who wants to use those knowledge to develop skills when working with data. <br> The official book's website includes notebooks and theoretical exercises that make it very friendly to learn how to deal with complex datasets. <br> I recommend it personally as a first approach to statistics and probabilities if you don't have rigorous studies on this area of mathematics. |
 | ![Storytelling with Data](images/books/data-analysis/storytelling-with-data.png) | **Title:** [Storytelling with Data](https://www.storytellingwithdata.com/) <br> **Author:** [Cole Nussbaumer Knaflic](https://www.linkedin.com/in/coleknaflic/) <br><br> This book focuses on the importance of presenting findings through visual storytelling: simplifying charts, directing attention, and tailoring the message to the audience. Choosing visualizations effectively, eliminating clutter, and mastering storytelling strategies (knowing *who* you are talking to, what you *want* them to know, and *how* to present it) are critical soft skills for data-driven decision-making. Highly recommended for anyone familiar with BI tools. |
 
-## 6. Data Science Books {#6-data-science-books}
+## 6. Data Science {#6-data-science}
 
 Data science acts as a strategic bridge that translates business problems into mathematical solutions through exploratory analysis, experiment design (*A/B testing*) and model creation/training of *Machine Learning*. This discipline goes beyond code; it requires a solid storytelling to communicate findings to the direction, ensuring always ethics and quality in data governance. 
 
@@ -185,3 +186,24 @@ This selection of books addresses critical concepts from both the business and t
 | ![Practical Statistics for Data Scientists](images/books/data-science/practical-statistics-for-data-scientists.png) | **Title:** [Practical Statistics for Data Scientists, 2nd edition](https://www.oreilly.com/library/view/practical-statistics-for/9781492072935/titlepage01.html) <br> **Authors:** Peter Bruce, Andrew Bruce and Peter Gedeck <br><br> This book aims to fill gaps in knowledge about statistics focused on data science. It covers fundamental topics like *descriptive statistics*, *probability*, *data distributions and sampling methods* *statistical inference*, *regression*, *classification* and *analysis of variance*. It also addresses *supervised* and *unsupervised* learning in the context of classic ML. <br><br> The first edition is written in R, but the second edition adds examples using Python. I recommend this book for those who want a formal training in statistics and probabilities, although it is only a starting point. |
 | ![The Kaggle Book](images/books/data-science/the-kaggle-book.jpeg) | **Title:** [The Kaggle Book](https://www.oreilly.com/library/view/the-kaggle-book/9781835083208/) <br> **Authors:** Luca Massaron and Konrad Banachewicz <br><br> This is another curious but full of interesting 'tricks' book. If you are interested in data science, you have probably heard of [Kaggle](https://www.kaggle.com/), the largest machine learning competition platform in the world. This resource has active contributors from the platform and grandmasters that address advanced data analysis and machine learning techniques focused on competitions. The central part of the book exposes techniques used by competitors to *metrics creation*, *feature engineering* and *hyperparameter optimization*, etc. that will help you improve your skills when facing complex datasets. It also addresses *boosting* models, *ensembling/stacking* techniques, and model building for *Computer Vision* and *NLP*. <br><br> The testimonials of the contributors also provide a different perspective on how to tackle complex problems that are not addressed in other resources. That professionals who work in prestigious companies share their experiences also serves as inspiration and motivation. It is a book that I recommend already advancing on your learning path and in which you may find interesting techniques that can serve you at some point. |
 | ![Software Engineering for Data Scientists](images/books/data-science/software-engineering-for-data-scientists.jpeg) | **Title:** [Software Engineering for Data Scientists](https://www.oreilly.com/library/view/software-engineering-for/9781098190873/) <br> **Author:** Catherine Nelson <br><br> For a long time now, data scientists have been migrating from experiment-focused notebooks to full-scale applications. For many professionals in this field coming from a mathematics or statistics background, software development is uncharted territory. Because of this, as the author puts it, this is your guide to 'escaping the notebooks.' <br><br> This short and concise book presents all the information necessary to expand your vision from restricted experiments to full applications that generate real solutions—covering everything from the notions of what good code is to error handling, logging, debugging, object-oriented programming, code refactoring, API management, automation, deployment, and everything needed to understand real-world software development. <br><br> Finding this book back in 2025 was a pleasant surprise, and I can't recommend it enough. It completely changed my perspective on the limits of using code to solve problems. So much so that it sparked my interest in learning professional full-stack development and how DS/ML techniques are used in real applications. If you're already comfortable with notebooks and are interested in software development but don't know where to start, this book is for you. |
+
+## 7. Machine Learning {#7-machine-learning}
+
+*Machine Learning* represents a paradigm shift in computing: instead of relying on rigid algorithms based on predefined mathematical formulas, these systems have the ability to "learn" and improve their accuracy by extracting patterns directly from data. Unlike traditional programming, where the human dictates each rule, here the model discovers the underlying logic by itself.
+
+Within this ecosystem, there are *neural networks*, which are the basis of a more advanced and specialized subset known as *Deep Learning*, which initially aimed to mimic the human brain's information processing and are currently used to solve complex problems in various areas such as *Computer Vision (CV)*, *Natural Language Processing (NLP)*, *Recommendation Systems*, etc.
+
+Below we will explore the following topics, from the basics mathematical concepts to the fundamentals of each area:
+
+### 7.1 Math for Machine Learning {#71-math-for-machine-learning}
+
+For the models of ML and DL to learn from data, they rely on a fundamental mathematical structure composed of four key pillars: 
+
+1. *Linear Algebra*: allows representing and manipulating large volumes of data through vectors and matrices.
+2. *Multivariate Calculus*: is essential to understand how to adjust the internal parameters of the model. On the other hand, 
+3. *Probability and Statistics*: provide the framework to quantify uncertainty and make reliable predictions, and finally, 
+4. *Optimization*: is responsible for finding the most efficient configuration to minimize errors and maximize the system's precision.
+
+Learning about these areas is very valuable for understanding how these algorithms work internally and how we can optimize them to improve their performance (as well as for many other scientific and technological disciplines). 
+
+The following selection of mathematics books is focused on ML instead of pure mathematics books, which in my opinion are easier to assimilate and serve as an introduction. I recommend delving into more rigorous books about each specific area when you can. They are ordered from "easier to follow" to "more rigorous".
