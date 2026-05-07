@@ -8,12 +8,10 @@ En este post he reunido **libros técnicos** que he usado y que me han sido úti
     - [1.1 ¿Vale la pena leer libros técnicos?](#11-vale-la-pena-leer-libros-tecnicos) 
     - [1.2 Cómo leer libros técnicos](#12-como-leer-libros-tecnicos)
     - [1.3 Criterios para esta guía](#13-criterios-para-esta-guía)
-- [2. Aprender a programar con Python](#2-aprender-a-programar-con-python)
-    - [2.1 Nivel básico](#21-nivel-basico)
-    - [2.2 Nivel intermedio/avanzado](#22-nivel-intermedioavanzado)
+- [2. Python](#2-python)
 - [3. Desarrollo de software](#3-desarrollo-de-software)
-    - [3.1 Nivel básico (aprendiendo a programar)](#31-nivel-basico-aprendiendo-a-programar)
-    - [3.2 Nivel intermedio/avanzado (arquitectura y diseño de software)](#32-nivel-intermedioavanzado-arquitectura-y-diseno-de-software)
+    - [3.1 Aprendiendo a programar](#31-aprendiendo-a-programar)
+    - [3.2 Arquitectura y diseño de software](#32-arquitectura-y-diseno-de-software)
     - [3.3 Estructuras de datos y algoritmos](#33-estructuras-de-datos-y-algoritmos)
     - [3.4 Bases de datos](#34-bases-de-datos)
 - [4. Data Engineering](#4-data-engineering)
@@ -58,7 +56,7 @@ Siguiendo los criterios que expuse en mi blog de [cursos online que recomiendo](
 
 3. Pertenecen a editoriales de prestigio. Si no es así, el autor tiene una página web y/o repo de GitHub con contenido útil sobre su libro.
 
-## 2. Aprender a programar con Python {#2-aprender-a-programar-con-python}
+## 2. Python {#2-python}
 
 Python es considerado el lenguaje de programación ideal si estás interesado en DS/ML/AI. Es por lejos el lenguaje más usado en esta área debido a que:
 
@@ -70,24 +68,13 @@ Python es considerado el lenguaje de programación ideal si estás interesado en
 
 - Posee una gran cantidad de librerías y frameworks adoptados por la industria y muy usados en el día a día, tanto para el desarrollo de software como para el análisis de datos y el machine learning.
 
-En esta sección nos enfocaremos solo en aprender Python. Para ello he dividido los libros en dos niveles:
-
-### 2.1 Nivel básico {#21-nivel-basico}
-
-Recursos para personas sin conocimientos de programación y que han decidido aprender Python como su primer lenguaje.
+En esta sección nos enfocaremos solo en aprender Python como primer lenguaje de programación. He incluido libros para absolutos principiantes y uno para aquellos que quieren profundizar en sus conceptos fundamentales y en lo que es capaz de ofrecer este lenguaje.
 
 | Portada | Descripción |
 | --- | --- |
 | ![Automating the boring stuff with Python](images/books/python/automating-the-boring-stuff-with-python.png) | **Nombre:** [Automating the Boring Stuff with Python](https://automatetheboringstuff.com/) <br> **Autor:** [Al Sweigart](https://inventwithpython.com/) <br><br> Este libro cubre todo lo básico, desde sintáxis, control de flujo, funciones y estructuras de datos básicas hasta manipulación de archivos y web scraping. Muy recomendado para principiantes.|
 | ![Python Crash Course](images/books/python/python-crash-course.png) | **Nombre:** [Python Crash Course](https://www.oreilly.com/library/view/python-crash-course/9781098156664/) <br> **Autor:** [Eric Matthes](https://ehmatthes.github.io/) <br><br> Igual que el libro anterior, pero con un enfoque más práctico y ejemplos más realistas. Puede que resuene más contigo si es que te gusta aprender siendo consciente más de las aplicaciones prácticas en vez de solo teoría. |
 | ![Think Python](images/books/python/think-python.png) | **Nombre:** [Think Python](https://allendowney.github.io/ThinkPython/) (Web oficial) <br> **Autor:** [Allen B. Downey](https://www.allendowney.com/wp/) <br><br> Si bien es un libro para principiantes, aborda también más avanzados como *programación orientada a objetos* (OOP) y *list comprehensions*. Recomiendo comenzar con este si ya conoces un poco de Python y quieres profundizar en sus conceptos fundamentales. |
-
-### 2.2 Nivel intermedio/avanzado {#22-nivel-intermedioavanzado}
-
-Recursos para aquellos que ya tienen conocimientos básicos de Python y quieren profundizar en sus conceptos fundamentales y en lo que es capaz de ofrecer este lenguaje.
-
-| Portada | Descripción |
-| --- | --- |
 | ![Fluent Python](images/books/python/fluent-python.png) | **Nombre:** [Fluent Python](https://www.fluentpython.com/) <br> **Autor:** [Luciano Ramalho](https://www.linkedin.com/in/lucianoramalho/?originalSubdomain=br) <br><br> La primera vez que me crucé con este libro creí que estaba enfocado en principiantes. Tan pronto comencé a leerlo, me di cuenta que no entendía nada, vi su índice y estaba lleno de conceptos de los que no había escuchado. Resulta que este libro en realidad es una guía más avanzada. <br> Toca temas como *dunder methods*, *context managers*, *generadores*, *iteradores*, *closures*, *decoradores*, *programación orientada a objetos*, *type hints* (muy usados en ML/AI), *concurrencia* y *metaprogramación*. <br> Si ya tienes conocimientos de Python, este libro es una excelente opción para profundizar en qué más ofrece este lenguaje además de lo básico. |
 
 ## 3. Desarrollo de software {#3-desarrollo-de-software}
@@ -96,7 +83,7 @@ Debido a la adopción cada vez más rápida de herramientas de GenAI, áreas que
 
 Esta es un área gigantesca que aborda un montón de temas diferentes y en constante evolución, por lo que el aprendizaje continuo es crítico. Para mantenerlo más o menos simple y fácil de seguir, he dividido esta sección en libros en cuatro categorías:
 
-### 3.1 Nivel básico (aprendiendo a programar) {#31-nivel-basico-aprendiendo-a-programar}
+### 3.1 Aprendiendo a programar {#31-aprendiendo-a-programar}
 
 Fundamentos de como funciona la computación y buenas prácticas para escribir código limpio y mantenible.
 
@@ -106,7 +93,7 @@ Fundamentos de como funciona la computación y buenas prácticas para escribir c
 | ![Clean Code](images/books/software/clean-code.jpg) | **Nombre:** [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) <br> **Autor:** [Robert C. Martin](https://x.com/unclebobmartin?lang=es) <br><br> Este es un libro muy famoso, enfocado en buenas prácticas para construir software que sea reutilizable y fácil de mantener. Recomiendo echarle un ojo si es estás recién comenzando a programar pues puedes sacar varias ideas que te ayudarán a la hora de organizar tu código. Si ya estás acostumbrado a programar y a leer código, seguramente muchas de esas ideas ya las tengas más o menos interiorizadas. Suele ser criticado porque la filosofía de este libro es muy rígida y dogmática, y para muchos aplicar estos principios tan rígidamente complejiza de sobremanera el código. Como en todo, recomiendo que lo revises y crees tu propia opinión. <br> |
 | ![The Pragmatic Programmer](images/books/software/thepragmaticprogrammer.png) | **Nombre:** [The Pragmatic Programmer: Your Journey to Mastery](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/) <br> **Autores:** Andrew Hunt y Dave Thomas <br><br> Esta es una guía práctica para mejorar la calidad de código. Aquí se habla del famoso concepto de DRY (*Don't Repeat Yourself*) y otras buenas prácticas para escribir código limpio, simple y mantenible. También habla sobre como aprender nuevas herramientas y como realizar pruebas rigurosas. <br> Considero que su enfoque en fomentar la curiosidad y el aprendizaje continuo es crítico para poder adaptarse a una industria en constante cambio. Es un libro que puedes revisar una y otra vez independiente de tu seniority.<br> |
 
-### 3.2 Nivel intermedio/avanzado (arquitectura y diseño de software) {#32-nivel-intermedioavanzado-arquitectura-y-diseno-de-software}
+### 3.2 Arquitectura y diseño de software {#32-arquitectura-y-diseno-de-software}
 
 Luego de sentirte cómo programando, es momento de aprender como empaquetar tu código para crear sistemas complejos. Esto implica entender sobre arquitecturas de software, patrones de diseño, etc.
 

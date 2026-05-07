@@ -9,11 +9,9 @@ In this post I gathered **technical books** that I've used and that have been us
     - [1.2 How to read technical books](#12-how-to-read-technical-books)
     - [1.3 Criteria for this guide](#13-criteria-for-this-guide)
 - [2. Python](#2-python)
-    - [2.1 Basic Level](#21-basic-level)
-    - [2.2 Intermediate/Advanced Level](#22-intermediateadvanced-level)
 - [3. Software Development](#3-software-development)
-    - [3.1 Basic Level (Learning to Code)](#31-basic-level-learning-to-code)
-    - [3.2 Intermediate/Advanced Level (Software Architecture and Design)](#32-intermediateadvanced-level-software-architecture-and-design)
+    - [3.1 Learning to Code](#31-learning-to-code)
+    - [3.2 Software Architecture and Design](#32-software-architecture-and-design)
     - [3.3 Data Structures and Algorithms](#33-data-structures-and-algorithms)
     - [3.4 Databases](#34-databases)
 - [4. Data Engineering](#4-data-engineering)
@@ -70,24 +68,13 @@ Python is considered the ideal programming language if you are interested in *DS
 
 - It has a large number of libraries and frameworks that have been adopted by the industry and are very used in the day to day, both for software development and for data analysis and machine learning.
 
-In this section we will focus only on learning Python. For this, I have divided the books into two levels:
-
-### 2.1 Basic Level {#21-basic-level}
-
-Resources for people without programming knowledge and who have decided to learn Python as their first programming language.
+In this section we will focus only on learning Python as your first programming language. I have included books for absolute beginners and one for those who want to deepen their fundamental concepts and in what this language is capable of offering.
 
 | Cover | Description |
 | --- | --- |
 | ![Automating the boring stuff with Python](images/books/python/automating-the-boring-stuff-with-python.png) | **Title:** [Automating the Boring Stuff with Python](https://automatetheboringstuff.com/) <br> **Author:** [Al Sweigart](https://inventwithpython.com/) <br><br> This book covers the basics, from syntax, flow control, basic functions and data structures to file manipulation and web scraping. Very recommended for beginners. |
 | ![Python Crash Course](images/books/python/python-crash-course.png) | **Title:** [Python Crash Course](https://www.oreilly.com/library/view/python-crash-course/9781098156664/) <br> **Author:** [Eric Matthes](https://ehmatthes.github.io/) <br><br> Same as the previous book, but with a focus on mini projects. It has a more realistic approach. It may resonate more with you if you like learning being more conscious of the practical applications instead of just theory. |
 | ![Think Python](images/books/python/think-python.png) | **Title:** [Think Python](https://allendowney.github.io/ThinkPython/) <br> **Author:** [Allen B. Downey](https://www.allendowney.com/wp/) <br><br> While it is a book for beginners, it also addresses more advanced topics like *object-oriented programming* (OOP) and *list comprehensions*. I recommend starting with this if you already know a bit of Python and want to deepen its fundamental concepts. |
-
-### 2.2 Intermediate/Advanced Level {#22-intermediateadvanced-level}
-
-Resources for those who already have basic knowledge of Python and want to deepen their fundamental concepts and what this language can offer.
-
-| Cover | Description |
-| --- | --- |
 | ![Fluent Python](images/books/python/fluent-python.png) | **Title:** [Fluent Python](https://www.fluentpython.com/) <br> **Author:** [Luciano Ramalho](https://www.linkedin.com/in/lucianoramalho/?originalSubdomain=br) <br><br> The first time I came across this book I thought it was focused on beginners. As soon as I started reading it, I realized I didn't understand anything, I looked at its table of contents and it was full of concepts I hadn't heard of. Turns out this book is actually a more advanced guide. <br> It covers topics like *dunder methods*, *context managers*, *generators*, *iterators*, *closures*, *decorators*, *object-oriented programming*, *type hints* (very used in ML/AI), *concurrency* and *metaprogramming*. <br> If you already know Python, this book is an excellent option to deepen what else this language offers besides the basics. |
 
 ## 3. Software Development {#3-software-development}
@@ -96,7 +83,7 @@ Due to the increasingly rapid adoption of GenAI tools, areas that historically h
 
 This is a huge area that addresses a lot of different topics and is constantly evolving, so continuous learning is critical. To keep it relatively simple and easy to follow, I have divided this section into books in four categories:
 
-### 3.1 Basic Level (Learning to Code) {#31-basic-level-learning-to-code}
+### 3.1 Learning to Code {#31-learning-to-code}
 
 Fundamentals of how computers work and good practices for writing clean and maintainable code.
 
@@ -106,7 +93,7 @@ Fundamentals of how computers work and good practices for writing clean and main
 | ![Clean Code](images/books/software/clean-code.jpg) | **Title:** [Clean Code](https://www.oreilly.com/library/view/clean-code-a/9780136083238/) <br> **Author:** [Robert C. Martin](https://x.com/unclebobmartin?lang=es) <br><br> This is a very famous book, focused on how to build software that is reusable and easy to maintain. I recommend giving it a look if you are just starting to program, you can take several ideas that will help you organize your code. If you are already used to programming and reading code, chances are you already have many of those ideas more or less internalized. It is often criticized because the philosophy of this book is very rigid and dogmatic, and for many applying these principles rigidly over-complicates the code. As in everything, I recommend that you review it and form your own opinion. <br> |
 | ![The Pragmatic Programmer](images/books/software/thepragmaticprogrammer.png) | **Title:** [The Pragmatic Programmer: Your Journey to Mastery](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/) <br> **Authors:** Andrew Hunt and Dave Thomas <br><br> This is a practical guide to improve code quality. Here the famous concept of DRY (*Don't Repeat Yourself*) and other best practices for writing clean, simple and maintainable code are discussed. It also talks about how to learn new tools and how to perform rigorous tests. <br> I consider that its focus on fostering curiosity and continuous learning is critical to being able to adapt to an industry in constant change. It is a book that you can review again and again regardless of your seniority.<br> |
 
-### 3.2 Intermediate/Advanced Level (Software Architecture and Design) {#32-intermediateadvanced-level-software-architecture-and-design}
+### 3.2 Software Architecture and Design {#32-software-architecture-and-design}
 
 After feeling like you are programming, it is time to learn how to package your code to create complex systems. This involves understanding about software architecture, design patterns, etc.
 
