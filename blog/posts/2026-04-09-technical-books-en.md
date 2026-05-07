@@ -22,7 +22,6 @@ In this post I gathered **technical books** that I've used and that have been us
 - [7. Machine Learning](#7-machine-learning)
     - [7.1 Math for Machine Learning and Deep Learning](#71-math-for-machine-learning-and-deep-learning)
     - [7.2 Applied Machine Learning and Deep Learning](#72-applied-machine-learning-and-deep-learning)
-- [8. Generative AI](#8-generative-ai)
 
 ## 1. Introduction {#1-introduction}
 
