@@ -231,6 +231,101 @@ function formatDate(dateString) {
     });
 }
 
+// --- BLOG POST: MOBILE H2 ACCORDION (details/summary) ---
+const BLOG_ACCORDION_MQ = window.matchMedia('(max-width: 768px)');
+const BLOG_POST_TOC_HEADINGS = new Set(['table of contents', 'índice', 'contenidos', 'tabla de contenidos']);
+
+function normalizeBlogH2Label(h2) {
+    return h2.textContent
+        .replace(/\s*\{#[^}]*\}\s*$/, '')
+        .trim()
+        .toLowerCase();
+}
+
+function isBlogPostTocHeading(h2) {
+    return BLOG_POST_TOC_HEADINGS.has(normalizeBlogH2Label(h2));
+}
+
+function wrapBlogPostH2Sections(container) {
+    let h2 = null;
+    while ((h2 = findNextCollapsibleBlogH2(container))) {
+        const details = document.createElement('details');
+        details.className = 'post-h2-section';
+        const summary = document.createElement('summary');
+        const body = document.createElement('div');
+        body.className = 'post-section-body';
+
+        container.insertBefore(details, h2);
+        summary.appendChild(h2);
+        details.appendChild(summary);
+        details.appendChild(body);
+
+        let sib = details.nextSibling;
+        while (sib) {
+            const next = sib.nextSibling;
+            if (sib.nodeType === Node.ELEMENT_NODE && sib.tagName === 'H2') {
+                break;
+            }
+            body.appendChild(sib);
+            sib = next;
+        }
+    }
+}
+
+function findNextCollapsibleBlogH2(container) {
+    for (const el of container.children) {
+        if (el.tagName === 'H2' && !isBlogPostTocHeading(el)) {
+            return el;
+        }
+    }
+    return null;
+}
+
+function syncBlogPostAccordionOpenState(container) {
+    const mobile = BLOG_ACCORDION_MQ.matches;
+    container.querySelectorAll('details.post-h2-section').forEach((d) => {
+        d.open = !mobile;
+    });
+}
+
+let blogAccordionMqlBound = false;
+
+function ensureBlogPostAccordionMediaListener() {
+    if (blogAccordionMqlBound) {
+        return;
+    }
+    blogAccordionMqlBound = true;
+    BLOG_ACCORDION_MQ.addEventListener('change', () => {
+        const c = document.getElementById('blog-post-content');
+        if (c) {
+            syncBlogPostAccordionOpenState(c);
+        }
+    });
+    document.addEventListener(
+        'toggle',
+        (e) => {
+            const t = e.target;
+            if (!t || t.tagName !== 'DETAILS' || !t.classList.contains('post-h2-section')) {
+                return;
+            }
+            if (!BLOG_ACCORDION_MQ.matches && !t.open) {
+                t.open = true;
+            }
+        },
+        true
+    );
+}
+
+function openBlogPostDetailsAncestors(el) {
+    let p = el.parentElement;
+    while (p) {
+        if (p.tagName === 'DETAILS' && p.classList.contains('post-h2-section')) {
+            p.open = true;
+        }
+        p = p.parentElement;
+    }
+}
+
 // --- MARKDOWN RENDERING ---
 async function loadIndividualBlogPost(targetElement) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -314,12 +409,19 @@ function renderMarkdownPage(markdownText, targetElement) {
     }
     targetElement.innerHTML = converter.makeHtml(contentToRender);
 
+    if (targetElement.id === 'blog-post-content') {
+        wrapBlogPostH2Sections(targetElement);
+        ensureBlogPostAccordionMediaListener();
+        syncBlogPostAccordionOpenState(targetElement);
+    }
+
     const hash = window.location.hash;
     if (hash && hash.length > 1) {
         const id = decodeURIComponent(hash.slice(1));
         queueMicrotask(() => {
             const el = document.getElementById(id);
             if (el) {
+                openBlogPostDetailsAncestors(el);
                 el.scrollIntoView({ behavior: 'instant', block: 'start' });
             }
         });

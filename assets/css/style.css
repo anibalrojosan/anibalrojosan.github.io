@@ -371,3 +371,98 @@ table td {
         max-width: 300px;
     }
 }
+
+/* Blog post: collapsible H2 sections (mobile only) */
+@media (max-width: 768px) {
+    #blog-post-content details.post-h2-section {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+        margin: 0;
+        padding: 0.35em 0 0.75em;
+    }
+
+    .dark-mode #blog-post-content details.post-h2-section {
+        border-bottom-color: rgba(255, 255, 255, 0.12);
+    }
+
+    #blog-post-content details.post-h2-section > summary {
+        list-style: none;
+        cursor: pointer;
+        padding: 0.15em 0;
+    }
+
+    #blog-post-content details.post-h2-section > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    #blog-post-content details.post-h2-section > summary::marker {
+        content: '';
+    }
+
+    #blog-post-content details.post-h2-section > summary h2 {
+        display: inline;
+        font-size: 1.35em;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+
+    #blog-post-content details.post-h2-section > summary::before {
+        content: '';
+        display: inline-block;
+        width: 0.45em;
+        height: 0.45em;
+        margin-right: 0.45em;
+        border-right: 2px solid var(--text-color);
+        border-bottom: 2px solid var(--text-color);
+        transform: rotate(-45deg);
+        vertical-align: middle;
+        transition: transform 0.15s ease;
+    }
+
+    #blog-post-content details.post-h2-section[open] > summary::before {
+        transform: rotate(45deg);
+        margin-bottom: 0.1em;
+    }
+
+    #blog-post-content details.post-h2-section .post-section-body {
+        padding: 0.35em 0 0 1.35em;
+    }
+}
+
+@media (min-width: 769px) {
+    #blog-post-content details.post-h2-section {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #blog-post-content details.post-h2-section > summary {
+        list-style: none;
+        cursor: default;
+        display: block;
+        padding: 0;
+    }
+
+    #blog-post-content details.post-h2-section > summary::-webkit-details-marker {
+        display: none;
+    }
+
+    #blog-post-content details.post-h2-section > summary::marker {
+        content: '';
+    }
+
+    #blog-post-content details.post-h2-section > summary::before {
+        content: none;
+    }
+
+    #blog-post-content details.post-h2-section > summary h2 {
+        display: block;
+        font-size: 1.35em;
+        margin: 0.75em 0 0.4em;
+        padding: 0;
+    }
+
+    #blog-post-content details.post-h2-section .post-section-body {
+        padding: 0;
+    }
+}
