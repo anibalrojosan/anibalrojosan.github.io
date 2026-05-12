@@ -372,29 +372,34 @@ table td {
     }
 }
 
-/* Blog post: collapsible H2 sections (mobile only) */
+/* Blog post: collapsible H2 / H3 sections (mobile only) */
 @media (max-width: 768px) {
-    #blog-post-content details.post-h2-section {
+    #blog-post-content details.post-h2-section,
+    #blog-post-content details.post-h3-section {
         border-bottom: 1px solid rgba(0, 0, 0, 0.12);
         margin: 0;
         padding: 0.35em 0 0.75em;
     }
 
-    .dark-mode #blog-post-content details.post-h2-section {
+    .dark-mode #blog-post-content details.post-h2-section,
+    .dark-mode #blog-post-content details.post-h3-section {
         border-bottom-color: rgba(255, 255, 255, 0.12);
     }
 
-    #blog-post-content details.post-h2-section > summary {
+    #blog-post-content details.post-h2-section > summary,
+    #blog-post-content details.post-h3-section > summary {
         list-style: none;
         cursor: pointer;
         padding: 0.15em 0;
     }
 
-    #blog-post-content details.post-h2-section > summary::-webkit-details-marker {
+    #blog-post-content details.post-h2-section > summary::-webkit-details-marker,
+    #blog-post-content details.post-h3-section > summary::-webkit-details-marker {
         display: none;
     }
 
-    #blog-post-content details.post-h2-section > summary::marker {
+    #blog-post-content details.post-h2-section > summary::marker,
+    #blog-post-content details.post-h3-section > summary::marker {
         content: '';
     }
 
@@ -406,7 +411,16 @@ table td {
         vertical-align: baseline;
     }
 
-    #blog-post-content details.post-h2-section > summary::before {
+    #blog-post-content details.post-h3-section > summary h3 {
+        display: inline;
+        font-size: 1.15em;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+    }
+
+    #blog-post-content details.post-h2-section > summary::before,
+    #blog-post-content details.post-h3-section > summary::before {
         content: '';
         display: inline-block;
         width: 0.45em;
@@ -419,7 +433,8 @@ table td {
         transition: transform 0.15s ease;
     }
 
-    #blog-post-content details.post-h2-section[open] > summary::before {
+    #blog-post-content details.post-h2-section[open] > summary::before,
+    #blog-post-content details.post-h3-section[open] > summary::before {
         transform: rotate(45deg);
         margin-bottom: 0.1em;
     }
@@ -427,31 +442,44 @@ table td {
     #blog-post-content details.post-h2-section .post-section-body {
         padding: 0.35em 0 0 1.35em;
     }
+
+    #blog-post-content details.post-h3-section .post-subsection-body {
+        padding: 0.35em 0 0 1.35em;
+    }
+
+    #blog-post-content details.post-h3-section {
+        margin-left: 0.35em;
+    }
 }
 
 @media (min-width: 769px) {
-    #blog-post-content details.post-h2-section {
+    #blog-post-content details.post-h2-section,
+    #blog-post-content details.post-h3-section {
         border: 0;
         margin: 0;
         padding: 0;
     }
 
-    #blog-post-content details.post-h2-section > summary {
+    #blog-post-content details.post-h2-section > summary,
+    #blog-post-content details.post-h3-section > summary {
         list-style: none;
         cursor: default;
         display: block;
         padding: 0;
     }
 
-    #blog-post-content details.post-h2-section > summary::-webkit-details-marker {
+    #blog-post-content details.post-h2-section > summary::-webkit-details-marker,
+    #blog-post-content details.post-h3-section > summary::-webkit-details-marker {
         display: none;
     }
 
-    #blog-post-content details.post-h2-section > summary::marker {
+    #blog-post-content details.post-h2-section > summary::marker,
+    #blog-post-content details.post-h3-section > summary::marker {
         content: '';
     }
 
-    #blog-post-content details.post-h2-section > summary::before {
+    #blog-post-content details.post-h2-section > summary::before,
+    #blog-post-content details.post-h3-section > summary::before {
         content: none;
     }
 
@@ -462,7 +490,18 @@ table td {
         padding: 0;
     }
 
+    #blog-post-content details.post-h3-section > summary h3 {
+        display: block;
+        font-size: 1.15em;
+        margin: 0.55em 0 0.3em;
+        padding: 0;
+    }
+
     #blog-post-content details.post-h2-section .post-section-body {
+        padding: 0;
+    }
+
+    #blog-post-content details.post-h3-section .post-subsection-body {
         padding: 0;
     }
 }

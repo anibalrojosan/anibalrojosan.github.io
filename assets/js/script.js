@@ -231,7 +231,7 @@ function formatDate(dateString) {
     });
 }
 
-// --- BLOG POST: MOBILE H2 ACCORDION (details/summary) ---
+// --- BLOG POST: MOBILE H2 / H3 ACCORDION (details/summary) ---
 const BLOG_ACCORDION_MQ = window.matchMedia('(max-width: 768px)');
 const BLOG_POST_TOC_HEADINGS = new Set(['table of contents', 'índice', 'contenidos', 'tabla de contenidos']);
 
@@ -281,9 +281,46 @@ function findNextCollapsibleBlogH2(container) {
     return null;
 }
 
+function wrapBlogPostH3Sections(container) {
+    container.querySelectorAll('.post-section-body').forEach((body) => {
+        let h3 = null;
+        while ((h3 = findNextCollapsibleBlogH3(body))) {
+            const details = document.createElement('details');
+            details.className = 'post-h3-section';
+            const summary = document.createElement('summary');
+            const sub = document.createElement('div');
+            sub.className = 'post-subsection-body';
+
+            body.insertBefore(details, h3);
+            summary.appendChild(h3);
+            details.appendChild(summary);
+            details.appendChild(sub);
+
+            let sib = details.nextSibling;
+            while (sib) {
+                const next = sib.nextSibling;
+                if (sib.nodeType === Node.ELEMENT_NODE && sib.tagName === 'H3') {
+                    break;
+                }
+                sub.appendChild(sib);
+                sib = next;
+            }
+        }
+    });
+}
+
+function findNextCollapsibleBlogH3(body) {
+    for (const el of body.children) {
+        if (el.tagName === 'H3') {
+            return el;
+        }
+    }
+    return null;
+}
+
 function syncBlogPostAccordionOpenState(container) {
     const mobile = BLOG_ACCORDION_MQ.matches;
-    container.querySelectorAll('details.post-h2-section').forEach((d) => {
+    container.querySelectorAll('details.post-h2-section, details.post-h3-section').forEach((d) => {
         d.open = !mobile;
     });
 }
@@ -305,7 +342,11 @@ function ensureBlogPostAccordionMediaListener() {
         'toggle',
         (e) => {
             const t = e.target;
-            if (!t || t.tagName !== 'DETAILS' || !t.classList.contains('post-h2-section')) {
+            if (
+                !t ||
+                t.tagName !== 'DETAILS' ||
+                (!t.classList.contains('post-h2-section') && !t.classList.contains('post-h3-section'))
+            ) {
                 return;
             }
             if (!BLOG_ACCORDION_MQ.matches && !t.open) {
@@ -319,7 +360,10 @@ function ensureBlogPostAccordionMediaListener() {
 function openBlogPostDetailsAncestors(el) {
     let p = el.parentElement;
     while (p) {
-        if (p.tagName === 'DETAILS' && p.classList.contains('post-h2-section')) {
+        if (
+            p.tagName === 'DETAILS' &&
+            (p.classList.contains('post-h2-section') || p.classList.contains('post-h3-section'))
+        ) {
             p.open = true;
         }
         p = p.parentElement;
@@ -411,6 +455,7 @@ function renderMarkdownPage(markdownText, targetElement) {
 
     if (targetElement.id === 'blog-post-content') {
         wrapBlogPostH2Sections(targetElement);
+        wrapBlogPostH3Sections(targetElement);
         ensureBlogPostAccordionMediaListener();
         syncBlogPostAccordionOpenState(targetElement);
     }
